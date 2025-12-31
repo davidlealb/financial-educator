@@ -1,56 +1,134 @@
 [
   {
-    "id": "building-credit",
-    "title": "Building Credit in Canada",
-    "description": "Learn why credit scores matter and how to build a strong history from scratch.",
+    "id": "banking-basics",
+    "title": "Banking Basics in Canada",
+    "description": "Understand how to choose your first bank and the difference between accounts.",
     "xpReward": 50,
-    "estimatedMinutes": 5,
+    "estimatedMinutes": 4,
     "content": [
       {
         "type": "info",
-        "title": "What is a Credit Score?",
-        "text": "In Canada, your credit score is like a financial report card. It tells banks and landlords how trustworthy you receive money. Scores range from 300 to 900. A score above 660 is generally considered 'Good'."
+        "title": "Chequing vs. Savings",
+        "text": "A chequing account is for daily spending (paying bills, groceries). A savings account is for keeping money long-term and earns a small amount of interest. Most Canadian banks offer 'Newcomer Packages' with no monthly fees for the first year."
       },
       {
         "type": "info",
-        "title": "How to Build It",
-        "text": "The easiest way to start is to get a secured credit card or a beginner card, use it for small purchases (like groceries), and pay it off IN FULL every month."
+        "title": "Avoid ATM Fees",
+        "text": "Using an ATM that doesn't belong to your bank can cost you $2 to $5 per withdrawal. Stick to your own bank's machines to keep your money in your pocket."
       }
     ],
     "quiz": [
       {
-        "id": "q1",
-        "question": "What is considered a 'Good' credit score in Canada?",
+        "id": "b1",
+        "question": "Which account should you use for your daily grocery shopping?",
         "options": [
-          "Any score above 300",
-          "A score above 660",
-          "Exactly 500",
-          "You don't need a score"
+          "Savings Account",
+          "Chequing Account",
+          "Credit Card only",
+          "TFSA"
         ],
         "correctAnswerIndex": 1,
-        "explanation": "Scores range from 300-900. 660+ is considered good, giving you access to better loans and apartments."
+        "explanation": "Chequing accounts are designed for frequent daily transactions, while savings accounts are for building a safety net."
       },
       {
-        "id": "q2",
-        "question": "True or False: Checking your own credit score hurts your rating.",
+        "id": "b2",
+        "question": "True or False: Most major Canadian banks offer free banking for newcomers for a limited time.",
         "options": [
           "True",
           "False"
         ],
-        "correctAnswerIndex": 1,
-        "explanation": "False! Checking your own score is a 'soft inquiry' and has zero negative impact."
+        "correctAnswerIndex": 0,
+        "explanation": "True! Most of the 'Big Five' banks have newcomer programs that waive monthly fees for 6 to 12 months."
+      }
+    ]
+  },
+  {
+    "id": "tfsa-vs-rrsp",
+    "title": "Smart Saving: TFSA vs. RRSP",
+    "description": "Learn about Canada's two most popular tax-free ways to grow your money.",
+    "xpReward": 60,
+    "estimatedMinutes": 6,
+    "content": [
+      {
+        "type": "info",
+        "title": "The TFSA",
+        "text": "The Tax-Free Savings Account (TFSA) lets you save for anything (a car, a house, or a trip). You don't pay any tax on the profit you make inside this account, and you can withdraw money anytime for free."
       },
       {
-        "id": "q3",
-        "question": "What is the 'Golden Rule' of credit cards?",
+        "type": "info",
+        "title": "The RRSP",
+        "text": "The Registered Retirement Savings Plan (RRSP) is for long-term retirement. Putting money in here can lower your annual income tax bill, but you usually pay tax later when you take the money out in retirement."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "t1",
+        "question": "Which account allows you to withdraw money at any time without paying tax on the gains?",
         "options": [
-          "Spend as much as possible",
-          "Only pay the minimum amount",
-          "Pay off your balance in full every month",
-          "Keep a high balance to show you have money"
+          "RRSP",
+          "TFSA",
+          "Regular Savings Account",
+          "Chequing Account"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "The TFSA is highly flexible, allowing tax-free withdrawals for any purpose at any time."
+      },
+      {
+        "id": "t2",
+        "question": "When is the best time to focus on an RRSP?",
+        "options": [
+          "When you are in a high tax bracket",
+          "When you first arrive with no job",
+          "When you want to buy a TV next month",
+          "Only when you turn 65"
+        ],
+        "correctAnswerIndex": 0,
+        "explanation": "RRSPs provide a tax deduction, so they are most effective when you are earning a higher income and want to pay less tax now."
+      }
+    ]
+  },
+  {
+    "id": "advanced-credit",
+    "title": "The 30% Rule & Rent Reporting",
+    "description": "Pro-tips to boost your credit score faster.",
+    "xpReward": 70,
+    "estimatedMinutes": 5,
+    "content": [
+      {
+        "type": "info",
+        "title": "The 30% Utilization Rule",
+        "text": "If your credit limit is $1,000, try to never owe more than $300 (30%). Using too much of your available credit makes you look 'risky' to banks, even if you pay it all back."
+      },
+      {
+        "type": "info",
+        "title": "Reporting Your Rent",
+        "text": "In Canada, your rent payments aren't automatically sent to credit bureaus. You can use services like Borrowell or SingleKey to report your on-time rent to Equifax, which can help build your score without debt."
+      }
+    ],
+    "quiz": [
+      {
+        "id": "a1",
+        "question": "If your credit card limit is $2,000, what is the 'safe' balance to stay under?",
+        "options": [
+          "$1,000",
+          "$2,000",
+          "$600",
+          "$1,500"
         ],
         "correctAnswerIndex": 2,
-        "explanation": "Paying in full avoids interest charges and builds a strong payment history."
+        "explanation": "$600 is 30% of $2,000. Staying under this threshold helps keep your credit score healthy."
+      },
+      {
+        "id": "a2",
+        "question": "Does paying your rent automatically help your Canadian credit score?",
+        "options": [
+          "Yes, always",
+          "No, you must use a third-party reporting service",
+          "Only if you pay in cash",
+          "Yes, but only for TransUnion"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Rent is not automatically reported. You must sign up for a service to have your rent payments count toward your credit history."
       }
     ]
   }
