@@ -9,11 +9,7 @@ export default function LearningPath() {
     // Helper to determine lesson status
     const getLessonStatus = (lessonId, index) => {
         if (state.completedLessons.includes(lessonId)) return 'completed';
-        // If it's the first lesson or the previous one is completed, it's active
-        if (index === 0) return 'active';
-        const previousLessonId = lessons[index - 1].id;
-        if (state.completedLessons.includes(previousLessonId)) return 'active';
-        return 'locked';
+        return 'active';
     };
 
     return (
