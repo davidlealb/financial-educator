@@ -23,6 +23,7 @@ export default function LessonView() {
     const [selectedOption, setSelectedOption] = useState(null);
     const [isAnswerChecked, setIsAnswerChecked] = useState(false);
     const [score, setScore] = useState(0);
+    const [shouldShake, setShouldShake] = useState(false);
 
     if (!lesson) return <Navigate to="/" />;
 
@@ -44,6 +45,7 @@ export default function LessonView() {
             setCurrentSlideIndex(prev => prev + 1);
             setSelectedOption(null);
             setIsAnswerChecked(false);
+            setShouldShake(false);
         }
     };
 
@@ -52,6 +54,10 @@ export default function LessonView() {
             setIsAnswerChecked(true);
             if (selectedOption === currentSlide.data.correctAnswerIndex) {
                 setScore(prev => prev + 1);
+            } else {
+                // Trigger shake animation for incorrect answer
+                setShouldShake(true);
+                setTimeout(() => setShouldShake(false), 500);
             }
         } else {
             handleNext();
@@ -82,7 +88,7 @@ export default function LessonView() {
                             if (idx === question.correctAnswerIndex) {
                                 optionClass += "bg-green-100 border-green-500 text-green-700";
                             } else if (idx === selectedOption) {
-                                optionClass += "bg-red-100 border-red-500 text-red-700";
+                                optionClass += `bg-red-100 border-red-500 text-red-700 ${shouldShake ? 'animate-shake' : ''}`;
                             } else {
                                 optionClass += "bg-surface border-slate-200 text-text-muted opacity-50";
                             }
@@ -168,8 +174,8 @@ export default function LessonView() {
                         <button
                             onClick={handleNext}
                             className={`w-full font-bold py-3 px-6 rounded-xl shadow-lg transition-all flex items-center justify-center space-x-2 ${selectedOption === currentSlide.data.correctAnswerIndex
-                                    ? 'bg-secondary hover:bg-secondary-dark text-white shadow-secondary/30'
-                                    : 'bg-primary hover:bg-primary-dark text-white shadow-primary/30' // Continue anyway
+                                ? 'bg-secondary hover:bg-secondary-dark text-white shadow-secondary/30'
+                                : 'bg-primary hover:bg-primary-dark text-white shadow-primary/30' // Continue anyway
                                 }`}
                         >
                             <span>{isLastSlide ? 'Finish Lesson' : 'Continue'}</span>
