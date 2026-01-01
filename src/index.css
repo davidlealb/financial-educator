@@ -9,12 +9,16 @@
   --color-secondary-DEFAULT: #eab308;
   --color-secondary-dark: #ca8a04;
 
-  --color-background: #f8fafc;
+  --color-background: #f1f5f9;
   --color-surface: #ffffff;
 
   --color-text-primary: #0f172a;
   --color-text-secondary: #475569;
   --color-text-muted: #94a3b8;
+
+  --color-deep-navy: #0f172a;
+  --color-sky-blue: #0ea5e9;
+  --color-emerald-green: #10b981;
 
   --font-sans: Inter, system-ui, sans-serif;
 }

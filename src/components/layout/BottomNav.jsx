@@ -5,12 +5,19 @@ const NavItem = ({ to, icon: Icon, label }) => (
     <NavLink
         to={to}
         className={({ isActive }) =>
-            `flex flex-col items-center justify-center w-full h-full space-y-1 transition-colors ${isActive ? 'text-primary' : 'text-text-muted hover:text-text-secondary'
+            `relative flex flex-col items-center justify-center w-full h-full space-y-1 transition-colors ${isActive ? 'text-deep-navy' : 'text-text-muted hover:text-text-secondary'
             }`
         }
     >
-        <Icon size={24} />
-        <span className="text-xs font-medium">{label}</span>
+        {({ isActive }) => (
+            <>
+                {isActive && (
+                    <span className="absolute top-2 right-1/2 translate-x-3 w-1.5 h-1.5 bg-emerald-green rounded-full" />
+                )}
+                <Icon size={24} />
+                <span className="text-xs font-medium">{label}</span>
+            </>
+        )}
     </NavLink>
 );
 
