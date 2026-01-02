@@ -1,0 +1,45 @@
+{
+    "id": "advanced-credit",
+    "title": "The 30% Rule & Rent Reporting",
+    "description": "Pro-tips to boost your credit score faster.",
+    "xpReward": 70,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "The 30% Utilization Rule",
+            "text": "If your credit limit is $1,000, try to never owe more than $300 (30%). Using too much of your available credit makes you look 'risky' to banks, even if you pay it all back."
+        },
+        {
+            "type": "info",
+            "title": "Reporting Your Rent",
+            "text": "In Canada, your rent payments aren't automatically sent to credit bureaus. You can use services like Borrowell or SingleKey to report your on-time rent to Equifax, which can help build your score without debt."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "a1",
+            "question": "If your credit card limit is $2,000, what is the 'safe' balance to stay under?",
+            "options": [
+                "$1,000",
+                "$2,000",
+                "$600",
+                "$1,500"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "$600 is 30% of $2,000. Staying under this threshold helps keep your credit score healthy."
+        },
+        {
+            "id": "a2",
+            "question": "Does paying your rent automatically help your Canadian credit score?",
+            "options": [
+                "Yes, always",
+                "No, you must use a third-party reporting service",
+                "Only if you pay in cash",
+                "Yes, but only for TransUnion"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Rent is not automatically reported. You must sign up for a service to have your rent payments count toward your credit history."
+        }
+    ]
+}

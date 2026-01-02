@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { useParams, useNavigate, Navigate } from 'react-router-dom';
 import { ChevronRight, Check, X, ArrowLeft } from 'lucide-react';
 import { useProgress } from '../context/ProgressContext';
-import lessons from '../data/lessons.json';
+import lessons from '../data/lessons';
 
 export default function LessonView() {
     const { lessonId } = useParams();

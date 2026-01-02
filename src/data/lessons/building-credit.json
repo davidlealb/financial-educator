@@ -1,0 +1,55 @@
+{
+    "id": "building-credit",
+    "title": "Building Credit in Canada",
+    "description": "Learn why credit scores matter and how to build a strong history from scratch.",
+    "xpReward": 50,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "What is a Credit Score?",
+            "text": "In Canada, your credit score is like a financial report card. It tells banks and landlords how trustworthy you receive money. Scores range from 300 to 900. A score above 660 is generally considered 'Good'."
+        },
+        {
+            "type": "info",
+            "title": "How to Build It",
+            "text": "The easiest way to start is to get a secured credit card or a beginner card, use it for small purchases (like groceries), and pay it off IN FULL every month."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "q1",
+            "question": "What is considered a 'Good' credit score in Canada?",
+            "options": [
+                "Any score above 300",
+                "A score above 660",
+                "Exactly 500",
+                "You don't need a score"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Scores range from 300-900. 660+ is considered good, giving you access to better loans and apartments."
+        },
+        {
+            "id": "q2",
+            "question": "True or False: Checking your own credit score hurts your rating.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "False! Checking your own score is a 'soft inquiry' and has zero negative impact."
+        },
+        {
+            "id": "q3",
+            "question": "What is the 'Golden Rule' of credit cards?",
+            "options": [
+                "Spend as much as possible",
+                "Only pay the minimum amount",
+                "Pay off your balance in full every month",
+                "Keep a high balance to show you have money"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Paying in full avoids interest charges and builds a strong payment history."
+        }
+    ]
+}

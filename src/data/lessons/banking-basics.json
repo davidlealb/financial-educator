@@ -1,0 +1,43 @@
+{
+    "id": "banking-basics",
+    "title": "Banking Basics in Canada",
+    "description": "Understand how to choose your first bank and the difference between accounts.",
+    "xpReward": 50,
+    "estimatedMinutes": 4,
+    "content": [
+        {
+            "type": "info",
+            "title": "Chequing vs. Savings",
+            "text": "A chequing account is for daily spending (paying bills, groceries). A savings account is for keeping money long-term and earns a small amount of interest. Most Canadian banks offer 'Newcomer Packages' with no monthly fees for the first year."
+        },
+        {
+            "type": "info",
+            "title": "Avoid ATM Fees",
+            "text": "Using an ATM that doesn't belong to your bank can cost you $2 to $5 per withdrawal. Stick to your own bank's machines to keep your money in your pocket."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "b1",
+            "question": "Which account should you use for your daily grocery shopping?",
+            "options": [
+                "Savings Account",
+                "Chequing Account",
+                "Credit Card only",
+                "TFSA"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Chequing accounts are designed for frequent daily transactions, while savings accounts are for building a safety net."
+        },
+        {
+            "id": "b2",
+            "question": "True or False: Most major Canadian banks offer free banking for newcomers for a limited time.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "True! Most of the 'Big Five' banks have newcomer programs that waive monthly fees for 6 to 12 months."
+        }
+    ]
+}
