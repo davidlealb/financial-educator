@@ -31,7 +31,7 @@ export default function LessonCard({ lesson, status }) {
                     )}
                 </div>
 
-                <h3 className={`font-semibold text-lg mb-1 ${isLocked ? 'text-text-muted' : 'text-deep-navy'}`}>
+                <h3 className={`font-semibold text-base leading-tight mb-1 ${isLocked ? 'text-text-muted' : 'text-deep-navy'}`}>
                     {lesson.title}
                 </h3>
                 <p className="text-sm text-text-secondary line-clamp-2">

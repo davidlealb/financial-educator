@@ -1,0 +1,50 @@
+{
+    "id": "debit-and-etransfer",
+    "title": "Debit & Interac e-Transfer",
+    "description": "Master the two most common ways to pay for everything in Canada.",
+    "xpReward": 50,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "Your Debit Card (Interac Debit)",
+            "text": "In Canada, 'Debit' is the primary way to pay at stores. When you 'tap' or insert your card, money is taken directly from your chequing account. Most newcomers get a year of unlimited debit transactions, but be careful: some basic accounts charge a fee if you use it more than 25 times a month."
+        },
+        {
+            "type": "info",
+            "title": "What is Interac e-Transfer?",
+            "text": "This is a secure way to send money to anyone with a Canadian bank account using just their email or phone number. It is the standard way to pay rent to landlords or split a dinner bill with friends. Funds are usually delivered within minutes."
+        },
+        {
+            "type": "info",
+            "title": "Autodeposit & Security",
+            "text": "For extra security and speed, set up 'Autodeposit' in your banking app. This allows money sent to you to land in your account automatically without needing to answer a security question. Always verify the recipient's email before hitting send, as e-Transfers are very difficult to cancel once deposited."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "det1",
+            "question": "What information do you need to send an Interac e-Transfer to someone?",
+            "options": [
+                "Their home address and SIN number",
+                "Their bank's branch address",
+                "Their email address or mobile phone number",
+                "Their physical debit card"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "To send an e-Transfer, all you need is the recipient's email or mobile number. The bank handles the rest securely."
+        },
+        {
+            "id": "det2",
+            "question": "What is the benefit of enabling 'Autodeposit' in your banking settings?",
+            "options": [
+                "It gives you free money every month",
+                "It lets you receive money without answering a security question",
+                "It increases your credit score automatically",
+                "It allows you to use any ATM for free"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Autodeposit is faster and more secure because it removes the risk of a security question being guessed by someone else."
+        }
+    ]
+}

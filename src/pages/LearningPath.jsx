@@ -1,5 +1,5 @@
 import { useProgress } from '../context/ProgressContext';
-import lessons from '../data/lessons.json';
+import lessons from '../data/lessons/index.js';
 import LessonCard from '../components/lessons/LessonCard';
 import { Trophy, Flame } from 'lucide-react';
 
@@ -38,8 +38,8 @@ export default function LearningPath() {
                 </div>
             </header>
 
-            {/* Lesson List */}
-            <div className="space-y-4">
+            {/* Lesson List - Two Column Grid */}
+            <div className="grid grid-cols-2 gap-4">
                 {lessons.map((lesson, index) => (
                     <LessonCard
                         key={lesson.id}
@@ -48,8 +48,8 @@ export default function LearningPath() {
                     />
                 ))}
 
-                {/* Placeholder for future lessons */}
-                <div className="p-8 text-center border-2 border-dashed border-slate-200 rounded-xl">
+                {/* Placeholder for future lessons - Spanning 2 columns */}
+                <div className="col-span-2 p-8 text-center border-2 border-dashed border-slate-200 rounded-xl">
                     <p className="text-text-muted text-sm">More lessons coming soon!</p>
                 </div>
             </div>

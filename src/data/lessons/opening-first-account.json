@@ -1,0 +1,48 @@
+{
+    "id": "opening-first-account",
+    "title": "Opening Your First Account",
+    "description": "Choose between Canada's Big 5 banks and credit unions based on your needs.",
+    "xpReward": 50,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "Big 5 Banks vs. Credit Unions",
+            "text": "The 'Big 5' (RBC, TD, Scotiabank, BMO, CIBC) are for-profit and offer massive national ATM networks. Credit unions are not-for-profit and member-owned, often providing lower fees and more personalized, community-focused service."
+        },
+        {
+            "type": "info",
+            "title": "Convenience vs. Cost",
+            "text": "Big banks provide advanced mobile apps and comprehensive products, but often require a high minimum balance (e.g., $4,000) to waive fees. Credit unions generally offer higher interest rates on savings and lower fees, but have fewer physical branches."
+        },
+        {
+            "type": "info",
+            "title": "Safety and Networks",
+            "text": "Your money is safe in both! Banks are insured federally by the CDIC up to $100k, while credit unions have comparable provincial insurance. Credit union members can often use 'THE EXCHANGE Network' to access thousands of surcharge-free ATMs across Canada."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "oa1",
+            "question": "Which institution is most likely to waive monthly fees based on a high minimum balance requirement?",
+            "options": [
+                "A local Credit Union",
+                "One of the Big 5 Banks",
+                "THE EXCHANGE Network",
+                "A payday lender"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Big 5 banks typically have monthly fees that can only be waived if you maintain a specific minimum balance, such as $4,000 to $6,000."
+        },
+        {
+            "id": "oa2",
+            "question": "True or False: Credit unions are owned by their members rather than outside shareholders.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "True! Credit unions are not-for-profit organizations owned by members, which allows them to return profits in the form of lower fees and better interest rates."
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "id": "your-first-credit-card",
+    "title": "Your First Credit Card",
+    "description": "How to start your credit history from zero without falling into debt.",
+    "xpReward": 50,
+    "estimatedMinutes": 6,
+    "content": [
+        {
+            "type": "info",
+            "title": "Secured vs. Unsecured",
+            "text": "If you are new to Canada, banks may not give you a standard card yet. A 'Secured' card requires you to give the bank a deposit (e.g., $500), which becomes your credit limit. This is the safest and fastest way to prove you are reliable and start building your score."
+        },
+        {
+            "type": "info",
+            "title": "The 21-Day Grace Period",
+            "text": "In Canada, credit cards have a 'grace period' of at least 21 days. If you pay your ENTIRE statement balance by the due date, you pay $0 in interest. If you only pay the 'Minimum Payment,' the bank will charge you roughly 20-23% interest on everything you bought."
+        },
+        {
+            "type": "info",
+            "title": "Credit is a Loan",
+            "text": "Remember: A credit card is not extra money; it is a short-term loan. Every time you tap your card, the bank is watching. Paying on time every single month is the #1 factor (35% of your score) in building a great Canadian credit rating."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "cc1",
+            "question": "What is the main requirement for getting a 'Secured' credit card?",
+            "options": [
+                "A high-paying job",
+                "A cash deposit that acts as your collateral",
+                "A Canadian passport",
+                "A letter from your previous bank back home"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "A secured card requires a deposit (usually equal to your limit). This protects the bank while you prove you can manage credit responsibly."
+        },
+        {
+            "id": "cc2",
+            "question": "How much interest do you pay if you pay your full balance every month before the due date?",
+            "options": [
+                "20.99%",
+                "15%",
+                "0%",
+                "5%"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "As long as you pay the full statement balance during the grace period, you pay zero interest. This is the 'Golden Rule' of Canadian credit cards."
+        }
+    ]
+}

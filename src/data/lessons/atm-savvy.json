@@ -1,0 +1,50 @@
+{
+    "id": "atm-savvy",
+    "title": "ATM Savvy",
+    "description": "How to get your cash without losing $5 to hidden fees.",
+    "xpReward": 50,
+    "estimatedMinutes": 4,
+    "content": [
+        {
+            "type": "info",
+            "title": "Your Bank's ATM is Free",
+            "text": "The easiest way to get cash is to use an ATM owned by your own bank. For example, if you have a TD account, using a TD machine is free. If you use a different bank's machine, your bank might charge you a 'network fee' ($2-$3) and that bank might charge you a 'convenience fee' ($3+)."
+        },
+        {
+            "type": "info",
+            "title": "The Exchange Network",
+            "text": "Many credit unions and smaller banks belong to 'THE EXCHANGE Network.' If you see the Exchange logo on the back of your card, you can use any other ATM with that same logo across Canada for free—no surcharges or extra fees!"
+        },
+        {
+            "type": "info",
+            "title": "The 'Cash Back' Trick",
+            "text": "If you are at a grocery store or a pharmacy and need cash but can't find your bank's ATM, ask for 'Cash Back' at the checkout. Most stores will add the cash to your total bill and give it to you for free, helping you avoid ATM surcharges entirely."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "atm1",
+            "question": "What is the most expensive way to get cash in Canada?",
+            "options": [
+                "Using your own bank's ATM",
+                "Using a 'white label' ATM in a bar or gas station",
+                "Asking for 'Cash Back' at a grocery store",
+                "Going inside the bank branch to see a teller"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Independent 'white label' machines in places like bars or gas stations often charge the highest convenience fees on top of your own bank's network fees."
+        },
+        {
+            "id": "atm2",
+            "question": "If your card has 'THE EXCHANGE' logo, where can you withdraw money for free?",
+            "options": [
+                "Only at your home branch",
+                "At any ATM that also displays 'THE EXCHANGE' logo",
+                "At any 'Big 5' bank ATM",
+                "Nowhere, there is always a fee"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "The Exchange Network allows members of participating banks and credit unions to use each other's ATMs without paying surcharges."
+        }
+    ]
+}
