@@ -1,0 +1,28 @@
+{
+    "id": "investing-beginners",
+    "title": "Investing for Beginners",
+    "description": "What is a GIC and why is it popular for newcomers?",
+    "xpReward": 60,
+    "estimatedMinutes": 6,
+    "content": [
+        {
+            "type": "info",
+            "title": "The GIC Guarantee",
+            "text": "A Guaranteed Investment Certificate (GIC) is a safe investment where your original 'principal' is 100% protected. You agree to leave your money for a set time (e.g., 1 year) in exchange for a guaranteed interest rate."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "iv1",
+            "question": "What is the main advantage of a GIC?",
+            "options": [
+                "You can get rich overnight",
+                "Your initial investment is 100% protected",
+                "You can withdraw it every day",
+                "It has the highest risk"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "GICs are popular because you are guaranteed to get your original money back plus interest."
+        }
+    ]
+}

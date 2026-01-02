@@ -31,19 +31,39 @@ export default function LearningPath() {
             lessonIds: [
                 'paystubs-and-taxes',
                 'building-credit',
-                'advanced-credit'
+                'advanced-credit',
+                'cell-phone-traps',
+                'tax-filing-101',
+                'canada-child-benefit',
+                'tfsa-basics',
+                'rrsp-basics',
+                'fhsa-basics',
+                'spotting-scams',
+                'insurance-essentials',
+                'car-loans-canada',
+                'investing-beginners'
             ]
         },
         {
             id: 3,
             title: "Level 3: Government Benefits & Tax",
-            lessonIds: [] // Placeholder for future content
+            lessonIds: [
+                'canada-child-benefit',
+                'tax-filing-101',
+                'spotting-scams',
+                'insurance-essentials',
+                'car-loans-canada',
+                'investing-beginners'
+            ] // Placeholder for future content
         },
         {
             id: 4,
             title: "Level 4: Protection & Long-Term Growth",
             lessonIds: [
-                'tfsa-vs-rrsp'
+                'tfsa-vs-rrsp',
+                'insurance-essentials',
+                'car-loans-canada',
+                'investing-beginners'
             ]
         }
     ];

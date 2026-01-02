@@ -1,0 +1,48 @@
+{
+    "id": "the-30-percent-rule",
+    "title": "The 30% Rule",
+    "description": "Learn the 'Sweet Spot' for your credit balance to boost your score faster.",
+    "xpReward": 60,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "What is Credit Utilization?",
+            "text": "Your utilization is the percentage of your total credit limit that you are currently using. For example, if you have a $1,000 limit and owe $300, your utilization is 30%. In Canada, this factor alone accounts for a massive 30% of your total credit score calculation."
+        },
+        {
+            "type": "info",
+            "title": "Why Stay Under 30%?",
+            "text": "Lenders see high utilization as a red flag that you might be overextended or relying too much on credit. Even if you pay your bill in full every month, if your 'statement balance' is constantly near your limit, your score will drop. Keeping it under 30% signals you are a low-risk borrower."
+        },
+        {
+            "type": "info",
+            "title": "The Pro Strategy",
+            "text": "To get the highest scores (750+), experts suggest an even lower target of 10% or less. A great trick is to make a payment *before* your statement date to keep the reported balance low, or ask for a credit limit increase to automatically lower your ratio—just don't spend more!"
+        }
+    ],
+    "quiz": [
+        {
+            "id": "ur1",
+            "question": "If you have a total credit limit of $2,000 across all cards, what is the maximum balance you should carry to follow the '30% Rule'?",
+            "options": [
+                "$200",
+                "$600",
+                "$1,000",
+                "$1,500"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "30% of $2,000 is $600. Staying at or below this amount helps protect your credit score from taking a hit."
+        },
+        {
+            "id": "ur2",
+            "question": "True or False: Your credit score can drop if you use 90% of your limit, even if you pay it off in full on the due date.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "True! Banks report your balance on the 'statement date.' If that balance is high, it affects your score for that month regardless of when you pay it."
+        }
+    ]
+}

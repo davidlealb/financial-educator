@@ -1,0 +1,26 @@
+{
+    "id": "insurance-essentials",
+    "title": "Insurance Essentials",
+    "description": "Why Tenant Insurance is a must-have for renters.",
+    "xpReward": 50,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "Liability Protection",
+            "text": "Tenant insurance doesn't just cover your clothes and furniture; it protects you if you accidentally cause damage to the building (like a kitchen fire) or if someone is injured in your home."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "in1",
+            "question": "Does your landlord's insurance cover your personal belongings?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "No. The landlord's insurance only covers the building itself, not your personal items or your liability."
+        }
+    ]
+}

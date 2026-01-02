@@ -1,0 +1,28 @@
+{
+    "id": "cell-phone-traps",
+    "title": "Cell Phone Plans",
+    "description": "Avoid the high costs and 'hidden' contracts of Canadian mobile service.",
+    "xpReward": 50,
+    "estimatedMinutes": 4,
+    "content": [
+        {
+            "type": "info",
+            "title": "BYOD vs. Financing",
+            "text": "Bring Your Own Device (BYOD) plans are usually cheaper. If you finance a new phone, you are essentially signing a two-year credit contract. If you cancel early, you must pay the full remaining cost of the phone immediately."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "cp1",
+            "question": "Which type of plan is usually easier for a newcomer to get without a credit check?",
+            "options": [
+                "Post-paid monthly plan",
+                "Pre-paid plan",
+                "2-year subsidized contract",
+                "Corporate family plan"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Pre-paid plans require no credit check because you pay for the service before you use it."
+        }
+    ]
+}

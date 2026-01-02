@@ -1,0 +1,28 @@
+{
+    "id": "car-loans-canada",
+    "title": "Car Loans in Canada",
+    "description": "The difference between dealer financing and bank loans.",
+    "xpReward": 60,
+    "estimatedMinutes": 6,
+    "content": [
+        {
+            "type": "info",
+            "title": "Dealer Promos",
+            "text": "Dealers may offer 0% or low interest on new cars to attract buyers. However, if you have no credit history, they may charge you very high interest (10%+) or require a large down payment."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "cl1",
+            "question": "What is an 'Instalment Sale Contract' at a dealership?",
+            "options": [
+                "You own the car immediately",
+                "The lender owns the car until it is paid in full",
+                "It is a type of rental",
+                "It is a free gift"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "In most dealer financing, the lender technically owns the vehicle until the final payment is made."
+        }
+    ]
+}

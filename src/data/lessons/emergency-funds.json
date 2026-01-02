@@ -1,0 +1,50 @@
+{
+    "id": "emergency-funds",
+    "title": "The Emergency Fund",
+    "description": "Build your financial safety net to handle life's surprises without stress.",
+    "xpReward": 60,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "What is an Emergency?",
+            "text": "An emergency fund is for unplanned, necessary expenses like urgent car repairs, dental emergencies not covered by provincial health care, or temporary job loss. It is NOT for a new phone, a flight home, or a great sale at the mall."
+        },
+        {
+            "type": "info",
+            "title": "How Much is Enough?",
+            "text": "Most experts recommend saving 3 to 6 months of basic living expenses (rent, groceries, utilities). If you are new to Canada, start with a 'Starter Fund' of $500 to $1,500. This small cushion can prevent you from needing a high-interest payday loan for minor surprises."
+        },
+        {
+            "type": "info",
+            "title": "Where to Stash Your Cash",
+            "text": "Keep this money in a High-Interest Savings Account (HISA) that is separate from your daily spending account. This keeps it 'out of sight, out of mind' so you aren't tempted to spend it, but ensures you can still access it within 24 hours if a real crisis hits."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "ef1",
+            "question": "Which of the following is considered a valid reason to use your emergency fund?",
+            "options": [
+                "A 50% discount on a winter coat",
+                "An unexpected $800 car repair needed for work",
+                "Saving for a down payment on a house",
+                "Paying for a friend's birthday dinner"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Valid emergencies are sudden, unplanned, and necessary. A car repair needed for work is a necessity; a sale or a party is a 'want'."
+        },
+        {
+            "id": "ef2",
+            "question": "Why should you keep your emergency fund in a separate HISA instead of your chequing account?",
+            "options": [
+                "To earn higher interest and avoid the temptation to spend it",
+                "Because the government requires it by law",
+                "To make it harder to access the money in a real emergency",
+                "To increase your credit score faster"
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": "A separate account earns more interest and reduces the 'temptation' to spend the money on daily life, while keeping it accessible when needed."
+        }
+    ]
+}

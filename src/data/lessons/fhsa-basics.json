@@ -1,0 +1,28 @@
+{
+    "id": "fhsa-basics",
+    "title": "The FHSA",
+    "description": "The best way to save for your first home in Canada.",
+    "xpReward": 70,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "The Best of Both Worlds",
+            "text": "The First Home Savings Account (FHSA) gives you a tax deduction when you contribute (like an RRSP) and tax-free withdrawals when you buy a home (like a TFSA)."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "fh1",
+            "question": "What is the lifetime contribution limit for an FHSA?",
+            "options": [
+                "$10,000",
+                "$40,000",
+                "$100,000",
+                "Unlimited"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "The FHSA allows you to contribute up to $8,000 per year, with a lifetime limit of $40,000."
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "id": "tfsa-basics",
+    "title": "TFSA Basics",
+    "description": "The most flexible savings tool in Canada.",
+    "xpReward": 60,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "Tax-Free Growth",
+            "text": "In a Tax-Free Savings Account (TFSA), you don't pay any tax on the interest or investment growth you earn. You can withdraw the money at any time for any reason without penalty."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "tfsa1",
+            "question": "What happens to your unused TFSA contribution room at the end of the year?",
+            "options": [
+                "It disappears",
+                "It carries forward to the next year",
+                "You have to pay a fine",
+                "It is converted to RRSP room"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Unused TFSA room carries forward indefinitely, allowing you to catch up in future years."
+        }
+    ]
+}

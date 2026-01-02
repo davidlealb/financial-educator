@@ -1,0 +1,28 @@
+{
+    "id": "spotting-scams",
+    "title": "Spotting Scams",
+    "description": "Protect yourself from callers pretending to be the CRA or police.",
+    "xpReward": 80,
+    "estimatedMinutes": 6,
+    "content": [
+        {
+            "type": "info",
+            "title": "The 'Deportation' Threat",
+            "text": "Scammers often threaten newcomers with deportation or arrest if they don't pay 'missing fees'. Remember: The CRA and IRCC will NEVER ask for payment via gift cards, bitcoin, or e-Transfer."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "sc1",
+            "question": "If someone calling from the 'CRA' asks you to pay a tax debt with Amazon gift cards, what should you do?",
+            "options": [
+                "Pay immediately",
+                "Buy the cards but don't send the codes",
+                "Hang up; it's a scam",
+                "Ask for a discount"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "No government agency in Canada accepts gift cards as payment. This is a common scam tactic."
+        }
+    ]
+}

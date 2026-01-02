@@ -7,6 +7,16 @@ import debitAndEtransfer from './debit-and-etransfer.json';
 import yourFirstCreditCard from './your-first-credit-card.json';
 import atmSavvy from './atm-savvy.json';
 import paystubsAndTaxes from './paystubs-and-taxes.json';
+import cellPhoneTraps from './cell-phone-traps.json';
+import taxFiling101 from './tax-filing-101.json';
+import canadaChildBenefit from './canada-child-benefit.json';
+import tfsaBasics from './tfsa-basics.json';
+import rrspBasics from './rrsp-basics.json';
+import fhsaBasics from './fhsa-basics.json';
+import spottingScams from './spotting-scams.json';
+import insuranceEssentials from './insurance-essentials.json';
+import carLoansCanada from './car-loans-canada.json';
+import investingBeginners from './investing-beginners.json';
 
 const lessons = [
     bankingBasics,
@@ -17,7 +27,17 @@ const lessons = [
     debitAndEtransfer,
     yourFirstCreditCard,
     atmSavvy,
-    paystubsAndTaxes
+    paystubsAndTaxes,
+    cellPhoneTraps,
+    taxFiling101,
+    canadaChildBenefit,
+    tfsaBasics,
+    rrspBasics,
+    fhsaBasics,
+    spottingScams,
+    insuranceEssentials,
+    carLoansCanada,
+    investingBeginners
 ];
 
 export default lessons;

@@ -1,0 +1,28 @@
+{
+    "id": "rrsp-basics",
+    "title": "RRSP Basics",
+    "description": "Save for retirement and pay less tax today.",
+    "xpReward": 60,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "The Tax Break",
+            "text": "Money put into a Registered Retirement Savings Plan (RRSP) is deducted from your taxable income. This often results in a tax refund, but you will pay tax when you withdraw the money in retirement."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "rr1",
+            "question": "What is the main benefit of contributing to an RRSP?",
+            "options": [
+                "It increases your credit score",
+                "It reduces the income tax you pay this year",
+                "It gives you a free credit card",
+                "It is only for buying a car"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "RRSP contributions reduce your taxable income, which can lower your overall tax bill."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "id": "canada-child-benefit",
+    "title": "The CCB",
+    "description": "Understanding monthly support for families with children.",
+    "xpReward": 60,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": "What is the CCB?",
+            "text": "The Canada Child Benefit (CCB) is a tax-free monthly payment made to eligible families to help with the cost of raising children under 18. The amount is based on your family's net income from your tax return."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "ccb1",
+            "question": "Is the CCB payment considered taxable income?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "The CCB is a tax-free benefit, meaning you do not pay income tax on the money you receive from it."
+        }
+    ]
+}

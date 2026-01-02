@@ -1,0 +1,28 @@
+{
+    "id": "tax-filing-101",
+    "title": "Tax Filing 101",
+    "description": "Why you should file taxes even if you earned $0.",
+    "xpReward": 70,
+    "estimatedMinutes": 7,
+    "content": [
+        {
+            "type": "info",
+            "title": "The Refund Mindset",
+            "text": "Filing taxes is the only way to receive government benefits like the GST/HST credit. Even with no income, filing ensures the CRA knows you are a resident and eligible for quarterly 'rebate' checks."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "tf1",
+            "question": "When is the general deadline to file your personal income tax return in Canada?",
+            "options": [
+                "December 31st",
+                "January 1st",
+                "April 30th",
+                "July 1st"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "The deadline for most individuals to file their taxes is April 30th of the following year."
+        }
+    ]
+}

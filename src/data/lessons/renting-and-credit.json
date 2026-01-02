@@ -1,0 +1,35 @@
+[
+    {
+        "id": "renting-and-credit",
+        "title": "Renting & Credit",
+        "description": "How to prove you are a reliable tenant without a long Canadian history.",
+        "xpReward": 60,
+        "estimatedMinutes": 5,
+        "content": [
+            {
+                "type": "info",
+                "title": "The Credit Check",
+                "text": "Landlords in Canada often ask for a credit report to see if you pay bills on time. Since you are new, you can provide a bank statement showing consistent savings or a letter of employment to prove your ability to pay."
+            },
+            {
+                "type": "info",
+                "title": "Your Rights",
+                "text": "While landlords can ask for a credit check, they generally cannot require your Social Insurance Number (SIN), though providing it can make the check more accurate. You are also not required to share your credit card numbers or bank account passwords."
+            }
+        ],
+        "quiz": [
+            {
+                "id": "rc1",
+                "question": "What is a good alternative to a Canadian credit score when applying for your first apartment?",
+                "options": [
+                    "A high school diploma",
+                    "A letter of employment and bank statements",
+                    "A library card",
+                    "A social media profile"
+                ],
+                "correctAnswerIndex": 1,
+                "explanation": "A letter of employment proves you have income, which is often enough to satisfy a landlord if your credit history is still 'thin'."
+            }
+        ]
+    }
+]

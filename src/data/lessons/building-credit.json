@@ -14,6 +14,11 @@
             "type": "info",
             "title": "How to Build It",
             "text": "The easiest way to start is to get a secured credit card or a beginner card, use it for small purchases (like groceries), and pay it off IN FULL every month."
+        },
+        {
+            "type": "info",
+            "title": "The Dispute Process",
+            "text": "If you see a loan or credit card on your report that isn't yours, you can file a 'dispute' with Equifax or TransUnion for free. They are legally required to investigate and remove incorrect information."
         }
     ],
     "quiz": [
@@ -50,6 +55,18 @@
             ],
             "correctAnswerIndex": 2,
             "explanation": "Paying in full avoids interest charges and builds a strong payment history."
+        },
+        {
+            "id": "cm1",
+            "question": "How much does it cost to file a dispute for a credit error in Canada?",
+            "options": [
+                "$50",
+                "$100",
+                "$0 (it is free)",
+                "$5 per month"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "By law, there is no fee for disputing inaccurate information on your credit report."
         }
     ]
 }
