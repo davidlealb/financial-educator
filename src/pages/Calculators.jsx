@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { DollarSign, PieChart, TrendingUp } from 'lucide-react';
-import RecommendedTools from '../components/tools/RecommendedTools';
 
 function IncomeTaxCalculator() {
     const [salary, setSalary] = useState('');
@@ -229,9 +228,6 @@ export default function Calculators() {
 
                 {/* Debt Trap Calculator */}
                 <DebtTrapCalculator />
-
-                {/* Recommended Tools */}
-                <RecommendedTools />
             </div>
         </div>
     );
