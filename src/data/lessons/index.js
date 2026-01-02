@@ -6,6 +6,7 @@ import openingFirstAccount from './opening-first-account.json';
 import debitAndEtransfer from './debit-and-etransfer.json';
 import yourFirstCreditCard from './your-first-credit-card.json';
 import atmSavvy from './atm-savvy.json';
+import paystubsAndTaxes from './paystubs-and-taxes.json';
 
 const lessons = [
     bankingBasics,
@@ -15,7 +16,8 @@ const lessons = [
     openingFirstAccount,
     debitAndEtransfer,
     yourFirstCreditCard,
-    atmSavvy
+    atmSavvy,
+    paystubsAndTaxes
 ];
 
 export default lessons;

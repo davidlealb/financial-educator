@@ -1,0 +1,50 @@
+{
+    "id": "paystubs-and-taxes",
+    "title": "Paystubs & Taxes",
+    "description": "Understand your earnings, mandatory deductions, and why your take-home pay is different.",
+    "xpReward": 60,
+    "estimatedMinutes": 6,
+    "content": [
+        {
+            "type": "info",
+            "title": "Gross vs. Net Pay",
+            "text": "Your 'Gross Pay' is the total amount you earned before any deductions. Your 'Net Pay' (or take-home pay) is what actually lands in your bank account after the government takes its share for taxes and social programs."
+        },
+        {
+            "type": "info",
+            "title": "The 'Big Three' Deductions",
+            "text": "Almost every paycheck in Canada has three mandatory deductions: 1. Income Tax (Federal and Provincial), 2. CPP (Canada Pension Plan) for your retirement, and 3. EI (Employment Insurance) which protects you if you lose your job."
+        },
+        {
+            "type": "info",
+            "title": "Year-to-Date (YTD)",
+            "text": "Your paystub will show a 'YTD' column. This is a running total of everything you have earned and all the taxes you have paid since January 1st of the current year. This section is very helpful for planning your year-end tax return."
+        }
+    ],
+    "quiz": [
+        {
+            "id": "pt1",
+            "question": "What does 'Net Pay' refer to on your Canadian paystub?",
+            "options": [
+                "Your total earnings before taxes",
+                "The amount of tax you owe at the end of the year",
+                "The actual 'take-home' money deposited into your bank account",
+                "Your hourly wage multiplied by your hours"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Net Pay is your final take-home pay after all mandatory deductions like taxes, CPP, and EI have been removed."
+        },
+        {
+            "id": "pt2",
+            "question": "Which deduction provides you with temporary income if you are laid off from your job?",
+            "options": [
+                "CPP (Canada Pension Plan)",
+                "EI (Employment Insurance)",
+                "Income Tax",
+                "Union Dues"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Employment Insurance (EI) is a mandatory deduction that provides temporary financial assistance to workers who lose their job through no fault of their own."
+        }
+    ]
+}

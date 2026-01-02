@@ -29,6 +29,7 @@ export default function LearningPath() {
             id: 2,
             title: "Level 2: Building Your Foundation",
             lessonIds: [
+                'paystubs-and-taxes',
                 'building-credit',
                 'advanced-credit'
             ]
