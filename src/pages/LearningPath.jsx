@@ -1,14 +1,17 @@
 import { useProgress } from '../context/ProgressContext';
 import lessons from '../data/lessons/index.js';
-import LessonCard from '../components/lessons/LessonCard';
-import { Trophy, Flame } from 'lucide-react';
+import LevelAccordion from '../components/lessons/LevelAccordion';
+import HorizontalLessonCard from '../components/lessons/HorizontalLessonCard';
+import { Trophy, Flame, Milestone } from 'lucide-react';
 
 export default function LearningPath() {
     const { state } = useProgress();
 
     // Helper to determine lesson status
-    const getLessonStatus = (lessonId, index) => {
+    const getLessonStatus = (lessonId) => {
         if (state.completedLessons.includes(lessonId)) return 'completed';
+        // Basic locking logic: if first or previous is completed
+        // For now, let's stick to 'active' for all unless we want strict locking
         return 'active';
     };
 
@@ -32,16 +35,7 @@ export default function LearningPath() {
                 'paystubs-and-taxes',
                 'building-credit',
                 'advanced-credit',
-                'cell-phone-traps',
-                'tax-filing-101',
-                'canada-child-benefit',
-                'tfsa-basics',
-                'rrsp-basics',
-                'fhsa-basics',
-                'spotting-scams',
-                'insurance-essentials',
-                'car-loans-canada',
-                'investing-beginners'
+                'cell-phone-traps'
             ]
         },
         {
@@ -50,16 +44,16 @@ export default function LearningPath() {
             lessonIds: [
                 'canada-child-benefit',
                 'tax-filing-101',
-                'spotting-scams',
-                'insurance-essentials',
-                'car-loans-canada',
-                'investing-beginners'
-            ] // Placeholder for future content
+                'spotting-scams'
+            ]
         },
         {
             id: 4,
             title: "Level 4: Protection & Long-Term Growth",
             lessonIds: [
+                'tfsa-basics',
+                'rrsp-basics',
+                'fhsa-basics',
                 'tfsa-vs-rrsp',
                 'insurance-essentials',
                 'car-loans-canada',
@@ -69,79 +63,73 @@ export default function LearningPath() {
     ];
 
     return (
-        <div className="pb-8">
+        <div className="pb-24">
             {/* Header Stats */}
-            <header className="mb-8 pt-4">
-                <div className="flex items-center justify-between mb-4">
+            <header className="mb-8 pt-4 px-1">
+                <div className="flex items-start justify-between mb-2">
                     <div>
-                        <h1 className="text-2xl font-bold text-text-primary flex items-center gap-2">
-                            Learning Path 🇨🇦
-                        </h1>
-                        <p className="text-text-secondary text-sm">Empowering newcomers with financial knowledge</p>
+                        <div className="flex items-center gap-2 mb-1">
+                            <span className="bg-primary/10 text-primary p-1.5 rounded-lg">
+                                <Milestone size={18} strokeWidth={2.5} />
+                            </span>
+                            <h1 className="text-2xl font-black text-text-primary tracking-tight">
+                                Learning Path
+                            </h1>
+                        </div>
+                        <p className="text-text-secondary text-sm font-medium">Empowering newcomers with financial knowledge 🇨🇦</p>
                     </div>
-                    <div className="flex space-x-3">
+                    <div className="flex flex-col items-end gap-2">
                         {/* Streak Badge */}
-                        <div className="flex items-center space-x-1 bg-orange-100 text-orange-600 px-2 py-1 rounded-full text-xs font-bold">
-                            <Flame size={14} />
-                            <span>{state.streak}</span>
+                        <div className="flex items-center space-x-1.5 bg-orange-100 text-orange-600 px-3 py-1.5 rounded-2xl text-[10px] font-black uppercase tracking-wider shadow-sm border border-orange-200">
+                            <Flame size={12} strokeWidth={3} />
+                            <span>{state.streak} Day Streak</span>
                         </div>
                         {/* XP Badge */}
-                        <div className="flex items-center space-x-1 bg-primary/10 text-primary px-2 py-1 rounded-full text-xs font-bold">
-                            <Trophy size={14} />
-                            <span>{state.xp}</span>
+                        <div className="flex items-center space-x-1.5 bg-primary/10 text-primary px-3 py-1.5 rounded-2xl text-[10px] font-black uppercase tracking-wider shadow-sm border border-primary/20">
+                            <Trophy size={12} strokeWidth={3} />
+                            <span>{state.xp} XP Earned</span>
                         </div>
                     </div>
                 </div>
             </header>
 
-            {/* Curriculum Levels */}
-            <div className="space-y-12">
-                {levels.map((level) => {
+            {/* Curriculum Levels - Accordion Layout */}
+            <div className="space-y-4 px-1">
+                {levels.map((level, index) => {
                     const levelLessons = level.lessonIds
                         .map(id => lessons.find(l => l.id === id))
                         .filter(Boolean);
 
-                    const completedInLevel = levelLessons.filter(l => state.completedLessons.includes(l.id)).length;
-                    const isLevelEmpty = levelLessons.length === 0;
+                    const completedCount = levelLessons.filter(l => state.completedLessons.includes(l.id)).length;
 
                     return (
-                        <div key={level.id} className="space-y-4">
-                            <div className="flex items-end justify-between px-1">
-                                <h2 className="text-sm font-bold uppercase tracking-wider text-text-secondary">
-                                    {level.title}
-                                </h2>
-                                {!isLevelEmpty && (
-                                    <span className="text-xs font-medium text-text-muted">
-                                        {completedInLevel}/{levelLessons.length} Done
-                                    </span>
-                                )}
+                        <LevelAccordion
+                            key={level.id}
+                            level={level}
+                            lessons={levelLessons}
+                            completedCount={completedCount}
+                            defaultOpen={index === 0 || (completedCount > 0 && completedCount < levelLessons.length)}
+                        >
+                            <div className="pt-2 space-y-3">
+                                {levelLessons.map((lesson) => (
+                                    <HorizontalLessonCard
+                                        key={lesson.id}
+                                        lesson={lesson}
+                                        status={getLessonStatus(lesson.id)}
+                                    />
+                                ))}
                             </div>
-
-                            {isLevelEmpty ? (
-                                <div className="p-6 text-center bg-slate-50 border-2 border-dashed border-slate-200 rounded-xl">
-                                    <p className="text-text-muted text-sm italic">New lessons coming soon to this level!</p>
-                                </div>
-                            ) : (
-                                /* Lesson List - Two Column Grid */
-                                <div className="grid grid-cols-2 gap-4">
-                                    {levelLessons.map((lesson, index) => (
-                                        <LessonCard
-                                            key={lesson.id}
-                                            lesson={lesson}
-                                            status={getLessonStatus(lesson.id, index)}
-                                        />
-                                    ))}
-                                </div>
-                            )}
-                        </div>
+                        </LevelAccordion>
                     );
                 })}
+            </div>
 
-                {/* Footer Motivation */}
-                <div className="pt-4 px-1">
-                    <div className="p-8 text-center bg-primary/5 rounded-2xl border border-primary/10">
-                        <p className="text-text-primary font-medium text-sm italic">"The best time to start was yesterday. The second best time is now." 🏠</p>
-                    </div>
+            {/* Footer Motivation */}
+            <div className="mt-10 px-1">
+                <div className="p-8 text-center bg-slate-50 rounded-3xl border border-slate-200 border-dashed">
+                    <p className="text-text-secondary font-bold text-sm leading-relaxed italic">
+                        "Your financial journey in Canada starts here. Take it one step at a time." 🏠
+                    </p>
                 </div>
             </div>
         </div>
