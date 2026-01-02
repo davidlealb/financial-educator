@@ -18,8 +18,10 @@ export default function LearningPath() {
             <header className="mb-8 pt-4">
                 <div className="flex items-center justify-between mb-4">
                     <div>
-                        <h1 className="text-2xl font-bold text-text-primary">Learning Path</h1>
-                        <p className="text-text-secondary text-sm">Your journey to financial freedom</p>
+                        <h1 className="text-2xl font-bold text-text-primary flex items-center gap-2">
+                            Learning Path 🇨🇦
+                        </h1>
+                        <p className="text-text-secondary text-sm">Empowering newcomers with financial knowledge</p>
                     </div>
                     <div className="flex space-x-3">
                         {/* Streak Badge */}
