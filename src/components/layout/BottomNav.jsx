@@ -1,4 +1,4 @@
-import { BookOpen, Calculator, Settings } from 'lucide-react';
+import { BookOpen, Search, Calculator, Settings } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
 const NavItem = ({ to, icon: Icon, label }) => (
@@ -26,6 +26,7 @@ export default function BottomNav() {
         <nav className="fixed bottom-0 left-0 right-0 h-16 bg-surface border-t border-slate-200 z-50 pb-safe">
             <div className="flex justify-around items-center h-full max-w-md mx-auto">
                 <NavItem to="/" icon={BookOpen} label="Learn" />
+                <NavItem to="/search" icon={Search} label="Search" />
                 <NavItem to="/calculators" icon={Calculator} label="Tools" />
                 <NavItem to="/settings" icon={Settings} label="Settings" />
             </div>
