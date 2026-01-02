@@ -8,7 +8,7 @@ const INITIAL_STATE = {
     xp: 0,
     completedLessons: [], // Array of lesson IDs
     quizScores: {}, // Map of lessonId -> score (0-100)
-    streak: 0,
+    streak: 1,
     lastLogin: new Date().toISOString().split('T')[0],
 };
 
@@ -23,20 +23,41 @@ export function ProgressProvider({ children }) {
         }
     });
 
-    // Persistence Effect
+    // Persistence & Streak Logic Effect
     useEffect(() => {
         try {
+            const today = new Date().toISOString().split('T')[0];
+            const lastDate = state.lastLogin;
+
+            if (lastDate !== today) {
+                const yesterday = new Date();
+                yesterday.setDate(yesterday.getDate() - 1);
+                const yesterdayStr = yesterday.toISOString().split('T')[0];
+
+                setState(prev => {
+                    let newStreak = prev.streak;
+                    if (lastDate === yesterdayStr) {
+                        newStreak += 1;
+                    } else if (lastDate < yesterdayStr) {
+                        newStreak = 1; // Reset if gap > 1 day
+                    }
+                    // Else: if lastDate > today (clock skew), keep streak as is or reset? Resetting to 1 is safer.
+
+                    return {
+                        ...prev,
+                        streak: newStreak || 1,
+                        lastLogin: today
+                    };
+                });
+            }
+
             localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
         } catch (e) {
-            console.error("Failed to save progress", e);
+            console.error("Failed to sync progress", e);
         }
     }, [state]);
 
-    const addXp = (amount) => {
-        setState(prev => ({ ...prev, xp: prev.xp + amount }));
-    };
-
-    const completeLesson = (lessonId, score) => {
+    const completeLesson = (lessonId, score, xpAmount) => {
         setState(prev => {
             const isFirstTime = !prev.completedLessons.includes(lessonId);
 
@@ -49,6 +70,7 @@ export function ProgressProvider({ children }) {
 
             return {
                 ...prev,
+                xp: isFirstTime ? prev.xp + (xpAmount || 0) : prev.xp,
                 completedLessons: isFirstTime
                     ? [...prev.completedLessons, lessonId]
                     : prev.completedLessons,
@@ -62,7 +84,7 @@ export function ProgressProvider({ children }) {
     };
 
     return (
-        <ProgressContext.Provider value={{ state, addXp, completeLesson, resetProgress }}>
+        <ProgressContext.Provider value={{ state, completeLesson, resetProgress }}>
             {children}
         </ProgressContext.Provider>
     );

@@ -35,11 +35,9 @@ export default function LessonView() {
         if (isLastSlide) {
             // Calculate final score percentage
             const totalQuestions = lesson.quiz.length;
-            // Note: score tracking needs to be more robust for a real app (e.g. not double counting)
-            // Here current logic is simple: +1 for correct answer on first try?
-            // For MVP, passing simple score.
-            const finalScore = Math.round((score / totalQuestions) * 100);
-            completeLesson(lesson.id, finalScore);
+            const finalScore = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 100;
+
+            completeLesson(lesson.id, finalScore, lesson.xpReward);
             navigate('/');
         } else {
             setCurrentSlideIndex(prev => prev + 1);
