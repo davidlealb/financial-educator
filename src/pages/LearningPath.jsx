@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { useProgress } from '../context/ProgressContext';
 import { useLessons } from '../hooks/useLessons';
 import LevelAccordion from '../components/lessons/LevelAccordion';
@@ -8,6 +9,42 @@ export default function LearningPath() {
     const { state } = useProgress();
     const { lessons, loading } = useLessons();
 
+    // Helper to determine lesson status
+    const getLessonStatus = (lessonId) => {
+        if (state.completedLessons.includes(lessonId)) return 'completed';
+        return 'active';
+    };
+
+    // Level Titles mapping for aesthetics
+    const LEVEL_METADATA = {
+        1: "The First 30 Days (Survival)",
+        2: "Building Your Foundation",
+        3: "Government Benefits & Tax",
+        4: "Protection & Long-Term Growth"
+    };
+
+    // Calculate dynamic levels from lesson data
+    const levels = useMemo(() => {
+        // 1. Group lessons by level
+        const groups = lessons.reduce((acc, lesson) => {
+            const lvl = lesson.level || 1;
+            if (!acc[lvl]) acc[lvl] = [];
+            acc[lvl].push(lesson);
+            return acc;
+        }, {});
+
+        // 2. Transform into the format LevelAccordion expects
+        return Object.keys(groups)
+            .sort((a, b) => Number(a) - Number(b))
+            .map(lvlNumber => {
+                const levelId = Number(lvlNumber);
+                return {
+                    id: levelId,
+                    title: `Level ${levelId}: ${LEVEL_METADATA[levelId] || 'Continuing Your Journey'}`,
+                    lessons: groups[lvlNumber]
+                };
+            });
+    }, [lessons]);
 
     if (loading) {
         return (
@@ -17,61 +54,6 @@ export default function LearningPath() {
             </div>
         );
     }
-
-    // Helper to determine lesson status
-    const getLessonStatus = (lessonId) => {
-        if (state.completedLessons.includes(lessonId)) return 'completed';
-        // Basic locking logic: if first or previous is completed
-        // For now, let's stick to 'active' for all unless we want strict locking
-        return 'active';
-    };
-
-    // Curriculum structure
-    const levels = [
-        {
-            id: 1,
-            title: "Level 1: The First 30 Days (Survival)",
-            lessonIds: [
-                'opening-first-account',
-                'banking-basics',
-                'atm-savvy',
-                'debit-and-etransfer',
-                'your-first-credit-card'
-            ]
-        },
-        {
-            id: 2,
-            title: "Level 2: Building Your Foundation",
-            lessonIds: [
-                'paystubs-and-taxes',
-                'building-credit',
-                'advanced-credit',
-                'cell-phone-traps'
-            ]
-        },
-        {
-            id: 3,
-            title: "Level 3: Government Benefits & Tax",
-            lessonIds: [
-                'canada-child-benefit',
-                'tax-filing-101',
-                'spotting-scams'
-            ]
-        },
-        {
-            id: 4,
-            title: "Level 4: Protection & Long-Term Growth",
-            lessonIds: [
-                'tfsa-basics',
-                'rrsp-basics',
-                'fhsa-basics',
-                'tfsa-vs-rrsp',
-                'insurance-essentials',
-                'car-loans-canada',
-                'investing-beginners'
-            ]
-        }
-    ];
 
     return (
         <div className="pb-24">
@@ -108,10 +90,7 @@ export default function LearningPath() {
             {/* Curriculum Levels - Accordion Layout */}
             <div className="space-y-4 px-1">
                 {levels.map((level, index) => {
-                    const levelLessons = level.lessonIds
-                        .map(id => lessons.find(l => l.id === id))
-                        .filter(Boolean);
-
+                    const levelLessons = level.lessons;
                     const completedCount = levelLessons.filter(l => state.completedLessons.includes(l.id)).length;
 
                     return (
