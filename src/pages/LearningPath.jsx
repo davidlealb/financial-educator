@@ -1,11 +1,22 @@
 import { useProgress } from '../context/ProgressContext';
-import lessons from '../data/lessons/index.js';
+import { useLessons } from '../hooks/useLessons';
 import LevelAccordion from '../components/lessons/LevelAccordion';
 import HorizontalLessonCard from '../components/lessons/HorizontalLessonCard';
-import { Trophy, Flame, Milestone } from 'lucide-react';
+import { Trophy, Flame, Milestone, Loader2 } from 'lucide-react';
 
 export default function LearningPath() {
     const { state } = useProgress();
+    const { lessons, loading } = useLessons();
+
+
+    if (loading) {
+        return (
+            <div className="flex flex-col items-center justify-center py-20 animate-in fade-in duration-500">
+                <Loader2 className="text-primary animate-spin mb-4" size={40} />
+                <p className="text-text-secondary font-bold">Loading curriculum...</p>
+            </div>
+        );
+    }
 
     // Helper to determine lesson status
     const getLessonStatus = (lessonId) => {
@@ -77,6 +88,7 @@ export default function LearningPath() {
                             </h1>
                         </div>
                         <p className="text-text-secondary text-sm font-medium">Empowering newcomers with financial knowledge 🇨🇦</p>
+
                     </div>
                     <div className="flex flex-col items-end gap-2">
                         {/* Streak Badge */}

@@ -23,39 +23,41 @@ export function ProgressProvider({ children }) {
         }
     });
 
-    // Persistence & Streak Logic Effect
+    // Persistence Logic - Runs on every state change
     useEffect(() => {
         try {
-            const today = new Date().toISOString().split('T')[0];
-            const lastDate = state.lastLogin;
-
-            if (lastDate !== today) {
-                const yesterday = new Date();
-                yesterday.setDate(yesterday.getDate() - 1);
-                const yesterdayStr = yesterday.toISOString().split('T')[0];
-
-                setState(prev => {
-                    let newStreak = prev.streak;
-                    if (lastDate === yesterdayStr) {
-                        newStreak += 1;
-                    } else if (lastDate < yesterdayStr) {
-                        newStreak = 1; // Reset if gap > 1 day
-                    }
-                    // Else: if lastDate > today (clock skew), keep streak as is or reset? Resetting to 1 is safer.
-
-                    return {
-                        ...prev,
-                        streak: newStreak || 1,
-                        lastLogin: today
-                    };
-                });
-            }
-
             localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
         } catch (e) {
             console.error("Failed to sync progress", e);
         }
     }, [state]);
+
+    // Streak Logic - Runs on mount or when specifically needed
+    useEffect(() => {
+        const today = new Date().toISOString().split('T')[0];
+        const lastDate = state.lastLogin;
+
+        if (lastDate !== today) {
+            const yesterday = new Date();
+            yesterday.setDate(yesterday.getDate() - 1);
+            const yesterdayStr = yesterday.toISOString().split('T')[0];
+
+            setState(prev => {
+                let newStreak = prev.streak;
+                if (lastDate === yesterdayStr) {
+                    newStreak += 1;
+                } else if (lastDate < yesterdayStr) {
+                    newStreak = 1; // Reset if gap > 1 day
+                }
+
+                return {
+                    ...prev,
+                    streak: newStreak || 1,
+                    lastLogin: today
+                };
+            });
+        }
+    }, []); // Run once on startup
 
     const completeLesson = (lessonId, score, xpAmount) => {
         setState(prev => {
@@ -90,6 +92,7 @@ export function ProgressProvider({ children }) {
     );
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useProgress = () => {
     const context = useContext(ProgressContext);
     if (!context) {

@@ -1,0 +1,76 @@
+﻿
+> financial-educator@0.0.0 build
+> vite build
+
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 2152 modules transformed.
+node.exe : [31mΓ£ù[39m Build failed in 
+3.50s
+At C:\Program Files\nodejs\npm.ps1:16 char:5
++     & "$basedir/node$exe"  
+"$basedir/node_modules/corepack/dist/npm.j 
+...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecifie    
+d: ([31mΓ£ù[39m Build failed in 3.5    
+0s:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeComma    
+ndError
+ 
+[31merror during build:
+[31m[vite-plugin-pwa:build] There was an 
+error during the build:
+  src/pages/Search.jsx (2:7): "default" is 
+not exported by 
+"src/components/search/GlobalSearch.jsx", 
+imported by "src/pages/Search.jsx".
+Additionally, handling the error in the 
+'buildEnd' hook caused the following error:
+  src/pages/Search.jsx (2:7): "default" is 
+not exported by 
+"src/components/search/GlobalSearch.jsx", 
+imported by "src/pages/Search.jsx".[31m
+file: [36mC:/Users/User/.gemini/antigravity/
+scratch/financial-educator/src/pages/Search.j
+sx:2:7[31m
+[33m
+1: import React from 'react';
+2: import GlobalSearch from 
+'../components/search/GlobalSearch';
+          ^
+3: 
+4: export default function Search() {
+[31m
+    at getRollupError (file:///C:/Users/User/
+.gemini/antigravity/scratch/financial-educato
+r/node_modules/rollup/dist/es/shared/parseAst
+.js:401:41)
+    at file:///C:/Users/User/.gemini/antigrav
+ity/scratch/financial-educator/node_modules/r
+ollup/dist/es/shared/node-entry.js:23418:39
+    at async catchUnfinishedHookActions (file
+:///C:/Users/User/.gemini/antigravity/scratch
+/financial-educator/node_modules/rollup/dist/
+es/shared/node-entry.js:22876:16)
+    at async rollupInternal (file:///C:/Users
+/User/.gemini/antigravity/scratch/financial-e
+ducator/node_modules/rollup/dist/es/shared/no
+de-entry.js:23401:5)
+    at async buildEnvironment (file:///C:/Use
+rs/User/.gemini/antigravity/scratch/financial
+-educator/node_modules/vite/dist/node/chunks/
+config.js:33540:12)
+    at async Object.build (file:///C:/Users/U
+ser/.gemini/antigravity/scratch/financial-edu
+cator/node_modules/vite/dist/node/chunks/conf
+ig.js:33899:19)
+    at async Object.buildApp (file:///C:/User
+s/User/.gemini/antigravity/scratch/financial-
+educator/node_modules/vite/dist/node/chunks/c
+onfig.js:33896:153)
+    at async CAC.<anonymous> (file:///C:/User
+s/User/.gemini/antigravity/scratch/financial-
+educator/node_modules/vite/dist/node/cli.js:6
+29:3)[39m

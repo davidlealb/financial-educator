@@ -15,7 +15,6 @@ import { Link } from 'react-router-dom';
 export default function HorizontalLessonCard({ lesson, status }) {
     const isLocked = status === 'locked';
     const isCompleted = status === 'completed';
-    const isInProgress = status === 'active' && !isCompleted;
 
     return (
         <div className={`group relative bg-surface rounded-2xl p-4 transition-all duration-300 border 

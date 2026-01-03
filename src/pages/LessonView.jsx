@@ -7,7 +7,7 @@ import lessons from '../data/lessons';
 export default function LessonView() {
     const { lessonId } = useParams();
     const navigate = useNavigate();
-    const { completeLesson, state } = useProgress();
+    const { completeLesson } = useProgress();
 
     const lesson = useMemo(() => lessons.find(l => l.id === lessonId), [lessonId]);
 

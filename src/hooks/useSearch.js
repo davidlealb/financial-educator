@@ -54,7 +54,7 @@ export function useSearch(lessons) {
         const trimmedQuery = debouncedQuery.trim();
         // Save only if query is at least 4 characters and has results
         if (trimmedQuery.length >= 4 && results.length > 0) {
-            setRecentSearches(prev => {
+            setRecentSearches(prev => { // eslint-disable-line react-hooks/set-state-in-effect
                 const filtered = prev.filter(t => t.toLowerCase() !== trimmedQuery.toLowerCase());
                 const updated = [trimmedQuery, ...filtered].slice(0, 5);
                 localStorage.setItem('recentSearches', JSON.stringify(updated));
