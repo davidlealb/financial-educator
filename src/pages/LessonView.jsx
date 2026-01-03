@@ -1,21 +1,22 @@
 import { useState, useMemo } from 'react';
 import { useParams, useNavigate, Navigate } from 'react-router-dom';
-import { ChevronRight, Check, X, ArrowLeft } from 'lucide-react';
+import { ChevronRight, Check, X, ArrowLeft, Loader2 } from 'lucide-react';
 import { useProgress } from '../context/ProgressContext';
-import lessons from '../data/lessons';
+import { useLessons } from '../hooks/useLessons';
 
 export default function LessonView() {
     const { lessonId } = useParams();
     const navigate = useNavigate();
     const { completeLesson } = useProgress();
+    const { lessons, loading } = useLessons();
 
-    const lesson = useMemo(() => lessons.find(l => l.id === lessonId), [lessonId]);
+    const lesson = useMemo(() => lessons.find(l => l.id === lessonId), [lessons, lessonId]);
 
     // Combined slides: Content first, then Quiz questions
     const slides = useMemo(() => {
         if (!lesson) return [];
-        const contentSlides = lesson.content.map(c => ({ type: 'content', data: c }));
-        const quizSlides = lesson.quiz.map(q => ({ type: 'quiz', data: q }));
+        const contentSlides = (lesson.content || []).map(c => ({ type: 'content', data: c }));
+        const quizSlides = (lesson.quiz || []).map(q => ({ type: 'quiz', data: q }));
         return [...contentSlides, ...quizSlides];
     }, [lesson]);
 
@@ -25,7 +26,17 @@ export default function LessonView() {
     const [score, setScore] = useState(0);
     const [shouldShake, setShouldShake] = useState(false);
 
+    if (loading) {
+        return (
+            <div className="min-h-screen bg-background flex flex-col items-center justify-center p-6">
+                <Loader2 className="text-primary animate-spin mb-4" size={40} />
+                <p className="text-text-secondary font-bold">Loading lesson content...</p>
+            </div>
+        );
+    }
+
     if (!lesson) return <Navigate to="/" />;
+    if (slides.length === 0) return <Navigate to="/" />;
 
     const currentSlide = slides[currentSlideIndex];
     const isLastSlide = currentSlideIndex === slides.length - 1;
