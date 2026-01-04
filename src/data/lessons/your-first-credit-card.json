@@ -2,13 +2,13 @@
     "id": "your-first-credit-card",
     "title": "Your First Credit Card",
     "description": "How to start your credit history from zero without falling into debt.",
-    "xpReward": 50,
+    "xpReward": 51,
     "estimatedMinutes": 6,
     "content": [
         {
             "type": "info",
             "title": "Secured vs. Unsecured",
-            "text": "If you are new to Chile, banks may not give you a standard card yet. A 'Secured' card requires you to give the bank a deposit (e.g., $500), which becomes your credit limit. This is the safest and fastest way to prove you are reliable and start building your score."
+            "text": "If you are new to Canada, banks may not give you a standard card yet. A 'Secured' card requires you to give the bank a deposit (e.g., $500), which becomes your credit limit. This is the safest and fastest way to prove you are reliable and start building your score."
         },
         {
             "type": "info",
