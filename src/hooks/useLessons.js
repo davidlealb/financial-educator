@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { db } from '../lib/firebase';
+import { collection, getDocs } from 'firebase/firestore';
 import localLessons from '../data/lessons/index.js';
 
 /**
