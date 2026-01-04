@@ -1,0 +1,26 @@
+{
+    "common": {
+        "start_lesson": "Commencer la leçon",
+        "next": "Suivant",
+        "continue": "Continuer",
+        "check_answer": "Vérifier la réponse",
+        "finish_lesson": "Terminer la leçon",
+        "xp_earned": "XP gagnés",
+        "streak": "Jour de série",
+        "level": "Niveau",
+        "loading": "Chargement du contenu...",
+        "curriculum": "Parcours d'apprentissage",
+        "tagline": "Donner aux nouveaux arrivants des connaissances financières 🇨🇦",
+        "footer_motivation": "\"Votre parcours financier au Canada commence ici. Faites un pas à la fois.\" 🏠",
+        "correct": "Correct !",
+        "incorrect": "Incorrect",
+        "search_placeholder": "Rechercher des leçons (impôts, crédit, etc.)",
+        "recent_searches": "Recherches récentes",
+        "no_results": "Aucun résultat trouvé pour",
+        "try_another": "Essayez un autre mot-clé ou parcourez le parcours d'apprentissage.",
+        "calculators": "Calculateurs",
+        "learn": "Apprendre",
+        "settings": "Paramètres",
+        "language": "Langue"
+    }
+}

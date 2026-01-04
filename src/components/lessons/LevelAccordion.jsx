@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion'; // eslint-disable-line no-unused-vars
 import { ChevronDown, ChevronUp, CheckCircle2 } from 'lucide-react';
 
@@ -12,6 +13,7 @@ import { ChevronDown, ChevronUp, CheckCircle2 } from 'lucide-react';
  * - Summary of lessons completed
  */
 export default function LevelAccordion({ level, lessons, completedCount, children, defaultOpen = false }) {
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(defaultOpen);
 
     const totalLessons = lessons.length;
@@ -46,9 +48,9 @@ export default function LevelAccordion({ level, lessons, completedCount, childre
                 {/* Progress Bar Area */}
                 <div className="flex flex-col gap-1.5 px-0.5">
                     <div className="flex items-center justify-between text-[10px] font-bold tracking-wider text-text-muted uppercase">
-                        <span>Progress</span>
+                        <span>{t('common.progress', { defaultValue: 'Progress' })}</span>
                         <span className={isLevelComplete ? 'text-emerald-green' : ''}>
-                            {completedCount}/{totalLessons} Lessons Done
+                            {completedCount}/{totalLessons} {t('common.lessons_done', { defaultValue: 'Lessons Done' })}
                         </span>
                     </div>
                     <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden">

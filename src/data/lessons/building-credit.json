@@ -1,72 +1,81 @@
 {
     "id": "building-credit",
-    "title": "Building Credit in Canada",
-    "description": "Learn why credit scores matter and how to build a strong history from scratch.",
+    "title": {
+        "en": "Building Credit in Canada",
+        "es": "Creando Crédito en Canadá",
+        "fr": "Bâtir son crédit au Canada"
+    },
+    "description": {
+        "en": "Learn why credit scores matter and how to build a strong history from scratch.",
+        "es": "Aprende por qué el puntaje de crédito es importante y cómo construir una historia sólida desde cero.",
+        "fr": "Découvrez pourquoi les cotes de crédit sont importantes et comment bâtir un historique solide à partir de zéro."
+    },
     "xpReward": 50,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "What is a Credit Score?",
-            "text": "In Canada, your credit score is like a financial report card. It tells banks and landlords how trustworthy you receive money. Scores range from 300 to 900. A score above 660 is generally considered 'Good'."
+            "title": {
+                "en": "What is a Credit Score?",
+                "es": "¿Qué es un puntaje de crédito?",
+                "fr": "Qu'est-ce qu'une cote de crédit ?"
+            },
+            "text": {
+                "en": "In Canada, your credit score is like a financial report card. It tells banks and landlords how trustworthy you receive money. Scores range from 300 to 900. A score above 660 is generally considered 'Good'.",
+                "es": "En Canadá, tu puntaje de crédito es como una boleta financiera. Les dice a bancos y arrendadores qué tan confiable eres para recibir dinero. Los puntajes van de 300 a 900. Un puntaje por encima de 660 se considera generalmente 'Bueno'.",
+                "fr": "Au Canada, votre cote de crédit est comme un bulletin financier. Elle indique aux banques et aux propriétaires votre fiabilité en matière d'argent. Les cotes varient de 300 à 900. Une cote supérieure à 660 est généralement considérée comme 'Bonne'."
+            }
         },
         {
             "type": "info",
-            "title": "How to Build It",
-            "text": "The easiest way to start is to get a secured credit card or a beginner card, use it for small purchases (like groceries), and pay it off IN FULL every month."
-        },
-        {
-            "type": "info",
-            "title": "The Dispute Process",
-            "text": "If you see a loan or credit card on your report that isn't yours, you can file a 'dispute' with Equifax or TransUnion for free. They are legally required to investigate and remove incorrect information."
+            "title": {
+                "en": "How to Build It",
+                "es": "Cómo construirlo",
+                "fr": "Comment la bâtir"
+            },
+            "text": {
+                "en": "The easiest way to start is to get a secured credit card or a beginner card, use it for small purchases (like groceries), and pay it off IN FULL every month.",
+                "es": "La forma más fácil de empezar es obtener una tarjeta de crédito garantizada o para principiantes, usarla para compras pequeñas (como comida) y pagarla EN SU TOTALIDAD cada mes.",
+                "fr": "La façon la plus simple de commencer est d'obtenir une carte de crédit avec garantie ou pour débutant, de l'utiliser pour de petits achats (comme l'épicerie) et de la payer EN TOTALITÉ chaque mois."
+            }
         }
     ],
     "quiz": [
         {
             "id": "q1",
-            "question": "What is considered a 'Good' credit score in Canada?",
+            "question": {
+                "en": "What is considered a 'Good' credit score in Canada?",
+                "es": "¿Qué se considera un 'Buen' puntaje de crédito en Canadá?",
+                "fr": "Qu'est-ce qui est considéré comme une 'Bonne' cote de crédit au Canada ?"
+            },
             "options": [
-                "Any score above 300",
-                "A score above 660",
-                "Exactly 500",
-                "You don't need a score"
+                {
+                    "en": "Any score above 300",
+                    "es": "Cualquier puntaje superior a 300",
+                    "fr": "Toute cote supérieure à 300"
+                },
+                {
+                    "en": "A score above 660",
+                    "es": "Un puntaje superior a 660",
+                    "fr": "Une cote supérieure à 660"
+                },
+                {
+                    "en": "Exactly 500",
+                    "es": "Exactamente 500",
+                    "fr": "Exactement 500"
+                },
+                {
+                    "en": "You don't need a score",
+                    "es": "No necesitas un puntaje",
+                    "fr": "Vous n'avez pas besoin de cote"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Scores range from 300-900. 660+ is considered good, giving you access to better loans and apartments."
-        },
-        {
-            "id": "q2",
-            "question": "True or False: Checking your own credit score hurts your rating.",
-            "options": [
-                "True",
-                "False"
-            ],
-            "correctAnswerIndex": 1,
-            "explanation": "False! Checking your own score is a 'soft inquiry' and has zero negative impact."
-        },
-        {
-            "id": "q3",
-            "question": "What is the 'Golden Rule' of credit cards?",
-            "options": [
-                "Spend as much as possible",
-                "Only pay the minimum amount",
-                "Pay off your balance in full every month",
-                "Keep a high balance to show you have money"
-            ],
-            "correctAnswerIndex": 2,
-            "explanation": "Paying in full avoids interest charges and builds a strong payment history."
-        },
-        {
-            "id": "cm1",
-            "question": "How much does it cost to file a dispute for a credit error in Canada?",
-            "options": [
-                "$50",
-                "$100",
-                "$0 (it is free)",
-                "$5 per month"
-            ],
-            "correctAnswerIndex": 2,
-            "explanation": "By law, there is no fee for disputing inaccurate information on your credit report."
+            "explanation": {
+                "en": "Scores range from 300-900. 660+ is considered good, giving you access to better loans and apartments.",
+                "es": "Los puntajes van de 300 a 900. Un puntaje de 660+ se considera bueno, dándote acceso a mejores préstamos y departamentos.",
+                "fr": "Les cotes varient de 300 à 900. 660+ est considéré comme bon, ce qui vous donne accès à de meilleurs prêts et appartements."
+            }
         }
     ]
 }

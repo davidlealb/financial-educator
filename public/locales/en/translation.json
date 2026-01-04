@@ -1,0 +1,26 @@
+{
+    "common": {
+        "start_lesson": "Start Lesson",
+        "next": "Next",
+        "continue": "Continue",
+        "check_answer": "Check Answer",
+        "finish_lesson": "Finish Lesson",
+        "xp_earned": "XP Earned",
+        "streak": "Day Streak",
+        "level": "Level",
+        "loading": "Loading content...",
+        "curriculum": "Learning Path",
+        "tagline": "Empowering newcomers with financial knowledge 🇨🇦",
+        "footer_motivation": "\"Your financial journey in Canada starts here. Take it one step at a time.\" 🏠",
+        "correct": "Correct!",
+        "incorrect": "Incorrect",
+        "search_placeholder": "Search for lessons (taxes, credit, etc.)",
+        "recent_searches": "Recent Searches",
+        "no_results": "No results found for",
+        "try_another": "Try another keyword or browse the Learning Path.",
+        "calculators": "Calculators",
+        "learn": "Learn",
+        "settings": "Settings",
+        "language": "Language"
+    }
+}

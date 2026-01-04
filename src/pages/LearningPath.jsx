@@ -1,4 +1,6 @@
 import { useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from '../components/layout/LanguageSwitcher';
 import { useProgress } from '../context/ProgressContext';
 import { useLessons } from '../hooks/useLessons';
 import LevelAccordion from '../components/lessons/LevelAccordion';
@@ -6,6 +8,7 @@ import HorizontalLessonCard from '../components/lessons/HorizontalLessonCard';
 import { Trophy, Flame, Milestone, Loader2 } from 'lucide-react';
 
 export default function LearningPath() {
+    const { t } = useTranslation();
     const { state } = useProgress();
     const { lessons, loading } = useLessons();
 
@@ -17,16 +20,16 @@ export default function LearningPath() {
 
     // Level Titles mapping for aesthetics
     const LEVEL_METADATA = {
-        1: "The First 30 Days (Survival)",
-        2: "Building Your Foundation",
-        3: "Government Benefits & Tax",
-        4: "Protection & Long-Term Growth",
-        5: "Estate Planning & Segregated Funds"
+        1: t('common.level_1_title', { defaultValue: "The First 30 Days (Survival)" }),
+        2: t('common.level_2_title', { defaultValue: "Building Your Foundation" }),
+        3: t('common.level_3_title', { defaultValue: "Government Benefits & Tax" }),
+        4: t('common.level_4_title', { defaultValue: "Protection & Long-Term Growth" }),
+        5: t('common.level_5_title', { defaultValue: "Estate Planning & Segregated Funds" })
     };
 
     // Calculate dynamic levels from lesson data
     const levels = useMemo(() => {
-        // 1. Group lessons by level
+        // ... same logic ...
         const groups = lessons.reduce((acc, lesson) => {
             const lvl = lesson.level || 1;
             if (!acc[lvl]) acc[lvl] = [];
@@ -34,24 +37,23 @@ export default function LearningPath() {
             return acc;
         }, {});
 
-        // 2. Transform into the format LevelAccordion expects
         return Object.keys(groups)
             .sort((a, b) => Number(a) - Number(b))
             .map(lvlNumber => {
                 const levelId = Number(lvlNumber);
                 return {
                     id: levelId,
-                    title: `Level ${levelId}: ${LEVEL_METADATA[levelId] || 'Continuing Your Journey'}`,
+                    title: `${t('common.level')} ${levelId}: ${LEVEL_METADATA[levelId] || t('common.continuing_journey', { defaultValue: 'Continuing Your Journey' })}`,
                     lessons: groups[lvlNumber]
                 };
             });
-    }, [lessons]);
+    }, [lessons, t]);
 
     if (loading) {
         return (
             <div className="flex flex-col items-center justify-center py-20 animate-in fade-in duration-500">
                 <Loader2 className="text-primary animate-spin mb-4" size={40} />
-                <p className="text-text-secondary font-bold">Loading curriculum...</p>
+                <p className="text-text-secondary font-bold">{t('common.loading')}</p>
             </div>
         );
     }
@@ -60,29 +62,32 @@ export default function LearningPath() {
         <div className="pb-24">
             {/* Header Stats */}
             <header className="mb-8 pt-4 px-1">
-                <div className="flex items-start justify-between mb-2">
+                <div className="flex items-start justify-between mb-4">
                     <div>
                         <div className="flex items-center gap-2 mb-1">
                             <span className="bg-primary/10 text-primary p-1.5 rounded-lg">
                                 <Milestone size={18} strokeWidth={2.5} />
                             </span>
                             <h1 className="text-2xl font-black text-text-primary tracking-tight">
-                                Learning Path
+                                {t('common.curriculum')}
                             </h1>
                         </div>
-                        <p className="text-text-secondary text-sm font-medium">Empowering newcomers with financial knowledge 🇨🇦</p>
-
+                        <p className="text-text-secondary text-sm font-medium">{t('common.tagline')}</p>
                     </div>
-                    <div className="flex flex-col items-end gap-2">
+                    <LanguageSwitcher />
+                </div>
+
+                <div className="flex items-center gap-2 mb-2">
+                    <div className="flex-1 flex flex-col gap-2">
                         {/* Streak Badge */}
-                        <div className="flex items-center space-x-1.5 bg-orange-100 text-orange-600 px-3 py-1.5 rounded-2xl text-[10px] font-black uppercase tracking-wider shadow-sm border border-orange-200">
+                        <div className="flex items-center space-x-1.5 bg-orange-100 text-orange-600 px-3 py-1.5 rounded-2xl text-[10px] font-black uppercase tracking-wider shadow-sm border border-orange-200 w-fit">
                             <Flame size={12} strokeWidth={3} />
-                            <span>{state.streak} Day Streak</span>
+                            <span>{state.streak} {t('common.streak')}</span>
                         </div>
                         {/* XP Badge */}
-                        <div className="flex items-center space-x-1.5 bg-primary/10 text-primary px-3 py-1.5 rounded-2xl text-[10px] font-black uppercase tracking-wider shadow-sm border border-primary/20">
+                        <div className="flex items-center space-x-1.5 bg-primary/10 text-primary px-3 py-1.5 rounded-2xl text-[10px] font-black uppercase tracking-wider shadow-sm border border-primary/20 w-fit">
                             <Trophy size={12} strokeWidth={3} />
-                            <span>{state.xp} XP Earned</span>
+                            <span>{state.xp} {t('common.xp_earned')}</span>
                         </div>
                     </div>
                 </div>

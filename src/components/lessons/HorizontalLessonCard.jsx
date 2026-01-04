@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { CheckCircle, PlayCircle, Lock, Trophy } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ import { Link } from 'react-router-dom';
  * - 1-sentence description
  */
 export default function HorizontalLessonCard({ lesson, status }) {
+    const { t } = useTranslation();
     const isLocked = status === 'locked';
     const isCompleted = status === 'completed';
 
@@ -45,7 +47,7 @@ export default function HorizontalLessonCard({ lesson, status }) {
                         {/* XP Reward Badge */}
                         <div className="flex items-center gap-1 bg-slate-50 px-2 py-0.5 rounded-full border border-slate-100 flex-shrink-0">
                             <Trophy size={11} className="text-secondary" />
-                            <span className="text-[10px] font-bold text-text-secondary">{lesson.xpReward} XP</span>
+                            <span className="text-[10px] font-bold text-text-secondary">{lesson.xpReward} {t('common.xp', { defaultValue: 'XP' })}</span>
                         </div>
                     </div>
 
@@ -69,7 +71,7 @@ export default function HorizontalLessonCard({ lesson, status }) {
                 <Link
                     to={`/lesson/${lesson.id}`}
                     className="absolute inset-0 z-10"
-                    aria-label={`Start lesson: ${lesson.title}`}
+                    aria-label={t('common.aria_start_lesson', { title: lesson.title, defaultValue: `Start lesson: ${lesson.title}` })}
                 />
             )}
         </div>

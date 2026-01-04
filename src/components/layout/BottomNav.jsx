@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { BookOpen, Search, Calculator, Settings } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
@@ -25,13 +26,14 @@ const NavItem = ({ to, icon, label }) => {
 };
 
 export default function BottomNav() {
+    const { t } = useTranslation();
     return (
         <nav className="fixed bottom-0 left-0 right-0 h-16 bg-surface border-t border-slate-200 z-50 pb-safe">
             <div className="flex justify-around items-center h-full max-w-md mx-auto">
-                <NavItem to="/" icon={BookOpen} label="Learn" />
-                <NavItem to="/search" icon={Search} label="Search" />
-                <NavItem to="/calculators" icon={Calculator} label="Tools" />
-                <NavItem to="/settings" icon={Settings} label="Settings" />
+                <NavItem to="/" icon={BookOpen} label={t('common.learn')} />
+                <NavItem to="/search" icon={Search} label={t('common.search')} />
+                <NavItem to="/calculators" icon={Calculator} label={t('common.calculators')} />
+                <NavItem to="/settings" icon={Settings} label={t('common.settings')} />
             </div>
         </nav>
     );

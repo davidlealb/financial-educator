@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Search, X, Loader2, ArrowRight, History } from 'lucide-react';
 import { useProgress } from '../../context/ProgressContext';
 import { useSearch } from '../../hooks/useSearch';
@@ -13,6 +14,7 @@ const LEVEL_1_IDS = [
 ];
 
 export default function GlobalSearch() {
+    const { t } = useTranslation();
     const { state } = useProgress();
     const { lessons, loading } = useLessons();
     const {
@@ -42,7 +44,7 @@ export default function GlobalSearch() {
         return (
             <div className="flex flex-col items-center justify-center py-20 animate-in fade-in duration-500">
                 <Loader2 className="text-primary animate-spin mb-4" size={32} />
-                <p className="text-text-secondary font-medium">Loading search...</p>
+                <p className="text-text-secondary font-medium">{t('common.loading')}</p>
             </div>
         );
     }
@@ -57,7 +59,7 @@ export default function GlobalSearch() {
                     </div>
                     <input
                         type="text"
-                        placeholder="Search for topics, tools, or tips..."
+                        placeholder={t('common.search_placeholder')}
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                         onFocus={() => setIsFocused(true)}
@@ -83,7 +85,7 @@ export default function GlobalSearch() {
                     <div className="space-y-4">
                         <div className="flex items-center justify-between px-1">
                             <h2 className="text-xs font-black uppercase tracking-widest text-text-muted">
-                                {results.length} results found
+                                {results.length} {t('common.results_found', { defaultValue: 'results found' })}
                             </h2>
                         </div>
                         {results.length > 0 ? (
@@ -98,13 +100,13 @@ export default function GlobalSearch() {
                             </div>
                         ) : (
                             <div className="text-center py-12 px-6 bg-slate-50 rounded-3xl border border-dashed border-slate-200">
-                                <p className="text-text-secondary font-medium">No topics found for "{query}"</p>
-                                <p className="text-xs text-text-muted mt-1">Try different keywords or check your spelling</p>
+                                <p className="text-text-secondary font-medium">{t('common.no_results')} "{query}"</p>
+                                <p className="text-xs text-text-muted mt-1">{t('common.try_another')}</p>
                                 <button
                                     onClick={() => setQuery('')}
                                     className="mt-4 text-primary text-sm font-bold hover:underline"
                                 >
-                                    Clear search
+                                    {t('common.clear_search', { defaultValue: 'Clear search' })}
                                 </button>
                             </div>
                         )}
@@ -118,13 +120,13 @@ export default function GlobalSearch() {
                                 <div className="flex items-center justify-between px-1">
                                     <div className="flex items-center gap-2 text-text-muted">
                                         <History size={14} />
-                                        <h2 className="text-xs font-black uppercase tracking-widest">Recent</h2>
+                                        <h2 className="text-xs font-black uppercase tracking-widest">{t('common.recent_searches')}</h2>
                                     </div>
                                     <button
                                         onClick={clearRecentSearches}
                                         className="text-[10px] font-bold text-text-muted hover:text-primary uppercase tracking-wider"
                                     >
-                                        Clear All
+                                        {t('common.clear_all', { defaultValue: 'Clear All' })}
                                     </button>
                                 </div>
                                 <div className="flex flex-wrap gap-2">
@@ -144,7 +146,7 @@ export default function GlobalSearch() {
                         {/* Level 1 Recommendations */}
                         <div className="space-y-4">
                             <h2 className="text-xs font-black uppercase tracking-widest text-text-muted px-1">
-                                Recommended for Starters
+                                {t('common.recommended', { defaultValue: 'Recommended for Starters' })}
                             </h2>
                             <div className="grid gap-3">
                                 {level1Lessons.map((lesson) => (

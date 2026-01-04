@@ -1,10 +1,12 @@
 import { useState, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useParams, useNavigate, Navigate } from 'react-router-dom';
 import { ChevronRight, Check, X, ArrowLeft, Loader2 } from 'lucide-react';
 import { useProgress } from '../context/ProgressContext';
 import { useLessons } from '../hooks/useLessons';
 
 export default function LessonView() {
+    const { t } = useTranslation();
     const { lessonId } = useParams();
     const navigate = useNavigate();
     const { completeLesson } = useProgress();
@@ -30,7 +32,7 @@ export default function LessonView() {
         return (
             <div className="min-h-screen bg-background flex flex-col items-center justify-center p-6">
                 <Loader2 className="text-primary animate-spin mb-4" size={40} />
-                <p className="text-text-secondary font-bold">Loading lesson content...</p>
+                <p className="text-text-secondary font-bold">{t('common.loading')}</p>
             </div>
         );
     }
@@ -165,9 +167,9 @@ export default function LessonView() {
                 {currentSlide.type === 'content' ? (
                     <button
                         onClick={handleNext}
-                        className="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-xl shadow-lg shadow-primary/30 transition-all flex items-center justify-center space-x-2"
+                        className="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-xl shadow-lg shadow-primary/30 transition-all flex items-center justify-center space-y-2 flex-col"
                     >
-                        <span>Continue</span>
+                        <span>{t('common.continue')}</span>
                         <ChevronRight size={20} />
                     </button>
                 ) : (
@@ -177,7 +179,7 @@ export default function LessonView() {
                             disabled={selectedOption === null}
                             className="w-full bg-primary disabled:bg-slate-300 disabled:text-slate-500 hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all"
                         >
-                            Check Answer
+                            {t('common.check_answer')}
                         </button>
                     ) : (
                         <button
@@ -187,7 +189,7 @@ export default function LessonView() {
                                 : 'bg-primary hover:bg-primary-dark text-white shadow-primary/30' // Continue anyway
                                 }`}
                         >
-                            <span>{isLastSlide ? 'Finish Lesson' : 'Continue'}</span>
+                            <span>{isLastSlide ? t('common.finish_lesson') : t('common.continue')}</span>
                             <ChevronRight size={20} />
                         </button>
                     )
