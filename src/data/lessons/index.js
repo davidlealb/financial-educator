@@ -17,6 +17,7 @@ import spottingScams from './spotting-scams.json';
 import insuranceEssentials from './insurance-essentials.json';
 import carLoansCanada from './car-loans-canada.json';
 import investingBeginners from './investing-beginners.json';
+import segregatedFunds from './segregated-funds.json';
 
 const lessons = [
     bankingBasics,
@@ -37,7 +38,8 @@ const lessons = [
     spottingScams,
     insuranceEssentials,
     carLoansCanada,
-    investingBeginners
+    investingBeginners,
+    segregatedFunds
 ];
 
 export default lessons;

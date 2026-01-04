@@ -40,7 +40,8 @@ const levelMapping = {
     'tfsa-vs-rrsp': 4,
     'insurance-essentials': 4,
     'car-loans-canada': 4,
-    'investing-beginners': 4
+    'investing-beginners': 4,
+    'segregated-funds': 5
 };
 
 const lessonsDir = path.resolve(__dirname, '../src/data/lessons');

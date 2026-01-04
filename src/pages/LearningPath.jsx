@@ -20,7 +20,8 @@ export default function LearningPath() {
         1: "The First 30 Days (Survival)",
         2: "Building Your Foundation",
         3: "Government Benefits & Tax",
-        4: "Protection & Long-Term Growth"
+        4: "Protection & Long-Term Growth",
+        5: "Estate Planning & Segregated Funds"
     };
 
     // Calculate dynamic levels from lesson data

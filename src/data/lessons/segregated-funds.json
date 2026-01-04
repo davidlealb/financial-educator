@@ -1,0 +1,46 @@
+{
+    "id": "segregated-funds",
+    "title": "Segregated Funds",
+    "description": "Learn about Segregated Funds: Canada's investment with insurance protection.",
+    "xpReward": 100,
+    "level": 5,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "title": "What are Segregated Funds?",
+            "text": "Segregated funds (or 'seg funds') are similar to mutual funds but are structured as individual insurance contracts. The name comes from the fact that the underlying assets are 'segregated' from the insurance company's general assets."
+        },
+        {
+            "title": "Key Feature: Principal Guarantees",
+            "text": "One of the biggest advantages is the maturity and death benefit guarantee. Most contracts guarantee that you (or your beneficiary) will receive at least 75% to 100% of your original investment back, even if the markets crash."
+        },
+        {
+            "title": "Estate Planning & Creditor Protection",
+            "text": "Segregated funds bypass probate (the legal process of validating a will) if you name a beneficiary, allowing money to transfer faster to loved ones. They also offer some protection from creditors if the contract is structured correctly, making them popular for small business owners."
+        }
+    ],
+    "quiz": [
+        {
+            "question": "What is a primary difference between a Mutual Fund and a Segregated Fund?",
+            "options": [
+                "Mutual funds are only for stocks",
+                "Segregated funds offer principal guarantees",
+                "Segregated funds are managed by banks only",
+                "Mutual funds bypass probate"
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": "Segregated funds are insurance contracts that offer maturity and death benefit guarantees, protecting your principal."
+        },
+        {
+            "question": "Why are Segregated Funds popular for estate planning?",
+            "options": [
+                "They have higher returns than stocks",
+                "They allow you to avoid paying income tax entirely",
+                "They can bypass probate when a beneficiary is named",
+                "They are cheaper than life insurance"
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": "Because they are insurance contracts, proceeds go directly to named beneficiaries, avoiding the delays and costs of probate."
+        }
+    ]
+}
