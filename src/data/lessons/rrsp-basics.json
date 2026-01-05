@@ -2,66 +2,219 @@
     "id": "rrsp-basics",
     "title": {
         "en": "RRSP Basics",
-        "es": "Conceptos Básicos del REER",
-        "fr": "Les bases du REER"
+        "es": "Conceptos Básicos de RRSP",
+        "fr": "Base du RRSP"
     },
     "description": {
-        "en": "Save for retirement and pay less tax today.",
-        "es": "Ahorra para el retiro y paga menos impuestos hoy.",
-        "fr": "Épargnez pour la retraite et payez moins d'impôts aujourd'hui."
+        "en": "Understand the fundamentals of Canada's Registered Retirement Savings Plan.",
+        "es": "Entienda los fundamentos del Plan de Ahorro para la Jubilación Registrado de Canadá.",
+        "fr": "Comprendre les principes fondamentaux du régime enregistré d'épargne-retraite du Canada."
     },
-    "xpReward": 60,
+    "xpReward": 50,
+    "level": 4,
     "estimatedMinutes": 5,
     "content": [
         {
-            "type": "info",
             "title": {
-                "en": "The Tax Break",
-                "es": "La Ventaja Fiscal",
-                "fr": "L'avantage fiscal"
+                "en": "What is an RRSP?",
+                "es": "¿Qué es un RRSP?",
+                "fr": "Qu'est-ce qu'un RRSP ?"
             },
             "text": {
-                "en": "Money put into a Registered Retirement Savings Plan (RRSP) is deducted from your taxable income. This often results in a tax refund, but you will pay tax when you withdraw the money in retirement.",
-                "es": "El dinero depositado en un Plan Registrado de Ahorro para el Retiro (REER) se deduce de tus ingresos imponibles. Esto a menudo resulta en un reembolso de impuestos, pero pagarás impuestos cuando retires el dinero en la jubilación.",
-                "fr": "L'argent versé dans un régime enregistré d'épargne-retraite (REER) est déduit de votre revenu imposable. Cela donne souvent lieu à un remboursement d'impôt, mais vous paierez de l'impôt lorsque vous retirerez l'argent à la retraite."
+                "en": "A Registered Retirement Savings Plan (RRSP) is a tax-advantaged account designed to help Canadians save for retirement. Contributions are tax-deductible, meaning they reduce your taxable income for the year.",
+                "es": "Un Plan de Ahorro para la Jubilación Registrado (RRSP) es una cuenta con ventajas fiscales diseñada para ayudar a los canadienses a ahorrar para la jubilación. Las contribuciones son deducibles de impuestos.",
+                "fr": "Un régime enregistré d'épargne-retraite (RRSP) est un compte à avantages fiscaux conçu pour aider les Canadiens à épargner pour la retraite. Les cotisations sont déductibles d'impôt."
+            }
+        },
+        {
+            "title": {
+                "en": "Tax-Deferred Growth",
+                "es": "Crecimiento con Impuestos Diferidos",
+                "fr": "Croissance à l'abri de l'impôt"
+            },
+            "text": {
+                "en": "Inside an RRSP, your investments grow tax-deferred. You don't pay taxes on capital gains, dividends, or interest as long as the money remains in the plan.",
+                "es": "Dentro de un RRSP, sus inversiones crecen con impuestos diferidos. No paga impuestos sobre ganancias de capital, dividendos o intereses mientras el dinero permanezca en el plan.",
+                "fr": "À l'intérieur d'un RRSP, vos placements croissent à l'abri de l'impôt. Vous ne payez pas d'impôt sur les gains en capital, les dividendes ou les intérêts tant que l'argent reste dans le régime."
+            }
+        },
+        {
+            "title": {
+                "en": "Contribution Limits",
+                "es": "Límites de Contribución",
+                "fr": "Plafonds de cotisation"
+            },
+            "text": {
+                "en": "There is a limit to how much you can contribute each year, usually 18% of your previous year's earned income, up to a maximum annual cap. Unused space carries forward to future years.",
+                "es": "Hay un límite de cuánto puede contribuir cada año, generalmente el 18% de sus ingresos del año anterior, hasta un tope anual máximo.",
+                "fr": "Il y a une limite à ce que vous pouvez cotiser chaque année, habituellement 18 % de votre revenu gagné de l'année précédente, jusqu'à un plafond annuel maximum."
             }
         }
     ],
     "quiz": [
         {
-            "id": "rr1",
             "question": {
-                "en": "What is the main benefit of contributing to an RRSP?",
-                "es": "¿Cuál es el beneficio principal de contribuir a un REER?",
-                "fr": "Quel est le principal avantage de cotiser à un REER ?"
+                "en": "What is a major benefit of RRSP contributions?",
+                "es": "¿Cuál es un beneficio principal de las contribuciones al RRSP?",
+                "fr": "Quel est l'un des principaux avantages des cotisations RRSP ?"
             },
             "options": [
                 {
-                    "en": "It increases your credit score",
-                    "es": "Aumenta tu puntaje de crédito",
-                    "fr": "Cela augmente votre cote de crédit"
+                    "en": "They increase your tax bill",
+                    "es": "Aumentan su factura de impuestos",
+                    "fr": "Elles augmentent votre facture d'impôts"
                 },
                 {
-                    "en": "It reduces the income tax you pay this year",
-                    "es": "Reduce el impuesto sobre la renta que pagas este año",
-                    "fr": "Cela réduit l'impôt sur le revenu que vous payez cette année"
+                    "en": "They reduce your taxable income",
+                    "es": "Reducen su ingreso imponible",
+                    "fr": "Elles réduisent votre revenu imposable"
                 },
                 {
-                    "en": "It gives you a free credit card",
-                    "es": "Te da una tarjeta de crédito gratuita",
-                    "fr": "Cela vous donne une carte de crédit gratuite"
+                    "en": "They are mandatory",
+                    "es": "Son obligatorias",
+                    "fr": "Elles sont obligatoires"
                 },
                 {
-                    "en": "It is only for buying a car",
-                    "es": "Es solo para comprar un automóvil",
-                    "fr": "C'est seulement pour l'achat d'une voiture"
+                    "en": "They can only be used for stocks",
+                    "es": "Solo se pueden usar para acciones",
+                    "fr": "Elles ne peuvent être utilisées que pour des actions"
                 }
             ],
             "correctAnswerIndex": 1,
             "explanation": {
-                "en": "RRSP contributions reduce your taxable income, which can lower your overall tax bill.",
-                "es": "Las contribuciones al REER reducen tus ingresos imponibles, lo que puede disminuir tu factura fiscal general.",
-                "fr": "Les cotisations à un REER réduisent votre revenu imposable, ce qui peut faire baisser votre facture fiscale totale."
+                "en": "Contributions are tax-deductible, which can result in a tax refund.",
+                "es": "Las contribuciones son deducibles de impuestos, lo que puede resultar en un reembolso de impuestos.",
+                "fr": "Les cotisations sont déductibles d'impôt, ce qui peut donner lieu à un remboursement d'impôt."
+            }
+        },
+        {
+            "question": {
+                "en": "What does 'tax-deferred' mean?",
+                "es": "¿Qué significa 'impuestos diferidos'?",
+                "fr": "Que signifie « à l'abri de l'impôt » ?"
+            },
+            "options": [
+                {
+                    "en": "You never pay tax",
+                    "es": "Nunca paga impuestos",
+                    "fr": "Vous ne payez jamais d'impôt"
+                },
+                {
+                    "en": "You pay tax only when you withdraw money",
+                    "es": "Paga impuestos solo cuando retira dinero",
+                    "fr": "Vous ne payez l'impôt que lorsque vous retirez l'argent"
+                },
+                {
+                    "en": "The government pays you interest",
+                    "es": "El gobierno le paga intereses",
+                    "fr": "Le gouvernement vous verse des intérêts"
+                },
+                {
+                    "en": "It is illegal to withdraw money",
+                    "es": "Es ilegal retirar dinero",
+                    "fr": "Il est illégal de retirer de l'argent"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "You pay tax on the growth only when it is taken out during retirement.",
+                "es": "Paga impuestos sobre el crecimiento solo cuando se retira durante la jubilación.",
+                "fr": "Vous payez de l'impôt sur la croissance seulement au moment du retrait à la retraite."
+            }
+        },
+        {
+            "question": {
+                "en": "True or False: Unused RRSP contribution room expires at the end of the year.",
+                "es": "¿Verdadero o Falso: El espacio de contribución al RRSP no utilizado expira al final del año?",
+                "fr": "Vrai ou faux : Les droits de cotisation RRSP inutilisés expirent à la fin de l'année."
+            },
+            "options": [
+                {
+                    "en": "True",
+                    "es": "Verdadero",
+                    "fr": "Vrai"
+                },
+                {
+                    "en": "False",
+                    "es": "Falso",
+                    "fr": "Faux"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "Unused contribution room carries forward indefinitely.",
+                "es": "El espacio de contribución no utilizado se transfiere indefinidamente.",
+                "fr": "Les droits de cotisation inutilisés sont reportés indéfiniment."
+            }
+        },
+        {
+            "question": {
+                "en": "What is the typical annual contribution limit percentage?",
+                "es": "¿Cuál es el porcentaje típico del límite de contribución anual?",
+                "fr": "Quel est le pourcentage habituel du plafond de cotisation annuel ?"
+            },
+            "options": [
+                {
+                    "en": "5%",
+                    "es": "5%",
+                    "fr": "5 %"
+                },
+                {
+                    "en": "10%",
+                    "es": "10%",
+                    "fr": "10 %"
+                },
+                {
+                    "en": "18%",
+                    "es": "18%",
+                    "fr": "18 %"
+                },
+                {
+                    "en": "50%",
+                    "es": "50%",
+                    "fr": "50 %"
+                }
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": {
+                "en": "The limit is generally 18% of your earned income from the previous year.",
+                "es": "El límite es generalmente el 18% de sus ingresos del año anterior.",
+                "fr": "Le plafond est généralement de 18 % de votre revenu gagné de l'année précédente."
+            }
+        },
+        {
+            "question": {
+                "en": "Who can open an RRSP?",
+                "es": "¿Quién puede abrir un RRSP?",
+                "fr": "Qui peut ouvrir un RRSP ?"
+            },
+            "options": [
+                {
+                    "en": "Only Canadian citizens",
+                    "es": "Solo ciudadanos canadienses",
+                    "fr": "Seuls les citoyens canadiens"
+                },
+                {
+                    "en": "Anyone with earned income and a SIN",
+                    "es": "Cualquier persona con ingresos y un SIN",
+                    "fr": "Toute personne ayant un revenu gagné et un NAS"
+                },
+                {
+                    "en": "Only people over 65",
+                    "es": "Solo personas mayores de 65",
+                    "fr": "Seulement les personnes de plus de 65 ans"
+                },
+                {
+                    "en": "Only bank employees",
+                    "es": "Solo empleados bancarios",
+                    "fr": "Seulement les employés de banque"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "Any Canadian resident with earned income and a Social Insurance Number can open one.",
+                "es": "Cualquier residente canadiense con ingresos y un Número de Seguro Social puede abrir uno.",
+                "fr": "Tout résident canadien ayant un revenu gagné et un numéro d'assurance sociale peut en ouvrir un."
             }
         }
     ]

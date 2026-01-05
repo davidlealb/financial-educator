@@ -1,0 +1,221 @@
+{
+    "id": "rrsp-advanced",
+    "title": {
+        "en": "Advanced RRSP Strategies",
+        "es": "Estrategias Avanzadas de RRSP",
+        "fr": "Stratégies avancées du RRSP"
+    },
+    "description": {
+        "en": "Master HBP, LLP, and spousal RRSPs to maximize your benefits.",
+        "es": "Domine el HBP, LLP y los RRSP conyugales para maximizar sus beneficios.",
+        "fr": "Maîtrisez le RAP, le REEP et les RRSP de conjoint pour maximiser vos avantages."
+    },
+    "xpReward": 100,
+    "level": 4,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "title": {
+                "en": "Home Buyers' Plan (HBP)",
+                "es": "Plan para Compradores de Vivienda (HBP)",
+                "fr": "Régime d'accession à la propriété (RAP)"
+            },
+            "text": {
+                "en": "The HBP allows you to withdraw up to $60,000 tax-free from your RRSP to buy your first home. You must repay the amount to your RRSP over a 15-year period.",
+                "es": "El HBP le permite retirar hasta $60,000 libres de impuestos de su RRSP para comprar su primera vivienda. Debe devolver el monto en un período de 15 años.",
+                "fr": "Le RAP vous permet de retirer jusqu'à 60 000 $ de votre RRSP, sans impôt, pour acheter votre première maison. Vous devez rembourser ce montant dans votre RRSP sur une période de 15 ans."
+            }
+        },
+        {
+            "title": {
+                "en": "Spousal RRSPs",
+                "es": "RRSP Conyugales",
+                "fr": "RRSP de conjoint"
+            },
+            "text": {
+                "en": "A spousal RRSP is a way to split income in retirement. The higher-earning spouse contributes to the lower-earning spouse's plan, helping to balance future tax loads.",
+                "es": "Un RRSP conyugal es una forma de dividir los ingresos en la jubilación. El cónyuge con mayores ingresos contribuye al plan del cónyuge con menores ingresos.",
+                "fr": "Un RRSP de conjoint est un moyen de fractionner le revenu à la retraite. Le conjoint ayant le revenu le plus élevé cotise au régime du conjoint ayant le revenu le moins élevé."
+            }
+        },
+        {
+            "title": {
+                "en": "Lifelong Learning Plan (LLP)",
+                "es": "Plan de Aprendizaje Permanente (LLP)",
+                "fr": "Régime d'encouragement à l'éducation permanente (REEP)"
+            },
+            "text": {
+                "en": "The LLP lets you withdraw up to $10,000 per year (up to $20,000 total) to pay for full-time training or education for yourself or your spouse.",
+                "es": "El LLP le permite retirar hasta $10,000 por año (hasta $20,000 en total) para pagar capacitación o educación a tiempo completo.",
+                "fr": "Le REEP vous permet de retirer jusqu'à 10 000 $ par an (jusqu'à 20 000 $ au total) pour payer une formation ou des études à temps plein."
+            }
+        }
+    ],
+    "quiz": [
+        {
+            "question": {
+                "en": "What is the maximum HBP withdrawal limit (as of 2024)?",
+                "es": "¿Cuál es el límite máximo de retiro del HBP?",
+                "fr": "Quel est le plafond de retrait du RAP ?"
+            },
+            "options": [
+                {
+                    "en": "$25,000",
+                    "es": "$25,000",
+                    "fr": "25 000 $"
+                },
+                {
+                    "en": "$35,000",
+                    "es": "$35,000",
+                    "fr": "35 000 $"
+                },
+                {
+                    "en": "$60,000",
+                    "es": "$60,000",
+                    "fr": "60 000 $"
+                },
+                {
+                    "en": "$100,000",
+                    "es": "$100,000",
+                    "fr": "100 000 $"
+                }
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": {
+                "en": "The federal government increased the limit to $60,000 in the 2024 budget.",
+                "es": "El gobierno federal aumentó el límite a $60,000 en el presupuesto de 2024.",
+                "fr": "Le gouvernement fédéral a porté le plafond à 60 000 $ dans le budget de 2024."
+            }
+        },
+        {
+            "question": {
+                "en": "How long do you have to repay HBP withdrawals?",
+                "es": "¿Cuánto tiempo tiene para devolver los retiros del HBP?",
+                "fr": "De combien de temps disposez-vous pour rembourser les retraits du RAP ?"
+            },
+            "options": [
+                {
+                    "en": "5 years",
+                    "es": "5 años",
+                    "fr": "5 ans"
+                },
+                {
+                    "en": "10 years",
+                    "es": "10 años",
+                    "fr": "10 ans"
+                },
+                {
+                    "en": "15 years",
+                    "es": "15 años",
+                    "fr": "15 ans"
+                },
+                {
+                    "en": "Repayment is not required",
+                    "es": "No se requiere devolución",
+                    "fr": "Le remboursement n'est pas obligatoire"
+                }
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": {
+                "en": "You have up to 15 years to repay the amount, starting the second year after withdrawal.",
+                "es": "Tiene hasta 15 años para devolver el monto.",
+                "fr": "Vous disposez d'un maximum de 15 ans pour rembourser le montant."
+            }
+        },
+        {
+            "question": {
+                "en": "What is a major advantage of a Spousal RRSP?",
+                "es": "¿Cuál es una ventaja principal de un RRSP conyugal?",
+                "fr": "Quel est le principal avantage d'un RRSP de conjoint ?"
+            },
+            "options": [
+                {
+                    "en": "Higher contribution limits",
+                    "es": "Límites de contribución más altos",
+                    "fr": "Plafonds de cotisation plus élevés"
+                },
+                {
+                    "en": "Income splitting in retirement",
+                    "es": "División de ingresos en la jubilación",
+                    "fr": "Fractionnement du revenu à la retraite"
+                },
+                {
+                    "en": "Free money from the bank",
+                    "es": "Dinero gratis del banco",
+                    "fr": "De l'argent gratuit de la banque"
+                },
+                {
+                    "en": "No taxes on withdrawals",
+                    "es": "Sin impuestos sobre los retiros",
+                    "fr": "Pas d'impôt sur les retraits"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "It helps balance retirement savings between spouses to reduce overall tax.",
+                "es": "Ayuda a equilibrar los ahorros para la jubilación entre los cónyuges.",
+                "fr": "Il aide à équilibrer l'épargne-retraite entre les conjoints afin de réduire l'impôt global."
+            }
+        },
+        {
+            "question": {
+                "en": "Can you use the LLP for your children's education?",
+                "es": "¿Puede usar el LLP para la educación de sus hijos?",
+                "fr": "Pouvez-vous utiliser le REEP pour les études de vos enfants ?"
+            },
+            "options": [
+                {
+                    "en": "Yes",
+                    "es": "Sí",
+                    "fr": "Oui"
+                },
+                {
+                    "en": "No, only for yourself or your spouse",
+                    "es": "No, solo para usted o su cónyuge",
+                    "fr": "Non, seulement pour vous ou votre conjoint"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "The LLP is specifically for the plan holder or their spouse; children's education is usually handled by an RESP.",
+                "es": "El LLP es específicamente para el titular del plan o su cónyuge.",
+                "fr": "Le REEP est spécifiquement destiné au titulaire du régime ou à son conjoint."
+            }
+        },
+        {
+            "question": {
+                "en": "What happens if you don't repay an HBP or LLP installment on time?",
+                "es": "¿Qué sucede si no paga una cuota del HBP o LLP a tiempo?",
+                "fr": "Que se passe-t-il si vous ne remboursez pas un versement du RAP ou du REEP à temps ?"
+            },
+            "options": [
+                {
+                    "en": "The amount is added to your taxable income",
+                    "es": "El monto se suma a su ingreso imponible",
+                    "fr": "Le montant est ajouté à votre revenu imposable"
+                },
+                {
+                    "en": "You go to jail",
+                    "es": "Va a la cárcel",
+                    "fr": "Vous allez en prison"
+                },
+                {
+                    "en": "Your bank account is frozen",
+                    "es": "Su cuenta bancaria se congela",
+                    "fr": "Votre compte bancaire est gelé"
+                },
+                {
+                    "en": "Nothing happens",
+                    "es": "No pasa nada",
+                    "fr": "Il ne se passe rien"
+                }
+            ],
+            "correctAnswerIndex": 0,
+            "explanation": {
+                "en": "Missed repayments are considered withdrawals and are taxed as income.",
+                "es": "Los pagos omitidos se consideran retiros y tributan como ingresos.",
+                "fr": "Les remboursements manqués sont considérés comme des retraits et sont imposés comme un revenu."
+            }
+        }
+    ]
+}

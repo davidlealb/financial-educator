@@ -47,6 +47,7 @@ const migrate = async () => {
         'spotting-scams': 3,
         'tfsa-basics': 4,
         'rrsp-basics': 4,
+        'rrsp-advanced': 4,
         'fhsa-basics': 4,
         'tfsa-vs-rrsp': 4,
         'insurance-essentials': 4,
