@@ -1,50 +1,130 @@
 {
     "id": "paystubs-and-taxes",
-    "title": "Paystubs & Taxes",
-    "description": "Understand your earnings, mandatory deductions, and why your take-home pay is different.",
+    "title": {
+        "en": "Paystubs & Taxes",
+        "es": "Nóminas e Impuestos",
+        "fr": "Talons de paie et impôts"
+    },
+    "description": {
+        "en": "Understand your earnings, mandatory deductions, and why your take-home pay is different.",
+        "es": "Comprende tus ganancias, las deducciones obligatorias y por qué tu salario neto es diferente.",
+        "fr": "Comprenez vos revenus, les déductions obligatoires et pourquoi votre salaire net est différent."
+    },
     "xpReward": 60,
     "estimatedMinutes": 6,
     "content": [
         {
             "type": "info",
-            "title": "Gross vs. Net Pay",
-            "text": "Your 'Gross Pay' is the total amount you earned before any deductions. Your 'Net Pay' (or take-home pay) is what actually lands in your bank account after the government takes its share for taxes and social programs."
+            "title": {
+                "en": "Gross vs. Net Pay",
+                "es": "Salario Bruto vs. Neto",
+                "fr": "Salaire brut vs net"
+            },
+            "text": {
+                "en": "Your 'Gross Pay' is the total amount you earned before any deductions. Your 'Net Pay' (or take-home pay) is what actually lands in your bank account after the government takes its share for taxes and social programs.",
+                "es": "Tu 'Salario Bruto' es la cantidad total que ganaste antes de cualquier deducción. Tu 'Salario Neto' (o salario neto) es lo que realmente llega a tu cuenta bancaria después de que el gobierno toma su parte para impuestos y programas sociales.",
+                "fr": "Votre « salaire brut » est le montant total que vous avez gagné avant toute déduction. Votre « salaire net » (ou salaire à emporter) est ce qui arrive réellement dans votre compte bancaire après que le gouvernement a prélevé sa part pour les impôts et les programmes sociaux."
+            }
         },
         {
             "type": "info",
-            "title": "The 'Big Three' Deductions",
-            "text": "Almost every paycheck in Canada has three mandatory deductions: 1. Income Tax (Federal and Provincial), 2. CPP (Canada Pension Plan) for your retirement, and 3. EI (Employment Insurance) which protects you if you lose your job."
+            "title": {
+                "en": "The 'Big Three' Deductions",
+                "es": "Las 'Tres Grandes' Deducciones",
+                "fr": "Les trois grandes déductions"
+            },
+            "text": {
+                "en": "Almost every paycheck in Canada has three mandatory deductions: 1. Income Tax (Federal and Provincial), 2. CPP (Canada Pension Plan) for your retirement, and 3. EI (Employment Insurance) which protects you if you lose your job.",
+                "es": "Casi cada cheque de pago en Canadá tiene tres deducciones obligatorias: 1. Impuesto sobre la Renta (Federal y Provincial), 2. CPP (Plan de Pensiones de Canadá) para tu jubilación, y 3. EI (Seguro de Empleo) que te protege si pierdes tu trabajo.",
+                "fr": "Presque tous les chèques de paie au Canada comportent trois déductions obligatoires : 1. l'impôt sur le revenu (fédéral et provincial), 2. le RPC (Régime de pensions du Canada) pour votre retraite, et 3. l'AE (Assurance-emploi) qui vous protège si vous perdez votre emploi."
+            }
         },
         {
             "type": "info",
-            "title": "Year-to-Date (YTD)",
-            "text": "Your paystub will show a 'YTD' column. This is a running total of everything you have earned and all the taxes you have paid since January 1st of the current year. This section is very helpful for planning your year-end tax return."
+            "title": {
+                "en": "Year-to-Date (YTD)",
+                "es": "Acomulado del Año (YTD)",
+                "fr": "Cumul annuel (YTD)"
+            },
+            "text": {
+                "en": "Your paystub will show a 'YTD' column. This is a running total of everything you have earned and all the taxes you have paid since January 1st of the current year. This section is very helpful for planning your year-end tax return.",
+                "es": "Tu recibo de pago mostrará una columna 'YTD' (Year-to-Date). Este es un total acumulado de todo lo que has ganado y todos los impuestos que has pagado desde el 1 de enero del año en curso. Esta sección es muy útil para planificar tu declaración de impuestos de fin de año.",
+                "fr": "Votre talon de paie contiendra une colonne « YTD » (cumul annuel). Il s'agit du total cumulé de tout ce que vous avez gagné et de tous les impôts que vous avez payés depuis le 1er janvier de l'année en cours. Cette section est très utile pour planifier votre déclaration de revenus de fin d'année."
+            }
         }
     ],
     "quiz": [
         {
             "id": "pt1",
-            "question": "What does 'Net Pay' refer to on your Canadian paystub?",
+            "question": {
+                "en": "What does 'Net Pay' refer to on your Canadian paystub?",
+                "es": "¿A qué se refiere el 'Salario Neto' en tu recibo de pago canadiense?",
+                "fr": "À quoi correspond le « salaire net » sur votre talon de paie canadien ?"
+            },
             "options": [
-                "Your total earnings before taxes",
-                "The amount of tax you owe at the end of the year",
-                "The actual 'take-home' money deposited into your bank account",
-                "Your hourly wage multiplied by your hours"
+                {
+                    "en": "Your total earnings before taxes",
+                    "es": "Tus ganancias totales antes de impuestos",
+                    "fr": "Vos gains totaux avant impôts"
+                },
+                {
+                    "en": "The amount of tax you owe at the end of the year",
+                    "es": "La cantidad de impuestos que debes al final del año",
+                    "fr": "Le montant de l'impôt que vous devez à la fin de l'année"
+                },
+                {
+                    "en": "The actual 'take-home' money deposited into your bank account",
+                    "es": "El dinero 'neto' real depositado en tu cuenta bancaria",
+                    "fr": "L'argent réel « net » déposé dans votre compte bancaire"
+                },
+                {
+                    "en": "Your hourly wage multiplied by your hours",
+                    "es": "Tu salario por hora multiplicado por tus horas",
+                    "fr": "Votre salaire horaire multiplié par vos heures"
+                }
             ],
             "correctAnswerIndex": 2,
-            "explanation": "Net Pay is your final take-home pay after all mandatory deductions like taxes, CPP, and EI have been removed."
+            "explanation": {
+                "en": "Net Pay is your final take-home pay after all mandatory deductions like taxes, CPP, and EI have been removed.",
+                "es": "El salario neto es tu salario final neto después de que se hayan eliminado todas las deducciones obligatorias como impuestos, CPP y EI.",
+                "fr": "Le salaire net est votre salaire final à emporter après que toutes les déductions obligatoires telles que les impôts, le RPC et l'AE ont été retirées."
+            }
         },
         {
             "id": "pt2",
-            "question": "Which deduction provides you with temporary income if you are laid off from your job?",
+            "question": {
+                "en": "Which deduction provides you with temporary income if you are laid off from your job?",
+                "es": "¿Qué deducción te proporciona ingresos temporales si te despiden de tu trabajo?",
+                "fr": "Quelle déduction vous procure un revenu temporaire si vous êtes licencié de votre emploi ?"
+            },
             "options": [
-                "CPP (Canada Pension Plan)",
-                "EI (Employment Insurance)",
-                "Income Tax",
-                "Union Dues"
+                {
+                    "en": "CPP (Canada Pension Plan)",
+                    "es": "CPP (Plan de Pensiones de Canadá)",
+                    "fr": "RPC (Régime de pensions du Canada)"
+                },
+                {
+                    "en": "EI (Employment Insurance)",
+                    "es": "EI (Seguro de Empleo)",
+                    "fr": "AE (Assurance-emploi)"
+                },
+                {
+                    "en": "Income Tax",
+                    "es": "Impuesto sobre la Renta",
+                    "fr": "Impôt sur le revenu"
+                },
+                {
+                    "en": "Union Dues",
+                    "es": "Cuotas Sindicales",
+                    "fr": "Cotisations syndicales"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Employment Insurance (EI) is a mandatory deduction that provides temporary financial assistance to workers who lose their job through no fault of their own."
+            "explanation": {
+                "en": "Employment Insurance (EI) is a mandatory deduction that provides temporary financial assistance to workers who lose their job through no fault of their own.",
+                "es": "El Seguro de Empleo (EI) es una deducción obligatoria que proporciona asistencia financiera temporal a los trabajadores que pierden su trabajo sin que sea culpa suya.",
+                "fr": "L'assurance-emploi (AE) est une déduction obligatoire qui fournit une aide financière temporaire aux travailleurs qui perdent leur emploi sans que ce soit leur faute."
+            }
         }
     ]
 }

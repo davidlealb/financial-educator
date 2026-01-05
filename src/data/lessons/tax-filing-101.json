@@ -1,28 +1,68 @@
 {
     "id": "tax-filing-101",
-    "title": "Tax Filing 101",
-    "description": "Why you should file taxes even if you earned $0.",
+    "title": {
+        "en": "Tax Filing 101",
+        "es": "Declaración de Impuestos 101",
+        "fr": "Déclaration de revenus 101"
+    },
+    "description": {
+        "en": "Why you should file taxes even if you earned $0.",
+        "es": "Por qué deberías declarar impuestos incluso si ganaste $0.",
+        "fr": "Pourquoi vous devriez déclarer vos revenus même si vous avez gagné 0 $."
+    },
     "xpReward": 70,
     "estimatedMinutes": 7,
     "content": [
         {
             "type": "info",
-            "title": "The Refund Mindset",
-            "text": "Filing taxes is the only way to receive government benefits like the GST/HST credit. Even with no income, filing ensures the CRA knows you are a resident and eligible for quarterly 'rebate' checks."
+            "title": {
+                "en": "The Refund Mindset",
+                "es": "La Mentalidad de Reembolso",
+                "fr": "L'état d'esprit du remboursement"
+            },
+            "text": {
+                "en": "Filing taxes is the only way to receive government benefits like the GST/HST credit. Even with no income, filing ensures the CRA knows you are a resident and eligible for quarterly 'rebate' checks.",
+                "es": "Declarar impuestos es la única forma de recibir beneficios del gobierno como el crédito GST/HST. Incluso sin ingresos, declarar asegura que la CRA sepa que eres residente y elegible para cheques de 'reembolso' trimestrales.",
+                "fr": "La déclaration de revenus est le seul moyen de recevoir des prestations gouvernementales comme le crédit pour la TPS/TVH. Même en l'absence de revenus, la déclaration permet à l'ARC de savoir que vous êtes un résident et que vous avez droit à des chèques de « remboursement » trimestriels."
+            }
         }
     ],
     "quiz": [
         {
             "id": "tf1",
-            "question": "When is the general deadline to file your personal income tax return in Canada?",
+            "question": {
+                "en": "When is the general deadline to file your personal income tax return in Canada?",
+                "es": "¿Cuándo es el plazo general para presentar tu declaración de impuestos sobre la renta personal en Canadá?",
+                "fr": "Quelle est la date limite générale pour produire votre déclaration de revenus des particuliers au Canada ?"
+            },
             "options": [
-                "December 31st",
-                "January 1st",
-                "April 30th",
-                "July 1st"
+                {
+                    "en": "December 31st",
+                    "es": "31 de diciembre",
+                    "fr": "31 décembre"
+                },
+                {
+                    "en": "January 1st",
+                    "es": "1 de enero",
+                    "fr": "1er janvier"
+                },
+                {
+                    "en": "April 30th",
+                    "es": "30 de abril",
+                    "fr": "30 avril"
+                },
+                {
+                    "en": "July 1st",
+                    "es": "1 de julio",
+                    "fr": "1er juillet"
+                }
             ],
             "correctAnswerIndex": 2,
-            "explanation": "The deadline for most individuals to file their taxes is April 30th of the following year."
+            "explanation": {
+                "en": "The deadline for most individuals to file their taxes is April 30th of the following year.",
+                "es": "La fecha límite para que la mayoría de las personas presenten sus impuestos es el 30 de abril del año siguiente.",
+                "fr": "La date limite pour la plupart des particuliers pour produire leur déclaration de revenus est le 30 avril de l'année suivante."
+            }
         }
     ]
 }

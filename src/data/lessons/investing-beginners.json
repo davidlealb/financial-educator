@@ -1,28 +1,68 @@
 {
     "id": "investing-beginners",
-    "title": "Investing for Beginners",
-    "description": "What is a GIC and why is it popular for newcomers?",
+    "title": {
+        "en": "Investing for Beginners",
+        "es": "Inversión para Principiantes",
+        "fr": "L'investissement pour débutants"
+    },
+    "description": {
+        "en": "What is a GIC and why is it popular for newcomers?",
+        "es": "¿Qué es un GIC y por qué es popular para los recién llegados?",
+        "fr": "Qu'est-ce qu'un CPG et pourquoi est-il populaire auprès des nouveaux arrivants ?"
+    },
     "xpReward": 60,
     "estimatedMinutes": 6,
     "content": [
         {
             "type": "info",
-            "title": "The GIC Guarantee",
-            "text": "A Guaranteed Investment Certificate (GIC) is a safe investment where your original 'principal' is 100% protected. You agree to leave your money for a set time (e.g., 1 year) in exchange for a guaranteed interest rate."
+            "title": {
+                "en": "The GIC Guarantee",
+                "es": "La Garantía del GIC",
+                "fr": "La garantie du CPG"
+            },
+            "text": {
+                "en": "A Guaranteed Investment Certificate (GIC) is a safe investment where your original 'principal' is 100% protected. You agree to leave your money for a set time (e.g., 1 year) in exchange for a guaranteed interest rate.",
+                "es": "Un Certificado de Inversión Garantizada (GIC) es una inversión segura donde su 'capital' original está protegido al 100%. Usted acepta dejar su dinero por un tiempo determinado (por ejemplo, 1 año) a cambio de una tasa de interés garantizada.",
+                "fr": "Un certificat de placement garanti (CPG) est un placement sûr où votre « capital » d'origine est protégé à 100 %. Vous acceptez de laisser votre argent pendant une période déterminée (par exemple, un an) en échange d'un taux d'intérêt garanti."
+            }
         }
     ],
     "quiz": [
         {
             "id": "iv1",
-            "question": "What is the main advantage of a GIC?",
+            "question": {
+                "en": "What is the main advantage of a GIC?",
+                "es": "¿Cuál es la principal ventaja de un GIC?",
+                "fr": "Quel est le principal avantage d'un CPG ?"
+            },
             "options": [
-                "You can get rich overnight",
-                "Your initial investment is 100% protected",
-                "You can withdraw it every day",
-                "It has the highest risk"
+                {
+                    "en": "You can get rich overnight",
+                    "es": "Puedes hacerte rico de la noche a la mañana",
+                    "fr": "Vous pouvez devenir riche du jour au lendemain"
+                },
+                {
+                    "en": "Your initial investment is 100% protected",
+                    "es": "Su inversión inicial está 100% protegida",
+                    "fr": "Votre investissement initial est protégé à 100 %"
+                },
+                {
+                    "en": "You can withdraw it every day",
+                    "es": "Puedes retirarlo todos los días",
+                    "fr": "Vous pouvez le retirer tous les jours"
+                },
+                {
+                    "en": "It has the highest risk",
+                    "es": "Tiene el riesgo más alto",
+                    "fr": "C'est celui qui présente le risque le plus élevé"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "GICs are popular because you are guaranteed to get your original money back plus interest."
+            "explanation": {
+                "en": "GICs are popular because you are guaranteed to get your original money back plus interest.",
+                "es": "Los GIC son populares porque tiene la garantía de recuperar su dinero original más los intereses.",
+                "fr": "Les CPG sont populaires parce que vous avez la garantie de récupérer votre capital initial plus les intérêts."
+            }
         }
     ]
 }

@@ -1,26 +1,58 @@
 {
     "id": "canada-child-benefit",
-    "title": "The CCB",
-    "description": "Understanding monthly support for families with children.",
+    "title": {
+        "en": "The CCB (Canada Child Benefit)",
+        "es": "El CCB (Beneficio por Hijos de Canadá)",
+        "fr": "L'ACE (Allocation canadienne pour enfants)"
+    },
+    "description": {
+        "en": "Understanding monthly support for families with children.",
+        "es": "Comprende el apoyo mensual para familias con niños.",
+        "fr": "Comprendre le soutien mensuel pour les familles avec enfants."
+    },
     "xpReward": 60,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "What is the CCB?",
-            "text": "The Canada Child Benefit (CCB) is a tax-free monthly payment made to eligible families to help with the cost of raising children under 18. The amount is based on your family's net income from your tax return."
+            "title": {
+                "en": "What is the CCB?",
+                "es": "¿Qué es el CCB?",
+                "fr": "Qu'est-ce que l'ACE ?"
+            },
+            "text": {
+                "en": "The Canada Child Benefit (CCB) is a tax-free monthly payment made to eligible families to help with the cost of raising children under 18. The amount is based on your family's net income from your tax return.",
+                "es": "El Beneficio por Hijos de Canadá (CCB) es un pago mensual libre de impuestos que se realiza a las familias elegibles para ayudar con el costo de criar a niños menores de 18 años. El monto se basa en el ingreso neto de su familia según su declaración de impuestos.",
+                "fr": "L'Allocation canadienne pour enfants (ACE) est un paiement mensuel non imposable versé aux familles admissibles pour les aider à assumer les coûts liés à l'éducation des enfants de moins de 18 ans. Le montant est basé sur le revenu net de votre famille figurant dans votre déclaration de revenus."
+            }
         }
     ],
     "quiz": [
         {
             "id": "ccb1",
-            "question": "Is the CCB payment considered taxable income?",
+            "question": {
+                "en": "Is the CCB payment considered taxable income?",
+                "es": "¿Se considera el pago del CCB como ingreso imponible?",
+                "fr": "Le paiement de l'ACE est-il considéré comme un revenu imposable ?"
+            },
             "options": [
-                "Yes",
-                "No"
+                {
+                    "en": "Yes",
+                    "es": "Sí",
+                    "fr": "Oui"
+                },
+                {
+                    "en": "No",
+                    "es": "No",
+                    "fr": "Non"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "The CCB is a tax-free benefit, meaning you do not pay income tax on the money you receive from it."
+            "explanation": {
+                "en": "The CCB is a tax-free benefit, meaning you do not pay income tax on the money you receive from it.",
+                "es": "El CCB es un beneficio libre de impuestos, lo que significa que no pagas impuestos sobre la renta por el dinero que recibes de él.",
+                "fr": "L'ACE est une prestation non imposable, ce qui signifie que vous ne payez pas d'impôt sur le revenu sur les sommes que vous recevez à ce titre."
+            }
         }
     ]
 }

@@ -1,28 +1,68 @@
 {
     "id": "spotting-scams",
-    "title": "Spotting Scams",
-    "description": "Protect yourself from callers pretending to be the CRA or police.",
+    "title": {
+        "en": "Spotting Scams",
+        "es": "Detectando Estafas",
+        "fr": "Repérer les arnaques"
+    },
+    "description": {
+        "en": "Protect yourself from callers pretending to be the CRA or police.",
+        "es": "Protégete de las personas que llaman fingiendo ser la CRA o la policía.",
+        "fr": "Protégez-vous contre les appels de personnes se faisant passer pour l'ARC ou la police."
+    },
     "xpReward": 80,
     "estimatedMinutes": 6,
     "content": [
         {
             "type": "info",
-            "title": "The 'Deportation' Threat",
-            "text": "Scammers often threaten newcomers with deportation or arrest if they don't pay 'missing fees'. Remember: The CRA and IRCC will NEVER ask for payment via gift cards, bitcoin, or e-Transfer."
+            "title": {
+                "en": "The 'Deportation' Threat",
+                "es": "La Amenaza de 'Deportación'",
+                "fr": "La menace de « déportation »"
+            },
+            "text": {
+                "en": "Scammers often threaten newcomers with deportation or arrest if they don't pay 'missing fees'. Remember: The CRA and IRCC will NEVER ask for payment via gift cards, bitcoin, or e-Transfer.",
+                "es": "Los estafadores suelen amenazar a los recién llegados con la deportación o el arresto si no pagan las 'tarifas faltantes'. Recuerde: El CRA y el IRCC NUNCA solicitarán el pago a través de tarjetas de regalo, bitcoin o e-Transfer.",
+                "fr": "Les escrocs menacent souvent les nouveaux arrivants de déportation ou d'arrestation s'ils ne paient pas les « frais manquants ». N'oubliez pas : l'ARC et IRCC ne demanderont JAMAIS de paiement par cartes-cadeaux, par bitcoin ou par virement électronique."
+            }
         }
     ],
     "quiz": [
         {
             "id": "sc1",
-            "question": "If someone calling from the 'CRA' asks you to pay a tax debt with Amazon gift cards, what should you do?",
+            "question": {
+                "en": "If someone calling from the 'CRA' asks you to pay a tax debt with Amazon gift cards, what should you do?",
+                "es": "Si alguien que llama de la 'CRA' te pide que pagues una deuda de impuestos con tarjetas de regalo de Amazon, ¿qué deberías hacer?",
+                "fr": "Si quelqu'un vous appelle de la part de l'« ARC » et vous demande de payer une dette fiscale avec des cartes-cadeaux Amazon, que devez-vous faire ?"
+            },
             "options": [
-                "Pay immediately",
-                "Buy the cards but don't send the codes",
-                "Hang up; it's a scam",
-                "Ask for a discount"
+                {
+                    "en": "Pay immediately",
+                    "es": "Pagar inmediatamente",
+                    "fr": "Payer immédiatement"
+                },
+                {
+                    "en": "Buy the cards but don't send the codes",
+                    "es": "Comprar las tarjetas pero no enviar los códigos",
+                    "fr": "Acheter les cartes mais ne pas envoyer les codes"
+                },
+                {
+                    "en": "Hang up; it's a scam",
+                    "es": "Colgar; es una estafa",
+                    "fr": "Raccrocher ; c'est une arnaque"
+                },
+                {
+                    "en": "Ask for a discount",
+                    "es": "Pedir un descuento",
+                    "fr": "Demander une remise"
+                }
             ],
             "correctAnswerIndex": 2,
-            "explanation": "No government agency in Canada accepts gift cards as payment. This is a common scam tactic."
+            "explanation": {
+                "en": "No government agency in Canada accepts gift cards as payment. This is a common scam tactic.",
+                "es": "Ninguna agencia gubernamental en Canadá acepta tarjetas de regalo como pago. Esta es una táctica de estafa común.",
+                "fr": "Aucun organisme gouvernemental au Canada n'accepte les cartes-cadeaux comme mode de paiement. Il s'agit d'une tactique d'escroquerie courante."
+            }
         }
     ]
 }

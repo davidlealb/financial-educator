@@ -1,46 +1,126 @@
 {
     "id": "segregated-funds",
-    "title": "Segregated Funds",
-    "description": "Learn about Segregated Funds: Canada's investment with insurance protection.",
+    "title": {
+        "en": "Segregated Funds",
+        "es": "Fondos Segregados",
+        "fr": "Fonds distincts"
+    },
+    "description": {
+        "en": "Learn about Segregated Funds: Canada's investment with insurance protection.",
+        "es": "Aprenda sobre los Fondos Segregados: La inversión de Canadá con protección de seguro.",
+        "fr": "Découvrez les fonds distincts : l'investissement canadien avec protection d'assurance."
+    },
     "xpReward": 100,
     "level": 5,
     "estimatedMinutes": 5,
     "content": [
         {
-            "title": "What are Segregated Funds?",
-            "text": "Segregated funds (or 'seg funds') are similar to mutual funds but are structured as individual insurance contracts. The name comes from the fact that the underlying assets are 'segregated' from the insurance company's general assets."
+            "title": {
+                "en": "What are Segregated Funds?",
+                "es": "¿Qué son los Fondos Segregados?",
+                "fr": "Qu'est-ce que les fonds distincts ?"
+            },
+            "text": {
+                "en": "Segregated funds (or 'seg funds') are similar to mutual funds but are structured as individual insurance contracts. The name comes from the fact that the underlying assets are 'segregated' from the insurance company's general assets.",
+                "es": "Los fondos segregados (o 'fondos seg') son similares a los fondos mutuos pero están estructurados como contratos de seguro individuales. El nombre proviene del hecho de que los activos subyacentes están 'segregados' de los activos generales de la compañía de seguros.",
+                "fr": "Les fonds distincts (ou « fonds seg ») sont semblables aux fonds communs de placement, mais ils sont structurés comme des contrats d'assurance individuels. Le nom vient du fait que les actifs sous-jacents sont « distincts » des actifs généraux de la compagnie d'assurance."
+            }
         },
         {
-            "title": "Key Feature: Principal Guarantees",
-            "text": "One of the biggest advantages is the maturity and death benefit guarantee. Most contracts guarantee that you (or your beneficiary) will receive at least 75% to 100% of your original investment back, even if the markets crash."
+            "title": {
+                "en": "Key Feature: Principal Guarantees",
+                "es": "Característica Clave: Garantías de Capital",
+                "fr": "Caractéristique clé : Garanties du capital"
+            },
+            "text": {
+                "en": "One of the biggest advantages is the maturity and death benefit guarantee. Most contracts guarantee that you (or your beneficiary) will receive at least 75% to 100% of your original investment back, even if the markets crash.",
+                "es": "Una de las mayores ventajas es la garantía de beneficio por fallecimiento y vencimiento. La mayoría de los contratos garantizan que usted (o su beneficiario) recibirá al menos el 75% al 100% de su inversión original de vuelta, incluso si los mercados colapsan.",
+                "fr": "L'un des plus grands avantages est la garantie à l'échéance et au décès. La plupart des contrats garantissent que vous (ou votre bénéficiaire) récupérerez au moins 75 % à 100 % de votre investissement initial, même en cas de krach boursier."
+            }
         },
         {
-            "title": "Estate Planning & Creditor Protection",
-            "text": "Segregated funds bypass probate (the legal process of validating a will) if you name a beneficiary, allowing money to transfer faster to loved ones. They also offer some protection from creditors if the contract is structured correctly, making them popular for small business owners."
+            "title": {
+                "en": "Estate Planning & Creditor Protection",
+                "es": "Planificación Patrimonial y Protección de Acreedores",
+                "fr": "Planification successorale et protection contre les créanciers"
+            },
+            "text": {
+                "en": "Segregated funds bypass probate (the legal process of validating a will) if you name a beneficiary, allowing money to transfer faster to loved ones. They also offer some protection from creditors if the contract is structured correctly, making them popular for small business owners.",
+                "es": "Los fondos segregados evitan el proceso sucesorio (el proceso legal de validación de un testamento) si se nombra un beneficiario, lo que permite que el dinero se transfiera más rápido a los seres queridos. También ofrecen cierta protección contra los acreedores si el contrato está estructurado correctamente, lo que los hace populares para los propietarios de pequeñas empresas.",
+                "fr": "Les fonds distincts évitent l'homologation (le processus juridique de validation d'un testament) si vous désignez un bénéficiaire, ce qui permet à l'argent d'être transféré plus rapidement à vos proches. Ils offrent également une certaine protection contre les créanciers si le contrat est structuré correctement, ce qui les rend populaires auprès des propriétaires de petites entreprises."
+            }
         }
     ],
     "quiz": [
         {
-            "question": "What is a primary difference between a Mutual Fund and a Segregated Fund?",
+            "question": {
+                "en": "What is a primary difference between a Mutual Fund and a Segregated Fund?",
+                "es": "¿Cuál es la diferencia principal entre un Fondo Mutuo y un Fondo Segregado?",
+                "fr": "Quelle est la principale différence entre un fonds commun de placement et un fonds distinct ?"
+            },
             "options": [
-                "Mutual funds are only for stocks",
-                "Segregated funds offer principal guarantees",
-                "Segregated funds are managed by banks only",
-                "Mutual funds bypass probate"
+                {
+                    "en": "Mutual funds are only for stocks",
+                    "es": "Los fondos mutuos son solo para acciones",
+                    "fr": "Les fonds communs de placement ne concernent que les actions"
+                },
+                {
+                    "en": "Segregated funds offer principal guarantees",
+                    "es": "Los fondos segregados ofrecen garantías de capital",
+                    "fr": "Les fonds distincts offrent des garanties de capital"
+                },
+                {
+                    "en": "Segregated funds are managed by banks only",
+                    "es": "Los fondos segregados son gestionados únicamente por bancos",
+                    "fr": "Les fonds distincts sont gérés uniquement par des banques"
+                },
+                {
+                    "en": "Mutual funds bypass probate",
+                    "es": "Los fondos mutuos evitan el proceso sucesorio",
+                    "fr": "Les fonds communs de placement évitent l'homologation"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Segregated funds are insurance contracts that offer maturity and death benefit guarantees, protecting your principal."
+            "explanation": {
+                "en": "Segregated funds are insurance contracts that offer maturity and death benefit guarantees, protecting your principal.",
+                "es": "Los fondos segregados son contratos de seguro que ofrecen garantías de beneficio por fallecimiento y vencimiento, protegiendo su capital.",
+                "fr": "Les fonds distincts sont des contrats d'assurance qui offrent des garanties à l'échéance et au décès, protégeant ainsi votre capital."
+            }
         },
         {
-            "question": "Why are Segregated Funds popular for estate planning?",
+            "question": {
+                "en": "Why are Segregated Funds popular for estate planning?",
+                "es": "¿Por qué son populares los Fondos Segregados para la planificación patrimonial?",
+                "fr": "Pourquoi les fonds distincts sont-ils populaires pour la planification successorale ?"
+            },
             "options": [
-                "They have higher returns than stocks",
-                "They allow you to avoid paying income tax entirely",
-                "They can bypass probate when a beneficiary is named",
-                "They are cheaper than life insurance"
+                {
+                    "en": "They have higher returns than stocks",
+                    "es": "Tienen rendimientos más altos que las acciones",
+                    "fr": "Ils ont des rendements plus élevés que les actions"
+                },
+                {
+                    "en": "They allow you to avoid paying income tax entirely",
+                    "es": "Le permiten evitar pagar el impuesto sobre la renta por completo",
+                    "fr": "Ils vous permettent d'éviter complètement de payer de l'impôt sur le revenu"
+                },
+                {
+                    "en": "They can bypass probate when a beneficiary is named",
+                    "es": "Pueden evitar el proceso sucesorio cuando se nombra a un beneficiario",
+                    "fr": "Ils peuvent éviter l'homologation lorsqu'un bénéficiaire est désigné"
+                },
+                {
+                    "en": "They are cheaper than life insurance",
+                    "es": "Son más baratos que el seguro de vida",
+                    "fr": "Ils sont moins chers que l'assurance vie"
+                }
             ],
             "correctAnswerIndex": 2,
-            "explanation": "Because they are insurance contracts, proceeds go directly to named beneficiaries, avoiding the delays and costs of probate."
+            "explanation": {
+                "en": "Because they are insurance contracts, proceeds go directly to named beneficiaries, avoiding the delays and costs of probate.",
+                "es": "Debido a que son contratos de seguro, los beneficios van directamente a los beneficiarios nombrados, evitando los retrasos y costos del proceso sucesorio.",
+                "fr": "S'agissant de contrats d'assurance, le produit est versé directement aux bénéficiaires désignés, ce qui évite les délais et les frais d'homologation."
+            }
         }
     ]
 }

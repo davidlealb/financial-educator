@@ -1,50 +1,130 @@
 {
     "id": "emergency-funds",
-    "title": "The Emergency Fund",
-    "description": "Build your financial safety net to handle life's surprises without stress.",
+    "title": {
+        "en": "The Emergency Fund",
+        "es": "El Fondo de Emergencia",
+        "fr": "Le fonds d'urgence"
+    },
+    "description": {
+        "en": "Build your financial safety net to handle life's surprises without stress.",
+        "es": "Construye tu red de seguridad financiera para manejar las sorpresas de la vida sin estrés.",
+        "fr": "Bâtissez votre filet de sécurité financière pour faire face aux imprévus de la vie sans stress."
+    },
     "xpReward": 60,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "What is an Emergency?",
-            "text": "An emergency fund is for unplanned, necessary expenses like urgent car repairs, dental emergencies not covered by provincial health care, or temporary job loss. It is NOT for a new phone, a flight home, or a great sale at the mall."
+            "title": {
+                "en": "What is an Emergency?",
+                "es": "¿Qué es una Emergencia?",
+                "fr": "Qu'est-ce qu'une urgence ?"
+            },
+            "text": {
+                "en": "An emergency fund is for unplanned, necessary expenses like urgent car repairs, dental emergencies not covered by provincial health care, or temporary job loss. It is NOT for a new phone, a flight home, or a great sale at the mall.",
+                "es": "Un fondo de emergencia es para gastos necesarios y no planificados, como reparaciones urgentes del automóvil, emergencias dentales no cubiertas por la atención médica provincial o la pérdida temporal del empleo. NO es para un teléfono nuevo, un vuelo a casa o una gran oferta en el centro comercial.",
+                "fr": "Un fonds d'urgence est destiné aux dépenses nécessaires et imprévues, comme les réparations automobiles urgentes, les urgences dentaires non couvertes par le régime provincial de soins de santé ou la perte temporaire d'un emploi. Il n'est PAS destiné à l'achat d'un nouveau téléphone, d'un billet d'avion pour rentrer chez soi ou à une aubaine au centre commercial."
+            }
         },
         {
             "type": "info",
-            "title": "How Much is Enough?",
-            "text": "Most experts recommend saving 3 to 6 months of basic living expenses (rent, groceries, utilities). If you are new to Canada, start with a 'Starter Fund' of $500 to $1,500. This small cushion can prevent you from needing a high-interest payday loan for minor surprises."
+            "title": {
+                "en": "How Much is Enough?",
+                "es": "¿Cuánto es Suficiente?",
+                "fr": "Combien est-ce suffisant ?"
+            },
+            "text": {
+                "en": "Most experts recommend saving 3 to 6 months of basic living expenses (rent, groceries, utilities). If you are new to Canada, start with a 'Starter Fund' of $500 to $1,500. This small cushion can prevent you from needing a high-interest payday loan for minor surprises.",
+                "es": "La mayoría de los expertos recomiendan ahorrar de 3 a 6 meses de gastos básicos de subsistencia (alquiler, comestibles, servicios públicos). Si eres nuevo en Canadá, comienza con un 'Fondo de Inicio' de $500 a $1,500. Este pequeño colchón puede evitar que necesites un préstamo de día de pago con intereses altos para sorpresas menores.",
+                "fr": "La plupart des experts recommandent d'épargner de 3 à 6 mois de dépenses de subsistance de base (loyer, épicerie, services publics). Si vous êtes nouveau au Canada, commencez par un « fonds de démarrage » de 500 $ à 1 500 $. Ce petit coussin peut vous éviter d'avoir recours à un prêt sur salaire à taux d'intérêt élevé pour des imprévus mineurs."
+            }
         },
         {
             "type": "info",
-            "title": "Where to Stash Your Cash",
-            "text": "Keep this money in a High-Interest Savings Account (HISA) that is separate from your daily spending account. This keeps it 'out of sight, out of mind' so you aren't tempted to spend it, but ensures you can still access it within 24 hours if a real crisis hits."
+            "title": {
+                "en": "Where to Stash Your Cash",
+                "es": "Dónde Guardar Tu Dinero",
+                "fr": "Où placer votre argent"
+            },
+            "text": {
+                "en": "Keep this money in a High-Interest Savings Account (HISA) that is separate from your daily spending account. This keeps it 'out of sight, out of mind' so you aren't tempted to spend it, but ensures you can still access it within 24 hours if a real crisis hits.",
+                "es": "Mantén este dinero en una Cuenta de Ahorros de Alto Interés (HISA) que esté separada de tu cuenta de gastos diarios. Esto lo mantiene 'fuera de la vista, fuera de la mente' para que no tengas la tentación de gastarlo, pero asegura que aún puedas acceder a él en un plazo de 24 horas si ocurre una crisis real.",
+                "fr": "Gardez cet argent dans un compte d'épargne à intérêt élevé (CELI) distinct de votre compte de dépenses quotidiennes. Cela permet de le garder « hors de vue, hors de portée » afin que vous ne soyez pas tenté de le dépenser, tout en vous assurant de pouvoir y accéder dans les 24 heures en cas de crise réelle."
+            }
         }
     ],
     "quiz": [
         {
             "id": "ef1",
-            "question": "Which of the following is considered a valid reason to use your emergency fund?",
+            "question": {
+                "en": "Which of the following is considered a valid reason to use your emergency fund?",
+                "es": "¿Cuál de las siguientes se considera una razón válida para usar tu fondo de emergencia?",
+                "fr": "Laquelle des raisons suivantes est considérée comme valable pour utiliser votre fonds d'urgence ?"
+            },
             "options": [
-                "A 50% discount on a winter coat",
-                "An unexpected $800 car repair needed for work",
-                "Saving for a down payment on a house",
-                "Paying for a friend's birthday dinner"
+                {
+                    "en": "A 50% discount on a winter coat",
+                    "es": "Un descuento del 50% en un abrigo de invierno",
+                    "fr": "Une réduction de 50 % sur un manteau d'hiver"
+                },
+                {
+                    "en": "An unexpected $800 car repair needed for work",
+                    "es": "Una reparación inesperada de $800 del automóvil necesaria para el trabajo",
+                    "fr": "Une réparation automobile imprévue de 800 $ nécessaire pour le travail"
+                },
+                {
+                    "en": "Saving for a down payment on a house",
+                    "es": "Ahorrar para el pago inicial de una casa",
+                    "fr": "Économiser pour une mise de fonds sur une maison"
+                },
+                {
+                    "en": "Paying for a friend's birthday dinner",
+                    "es": "Pagar la cena de cumpleaños de un amigo",
+                    "fr": "Payer le dîner d'anniversaire d'un ami"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Valid emergencies are sudden, unplanned, and necessary. A car repair needed for work is a necessity; a sale or a party is a 'want'."
+            "explanation": {
+                "en": "Valid emergencies are sudden, unplanned, and necessary. A car repair needed for work is a necessity; a sale or a party is a 'want'.",
+                "es": "Las emergencias válidas son repentinas, no planificadas y necesarias. Una reparación de automóvil necesaria para el trabajo es una necesidad; una oferta o una fiesta es un 'deseo'.",
+                "fr": "Les urgences valables sont soudaines, imprévues et nécessaires. Une réparation automobile nécessaire pour le travail est une nécessité ; une vente ou une fête est une « envie »."
+            }
         },
         {
             "id": "ef2",
-            "question": "Why should you keep your emergency fund in a separate HISA instead of your chequing account?",
+            "question": {
+                "en": "Why should you keep your emergency fund in a separate HISA instead of your chequing account?",
+                "es": "¿Por qué deberías mantener tu fondo de emergencia en una HISA separada en lugar de tu cuenta corriente?",
+                "fr": "Pourquoi devriez-vous garder votre fonds d'urgence dans un compte d'épargne à intérêt élevé distinct plutôt que dans votre compte-chèques ?"
+            },
             "options": [
-                "To earn higher interest and avoid the temptation to spend it",
-                "Because the government requires it by law",
-                "To make it harder to access the money in a real emergency",
-                "To increase your credit score faster"
+                {
+                    "en": "To earn higher interest and avoid the temptation to spend it",
+                    "es": "Para ganar intereses más altos y evitar la tentación de gastarlo",
+                    "fr": "Pour obtenir des intérêts plus élevés et éviter la tentation de le dépenser"
+                },
+                {
+                    "en": "Because the government requires it by law",
+                    "es": "Porque el gobierno lo exige por ley",
+                    "fr": "Parce que la loi l'exige"
+                },
+                {
+                    "en": "To make it harder to access the money in a real emergency",
+                    "es": "Para que sea más difícil acceder al dinero en una emergencia real",
+                    "fr": "Pour rendre l'accès à l'argent plus difficile en cas d'urgence réelle"
+                },
+                {
+                    "en": "To increase your credit score faster",
+                    "es": "Para aumentar tu puntaje de crédito más rápido",
+                    "fr": "Pour augmenter votre cote de crédit plus rapidement"
+                }
             ],
             "correctAnswerIndex": 0,
-            "explanation": "A separate account earns more interest and reduces the 'temptation' to spend the money on daily life, while keeping it accessible when needed."
+            "explanation": {
+                "en": "A separate account earns more interest and reduces the 'temptation' to spend the money on daily life, while keeping it accessible when needed.",
+                "es": "Una cuenta separada gana más intereses y reduce la 'tentación' de gastar el dinero en la vida diaria, manteniéndolo accesible cuando se necesita.",
+                "fr": "Un compte distinct rapporte plus d'intérêts et réduit la « tentation » de dépenser l'argent pour la vie quotidienne, tout en le gardant accessible en cas de besoin."
+            }
         }
     ]
 }

@@ -1,35 +1,81 @@
-[
-    {
-        "id": "renting-and-credit",
-        "title": "Renting & Credit",
-        "description": "How to prove you are a reliable tenant without a long Canadian history.",
-        "xpReward": 60,
-        "estimatedMinutes": 5,
-        "content": [
-            {
-                "type": "info",
-                "title": "The Credit Check",
-                "text": "Landlords in Canada often ask for a credit report to see if you pay bills on time. Since you are new, you can provide a bank statement showing consistent savings or a letter of employment to prove your ability to pay."
+{
+    "id": "renting-and-credit",
+    "title": {
+        "en": "Renting & Credit",
+        "es": "Alquiler y Crédito",
+        "fr": "Location et crédit"
+    },
+    "description": {
+        "en": "How to prove you are a reliable tenant without a long Canadian history.",
+        "es": "Cómo demostrar que eres un inquilino confiable sin un largo historial canadiense.",
+        "fr": "Comment prouver que vous êtes un locataire fiable sans un long historique canadien."
+    },
+    "xpReward": 60,
+    "estimatedMinutes": 5,
+    "content": [
+        {
+            "type": "info",
+            "title": {
+                "en": "The Credit Check",
+                "es": "La Verificación de Crédito",
+                "fr": "La vérification de crédit"
             },
-            {
-                "type": "info",
-                "title": "Your Rights",
-                "text": "While landlords can ask for a credit check, they generally cannot require your Social Insurance Number (SIN), though providing it can make the check more accurate. You are also not required to share your credit card numbers or bank account passwords."
+            "text": {
+                "en": "Landlords in Canada often ask for a credit report to see if you pay bills on time. Since you are new, you can provide a bank statement showing consistent savings or a letter of employment to prove your ability to pay.",
+                "es": "Los propietarios en Canadá a menudo piden un informe de crédito para ver si pagas tus cuentas a tiempo. Como eres nuevo, puedes proporcionar un estado de cuenta bancario que muestre ahorros constantes o una carta de empleo para demostrar tu capacidad de pago.",
+                "fr": "Au Canada, les propriétaires demandent souvent un rapport de crédit pour voir si vous payez vos factures à temps. Comme vous êtes nouveau, vous pouvez fournir un relevé bancaire montrant des économies constantes ou une lettre d'emploi pour prouver votre capacité de paiement."
             }
-        ],
-        "quiz": [
-            {
-                "id": "rc1",
-                "question": "What is a good alternative to a Canadian credit score when applying for your first apartment?",
-                "options": [
-                    "A high school diploma",
-                    "A letter of employment and bank statements",
-                    "A library card",
-                    "A social media profile"
-                ],
-                "correctAnswerIndex": 1,
-                "explanation": "A letter of employment proves you have income, which is often enough to satisfy a landlord if your credit history is still 'thin'."
+        },
+        {
+            "type": "info",
+            "title": {
+                "en": "Your Rights",
+                "es": "Tus Derechos",
+                "fr": "Vos droits"
+            },
+            "text": {
+                "en": "While landlords can ask for a credit check, they generally cannot require your Social Insurance Number (SIN), though providing it can make the check more accurate. You are also not required to share your credit card numbers or bank account passwords.",
+                "es": "Si bien los propietarios pueden solicitar una verificación de crédito, generalmente no pueden exigir tu Número de Seguro Social (SIN), aunque proporcionarlo puede hacer que la verificación sea más precisa. Tampoco estás obligado a compartir tus números de tarjeta de crédito o contraseñas de cuentas bancarias.",
+                "fr": "Bien que les propriétaires puissent demander une vérification de crédit, ils ne peuvent généralement pas exiger votre numéro d'assurance sociale (NAS), bien que le fait de le fournir puisse rendre la vérification plus précise. Vous n'êtes pas non plus tenu de communiquer vos numéros de carte de crédit ou vos mots de passe de compte bancaire."
             }
-        ]
-    }
-]
+        }
+    ],
+    "quiz": [
+        {
+            "id": "rc1",
+            "question": {
+                "en": "What is a good alternative to a Canadian credit score when applying for your first apartment?",
+                "es": "¿Qué es una buena alternativa a un puntaje de crédito canadiense cuando solicitas tu primer apartamento?",
+                "fr": "Quelle est une bonne alternative à une cote de crédit canadienne lors d'une demande pour votre premier appartement ?"
+            },
+            "options": [
+                {
+                    "en": "A high school diploma",
+                    "es": "Un diploma de escuela secundaria",
+                    "fr": "Un diplôme d'études secondaires"
+                },
+                {
+                    "en": "A letter of employment and bank statements",
+                    "es": "Una carta de empleo y estados de cuenta bancarios",
+                    "fr": "Une lettre d'emploi et des relevés bancaires"
+                },
+                {
+                    "en": "A library card",
+                    "es": "Una tarjeta de la biblioteca",
+                    "fr": "Une carte de bibliothèque"
+                },
+                {
+                    "en": "A social media profile",
+                    "es": "Un perfil de redes sociales",
+                    "fr": "Un profil sur les réseaux sociaux"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "A letter of employment proves you have income, which is often enough to satisfy a landlord if your credit history is still 'thin'.",
+                "es": "Una carta de empleo demuestra que tienes ingresos, lo que a menudo es suficiente para satisfacer a un propietario si tu historial crediticio aún es 'limitado'.",
+                "fr": "Une lettre d'emploi prouve que vous avez un revenu, ce qui suffit souvent à satisfaire un propriétaire si votre historique de crédit est encore « mince »."
+            }
+        }
+    ]
+}

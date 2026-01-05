@@ -1,43 +1,117 @@
 {
     "id": "banking-basics",
-    "title": "Banking Basics in Canada",
-    "description": "Understand how to choose your first bank and the difference between accounts.",
+    "title": {
+        "en": "Banking Basics in Canada",
+        "es": "Conceptos Básicos Bancarios en Canadá",
+        "fr": "Les bases bancaires au Canada"
+    },
+    "description": {
+        "en": "Learn key differences between chequing, savings, and how account types work in Canada.",
+        "es": "Aprende las diferencias clave entre cuentas corrientes, de ahorros y cómo funcionan los tipos de cuenta en Canadá.",
+        "fr": "Découvrez les principales différences entre les comptes-chèques, d'épargne et comment fonctionnent les types de comptes au Canada."
+    },
     "xpReward": 50,
-    "estimatedMinutes": 4,
+    "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "Chequing vs. Savings",
-            "text": "A chequing account is for daily spending (paying bills, groceries). A savings account is for keeping money long-term and earns a small amount of interest. Most Canadian banks offer 'Newcomer Packages' with no monthly fees for the first year."
+            "title": {
+                "en": "Chequing vs. Savings",
+                "es": "Cuenta Corriente vs. Cuenta de Ahorros",
+                "fr": "Compte-chèques vs. Compte d'épargne"
+            },
+            "text": {
+                "en": "A chequing account is for everyday transactions—paying bills, buying groceries. A savings account earns interest and is meant for money you don't need right away. Many banks limit the number of free transactions on savings accounts.",
+                "es": "Una cuenta corriente es para transacciones diarias: pagar facturas, comprar comestibles. Una cuenta de ahorros gana intereses y está destinada para dinero que no necesitas de inmediato. Muchos bancos limitan el número de transacciones gratuitas en cuentas de ahorros.",
+                "fr": "Un compte-chèques est destiné aux transactions quotidiennes : payer des factures, acheter des produits d'épicerie. Un compte d'épargne génère des intérêts et est destiné à l'argent dont vous n'avez pas besoin immédiatement. De nombreuses banques limitent le nombre de transactions gratuites sur les comptes d'épargne."
+            }
         },
         {
             "type": "info",
-            "title": "Avoid ATM Fees",
-            "text": "Using an ATM that doesn't belong to your bank can cost you $2 to $5 per withdrawal. Stick to your own bank's machines to keep your money in your pocket."
+            "title": {
+                "en": "Understanding Fees",
+                "es": "Entendiendo las Tarifas",
+                "fr": "Comprendre les frais"
+            },
+            "text": {
+                "en": "Banks charge monthly fees ($4–$30), but you can often waive them by keeping a minimum balance (e.g., $3,000+), being a student, or choosing a basic 'no frills' account with limited transactions.",
+                "es": "Los bancos cobran tarifas mensuales ($4–$30), pero a menudo puedes exonerarlas manteniendo un saldo mínimo (por ejemplo, $3,000+), siendo estudiante, o eligiendo una cuenta básica 'sin lujos' con transacciones limitadas.",
+                "fr": "Les banques facturent des frais mensuels (4 $ à 30 $), mais vous pouvez souvent les éviter en maintenant un solde minimum (par exemple, 3 000 $+), en étant étudiant ou en choisissant un compte de base 'sans fioritures' avec des transactions limitées."
+            }
         }
     ],
     "quiz": [
         {
-            "id": "b1",
-            "question": "Which account should you use for your daily grocery shopping?",
+            "id": "bb1",
+            "question": {
+                "en": "Which account type is best for daily expenses like groceries and rent?",
+                "es": "¿Qué tipo de cuenta es mejor para gastos diarios como comestibles y alquiler?",
+                "fr": "Quel type de compte convient le mieux aux dépenses quotidiennes comme l'épicerie et le loyer ?"
+            },
             "options": [
-                "Savings Account",
-                "Chequing Account",
-                "Credit Card only",
-                "TFSA"
+                {
+                    "en": "Savings Account",
+                    "es": "Cuenta de Ahorros",
+                    "fr": "Compte d'épargne"
+                },
+                {
+                    "en": "Chequing Account",
+                    "es": "Cuenta Corriente",
+                    "fr": "Compte-chèques"
+                },
+                {
+                    "en": "TFSA",
+                    "es": "CELI",
+                    "fr": "CELI"
+                },
+                {
+                    "en": "RRSP",
+                    "es": "REER",
+                    "fr": "REER"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Chequing accounts are designed for frequent daily transactions, while savings accounts are for building a safety net."
+            "explanation": {
+                "en": "Chequing accounts are designed for frequent transactions like paying bills and everyday purchases.",
+                "es": "Las cuentas corrientes están diseñadas para transacciones frecuentes como pagar facturas y compras diarias.",
+                "fr": "Les comptes-chèques sont conçus pour les transactions fréquentes comme le paiement de factures et les achats quotidiens."
+            }
         },
         {
-            "id": "b2",
-            "question": "True or False: Most major Canadian banks offer free banking for newcomers for a limited time.",
+            "id": "bb2",
+            "question": {
+                "en": "How can you avoid monthly banking fees?",
+                "es": "¿Cómo puedes evitar las tarifas bancarias mensuales?",
+                "fr": "Comment pouvez-vous éviter les frais bancaires mensuels ?"
+            },
             "options": [
-                "True",
-                "False"
+                {
+                    "en": "Maintain a minimum balance",
+                    "es": "Mantener un saldo mínimo",
+                    "fr": "Maintenir un solde minimum"
+                },
+                {
+                    "en": "Use a student account",
+                    "es": "Usar una cuenta de estudiante",
+                    "fr": "Utiliser un compte étudiant"
+                },
+                {
+                    "en": "Choose a no-frills account",
+                    "es": "Elegir una cuenta sin lujos",
+                    "fr": "Choisir un compte sans fioritures"
+                },
+                {
+                    "en": "All of the above",
+                    "es": "Todas las anteriores",
+                    "fr": "Toutes les réponses ci-dessus"
+                }
             ],
-            "correctAnswerIndex": 0,
-            "explanation": "True! Most of the 'Big Five' banks have newcomer programs that waive monthly fees for 6 to 12 months."
+            "correctAnswerIndex": 3,
+            "explanation": {
+                "en": "You can avoid fees by maintaining a minimum balance, using a student account, or choosing a basic account with limited transactions.",
+                "es": "Puedes evitar tarifas manteniendo un saldo mínimo, usando una cuenta de estudiante, o eligiendo una cuenta básica con transacciones limitadas.",
+                "fr": "Vous pouvez éviter les frais en maintenant un solde minimum, en utilisant un compte étudiant ou en choisissant un compte de base avec des transactions limitées."
+            }
         }
     ]
 }

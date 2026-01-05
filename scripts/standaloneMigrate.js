@@ -88,7 +88,7 @@ const migrate = async () => {
             await setDoc(doc(db, "lessons", lessonData.id), lessonData);
             console.log(`Successfully migrated lesson: ${lessonData.title.en} (Level ${lessonData.level})`);
         } catch (error) {
-            console.error(`Error migrating lesson ${lesson.id}:`, error);
+            console.error(`Error migrating file ${file}:`, error);
         }
     }
     console.log("Migration complete!");

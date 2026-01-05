@@ -1,50 +1,130 @@
 {
     "id": "debit-and-etransfer",
-    "title": "Debit & Interac e-Transfer",
-    "description": "Master the two most common ways to pay for everything in Canada.",
+    "title": {
+        "en": "Debit & Interac e-Transfer",
+        "es": "Débito e Interac e-Transfer",
+        "fr": "Débit et virement Interac"
+    },
+    "description": {
+        "en": "Master the two most common ways to pay for everything in Canada.",
+        "es": "Domina las dos formas más comunes de pagar todo en Canadá.",
+        "fr": "Maîtrisez les deux moyens les plus courants de tout payer au Canada."
+    },
     "xpReward": 50,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "Your Debit Card (Interac Debit)",
-            "text": "In Canada, 'Debit' is the primary way to pay at stores. When you 'tap' or insert your card, money is taken directly from your chequing account. Most newcomers get a year of unlimited debit transactions, but be careful: some basic accounts charge a fee if you use it more than 25 times a month."
+            "title": {
+                "en": "Your Debit Card (Interac Debit)",
+                "es": "Tu Tarjeta de Débito (Interac Debit)",
+                "fr": "Votre carte de débit (Débit Interac)"
+            },
+            "text": {
+                "en": "In Canada, 'Debit' is the primary way to pay at stores. When you 'tap' or insert your card, money is taken directly from your chequing account. Most newcomers get a year of unlimited debit transactions, but be careful: some basic accounts charge a fee if you use it more than 25 times a month.",
+                "es": "En Canadá, el 'Débito' es la forma principal de pagar en las tiendas. Cuando usas el 'tap' o insertas tu tarjeta, el dinero se retira directamente de tu cuenta corriente. La mayoría de los recién llegados obtienen un año de transacciones de débito ilimitadas, pero ten cuidado: algunas cuentas básicas cobran una tarifa si la usas más de 25 veces al mes.",
+                "fr": "Au Canada, le « Débit » est le principal moyen de paiement dans les magasins. Lorsque vous utilisez le « tap » ou insérez votre carte, l'argent est directement prélevé sur votre compte-chèques. La plupart des nouveaux arrivants bénéficient d'un an de transactions de débit illimitées, mais soyez prudent : certains comptes de base facturent des frais si vous l'utilisez plus de 25 fois par mois."
+            }
         },
         {
             "type": "info",
-            "title": "What is Interac e-Transfer?",
-            "text": "This is a secure way to send money to anyone with a Canadian bank account using just their email or phone number. It is the standard way to pay rent to landlords or split a dinner bill with friends. Funds are usually delivered within minutes."
+            "title": {
+                "en": "What is Interac e-Transfer?",
+                "es": "¿Qué es Interac e-Transfer?",
+                "fr": "Qu'est-ce qu'un virement Interac ?"
+            },
+            "text": {
+                "en": "This is a secure way to send money to anyone with a Canadian bank account using just their email or phone number. It is the standard way to pay rent to landlords or split a dinner bill with friends. Funds are usually delivered within minutes.",
+                "es": "Esta es una forma segura de enviar dinero a cualquier persona con una cuenta bancaria canadiense usando solo su correo electrónico o número de teléfono. Es la forma estándar de pagar el alquiler a los propietarios o dividir una cuenta de cena con amigos. Los fondos suelen entregarse en cuestión de minutos.",
+                "fr": "Il s'agit d'un moyen sûr d'envoyer de l'argent à toute personne possédant un compte bancaire canadien en utilisant simplement son adresse électronique ou son numéro de téléphone. C'est le moyen standard de payer le loyer aux propriétaires ou de partager une note de restaurant avec des amis. Les fonds sont généralement livrés en quelques minutes."
+            }
         },
         {
             "type": "info",
-            "title": "Autodeposit & Security",
-            "text": "For extra security and speed, set up 'Autodeposit' in your banking app. This allows money sent to you to land in your account automatically without needing to answer a security question. Always verify the recipient's email before hitting send, as e-Transfers are very difficult to cancel once deposited."
+            "title": {
+                "en": "Autodeposit & Security",
+                "es": "Autodepósito y Seguridad",
+                "fr": "Dépôt automatique et sécurité"
+            },
+            "text": {
+                "en": "For extra security and speed, set up 'Autodeposit' in your banking app. This allows money sent to you to land in your account automatically without needing to answer a security question. Always verify the recipient's email before hitting send, as e-Transfers are very difficult to cancel once deposited.",
+                "es": "Para mayor seguridad y rapidez, configura el 'Autodepósito' en tu aplicación bancaria. Esto permite que el dinero que te envían llegue a tu cuenta automáticamente sin necesidad de responder a una pregunta de seguridad. Verifica siempre el correo electrónico del destinatario antes de enviar, ya que los e-Transfers son muy difíciles de cancelar una vez depositados.",
+                "fr": "Pour plus de sécurité et de rapidité, configurez le « Dépôt automatique » dans votre application bancaire. Cela permet à l'argent qui vous est envoyé d'arriver automatiquement sur votre compte sans que vous ayez à répondre à une question de sécurité. Vérifiez toujours l'adresse électronique du destinataire avant d'envoyer l'argent, car les virements électroniques sont très difficiles à annuler une fois déposés."
+            }
         }
     ],
     "quiz": [
         {
             "id": "det1",
-            "question": "What information do you need to send an Interac e-Transfer to someone?",
+            "question": {
+                "en": "What information do you need to send an Interac e-Transfer to someone?",
+                "es": "¿Qué información necesitas para enviar un Interac e-Transfer a alguien?",
+                "fr": "De quelles informations avez-vous besoin pour envoyer un virement Interac à quelqu'un ?"
+            },
             "options": [
-                "Their home address and SIN number",
-                "Their bank's branch address",
-                "Their email address or mobile phone number",
-                "Their physical debit card"
+                {
+                    "en": "Their home address and SIN number",
+                    "es": "Su dirección particular y número de SIN",
+                    "fr": "Leur adresse résidentielle et leur numéro de NAS"
+                },
+                {
+                    "en": "Their bank's branch address",
+                    "es": "La dirección de la sucursal de su banco",
+                    "fr": "L'adresse de leur succursale bancaire"
+                },
+                {
+                    "en": "Their email address or mobile phone number",
+                    "es": "Su dirección de correo electrónico o número de teléfono móvil",
+                    "fr": "Leur adresse électronique ou leur numéro de téléphone portable"
+                },
+                {
+                    "en": "Their physical debit card",
+                    "es": "Su tarjeta de débito física",
+                    "fr": "Leur carte de débit physique"
+                }
             ],
             "correctAnswerIndex": 2,
-            "explanation": "To send an e-Transfer, all you need is the recipient's email or mobile number. The bank handles the rest securely."
+            "explanation": {
+                "en": "To send an e-Transfer, all you need is the recipient's email or mobile number. The bank handles the rest securely.",
+                "es": "Para enviar un e-Transfer, solo necesitas el correo electrónico o el número de móvil del destinatario. El banco se encarga del resto de forma segura.",
+                "fr": "Pour envoyer un virement électronique, il suffit de disposer de l'adresse électronique ou du numéro de téléphone portable du destinataire. La banque s'occupe du reste en toute sécurité."
+            }
         },
         {
             "id": "det2",
-            "question": "What is the benefit of enabling 'Autodeposit' in your banking settings?",
+            "question": {
+                "en": "What is the benefit of enabling 'Autodeposit' in your banking settings?",
+                "es": "¿Cuál es el beneficio de habilitar el 'Autodepósito' en tu configuración bancaria?",
+                "fr": "Quel est l'avantage d'activer le « Dépôt automatique » dans vos paramètres bancaires ?"
+            },
             "options": [
-                "It gives you free money every month",
-                "It lets you receive money without answering a security question",
-                "It increases your credit score automatically",
-                "It allows you to use any ATM for free"
+                {
+                    "en": "It gives you free money every month",
+                    "es": "Te da dinero gratis todos los meses",
+                    "fr": "Il vous donne de l'argent gratuit chaque mois"
+                },
+                {
+                    "en": "It lets you receive money without answering a security question",
+                    "es": "Te permite recibir dinero sin responder a una pregunta de seguridad",
+                    "fr": "Il vous permet de recevoir de l'argent sans répondre à une question de sécurité"
+                },
+                {
+                    "en": "It increases your credit score automatically",
+                    "es": "Aumenta tu puntaje de crédito automáticamente",
+                    "fr": "Il augmente automatiquement votre cote de crédit"
+                },
+                {
+                    "en": "It allows you to use any ATM for free",
+                    "es": "Te permite usar cualquier cajero automático de forma gratuita",
+                    "fr": "Il vous permet d'utiliser n'importe quel GAB gratuitement"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Autodeposit is faster and more secure because it removes the risk of a security question being guessed by someone else."
+            "explanation": {
+                "en": "Autodeposit is faster and more secure because it removes the risk of a security question being guessed by someone else.",
+                "es": "El autodepósito es más rápido y seguro porque elimina el riesgo de que alguien adivine la pregunta de seguridad.",
+                "fr": "Le dépôt automatique est plus rapide et plus sûr car il élimine le risque qu'une question de sécurité soit devinée par quelqu'un d'autre."
+            }
         }
     ]
 }

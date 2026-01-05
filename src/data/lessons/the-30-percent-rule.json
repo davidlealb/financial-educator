@@ -1,48 +1,120 @@
 {
     "id": "the-30-percent-rule",
-    "title": "The 30% Rule",
-    "description": "Learn the 'Sweet Spot' for your credit balance to boost your score faster.",
+    "title": {
+        "en": "The 30% Rule",
+        "es": "La Regla del 30%",
+        "fr": "La règle des 30 %"
+    },
+    "description": {
+        "en": "Learn the 'Sweet Spot' for your credit balance to boost your score faster.",
+        "es": "Aprende el 'punto ideal' para tu saldo de crédito para aumentar tu puntaje más rápido.",
+        "fr": "Apprenez le « juste équilibre » pour votre solde de crédit afin d'augmenter votre cote plus rapidement."
+    },
     "xpReward": 60,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "What is Credit Utilization?",
-            "text": "Your utilization is the percentage of your total credit limit that you are currently using. For example, if you have a $1,000 limit and owe $300, your utilization is 30%. In Canada, this factor alone accounts for a massive 30% of your total credit score calculation."
+            "title": {
+                "en": "What is Credit Utilization?",
+                "es": "¿Qué es la Utilización del Crédito?",
+                "fr": "Qu'est-ce que l'utilisation du crédit ?"
+            },
+            "text": {
+                "en": "Your utilization is the percentage of your total credit limit that you are currently using. For example, if you have a $1,000 limit and owe $300, your utilization is 30%. In Canada, this factor alone accounts for a massive 30% of your total credit score calculation.",
+                "es": "Tu utilización es el porcentaje de tu límite de crédito total que estás usando actualmente. Por ejemplo, si tienes un límite de $1,000 y debes $300, tu utilización es del 30%. En Canadá, solo este factor representa un enorme 30% del cálculo total de tu puntaje de crédito.",
+                "fr": "Votre taux d'utilisation est le pourcentage de votre limite de crédit totale que vous utilisez actuellement. Par exemple, si vous avez une limite de 1 000 $ et que vous devez 300 $, votre taux d'utilisation est de 30 %. Au Canada, ce seul facteur représente 30 % du calcul total de votre cote de crédit."
+            }
         },
         {
             "type": "info",
-            "title": "Why Stay Under 30%?",
-            "text": "Lenders see high utilization as a red flag that you might be overextended or relying too much on credit. Even if you pay your bill in full every month, if your 'statement balance' is constantly near your limit, your score will drop. Keeping it under 30% signals you are a low-risk borrower."
+            "title": {
+                "en": "Why Stay Under 30%?",
+                "es": "¿Por qué Mantenerse por Debajo del 30%?",
+                "fr": "Pourquoi rester sous la barre des 30 % ?"
+            },
+            "text": {
+                "en": "Lenders see high utilization as a red flag that you might be overextended or relying too much on credit. Even if you pay your bill in full every month, if your 'statement balance' is constantly near your limit, your score will drop. Keeping it under 30% signals you are a low-risk borrower.",
+                "es": "Los prestamistas ven una alta utilización como una señal de alerta de que podrías estar sobreextendido o dependiendo demasiado del crédito. Incluso si pagas tu factura en su totalidad cada mes, si tu 'saldo del estado de cuenta' está constantemente cerca de tu límite, tu puntaje bajará. Mantenerlo por debajo del 30% indica que eres un prestatario de bajo riesgo.",
+                "fr": "Les prêteurs considèrent une utilisation élevée comme un signal d'alarme indiquant que vous pourriez être surendetté ou que vous comptez trop sur le crédit. Même si vous réglez votre facture en totalité chaque mois, si le solde de votre relevé est constamment proche de votre limite, votre cote chutera. Le maintien de ce solde sous la barre des 30 % indique que vous êtes un emprunteur à faible risque."
+            }
         },
         {
             "type": "info",
-            "title": "The Pro Strategy",
-            "text": "To get the highest scores (750+), experts suggest an even lower target of 10% or less. A great trick is to make a payment *before* your statement date to keep the reported balance low, or ask for a credit limit increase to automatically lower your ratio—just don't spend more!"
+            "title": {
+                "en": "The Pro Strategy",
+                "es": "La Estrategia Pro",
+                "fr": "La stratégie de pro"
+            },
+            "text": {
+                "en": "To get the highest scores (750+), experts suggest an even lower target of 10% or less. A great trick is to make a payment *before* your statement date to keep the reported balance low, or ask for a credit limit increase to automatically lower your ratio—just don't spend more!",
+                "es": "Para obtener los puntajes más altos (750+), los expertos sugieren una meta aún más baja del 10% o menos. Un gran truco es hacer un pago *antes* de la fecha de cierre de tu estado de cuenta para mantener bajo el saldo reportado, o pedir un aumento del límite de crédito para reducir automáticamente tu proporción, ¡solo no gastes más!",
+                "fr": "Pour obtenir les cotes les plus élevées (750+), les experts suggèrent un objectif encore plus bas, soit 10 % ou moins. Une excellente astuce consiste à effectuer un paiement *avant* la date de votre relevé afin de maintenir le solde déclaré à un niveau bas, ou à demander une augmentation de votre limite de crédit pour réduire automatiquement votre ratio — mais ne dépensez pas plus !"
+            }
         }
     ],
     "quiz": [
         {
             "id": "ur1",
-            "question": "If you have a total credit limit of $2,000 across all cards, what is the maximum balance you should carry to follow the '30% Rule'?",
+            "question": {
+                "en": "If you have a total credit limit of $2,000 across all cards, what is the maximum balance you should carry to follow the '30% Rule'?",
+                "es": "Si tienes un límite de crédito total de $2,000 en todas tus tarjetas, ¿cuál es el saldo máximo que deberías tener para seguir la 'Regla del 30%'?",
+                "fr": "Si vous avez une limite de crédit totale de 2 000 $ pour toutes vos cartes, quel est le solde maximal que vous devriez avoir pour respecter la « règle des 30 % » ?"
+            },
             "options": [
-                "$200",
-                "$600",
-                "$1,000",
-                "$1,500"
+                {
+                    "en": "$200",
+                    "es": "$200",
+                    "fr": "200 $"
+                },
+                {
+                    "en": "$600",
+                    "es": "$600",
+                    "fr": "600 $"
+                },
+                {
+                    "en": "$1,000",
+                    "es": "$1,000",
+                    "fr": "1 000 $"
+                },
+                {
+                    "en": "$1,500",
+                    "es": "$1,500",
+                    "fr": "1 500 $"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "30% of $2,000 is $600. Staying at or below this amount helps protect your credit score from taking a hit."
+            "explanation": {
+                "en": "30% of $2,000 is $600. Staying at or below this amount helps protect your credit score from taking a hit.",
+                "es": "El 30% de $2,000 es $600. Mantenerse en este monto o por debajo ayuda a proteger tu puntaje de crédito.",
+                "fr": "30 % de 2 000 $ correspondent à 600 $. En restant à ce montant ou en dessous, vous protégez votre cote de crédit contre une baisse."
+            }
         },
         {
             "id": "ur2",
-            "question": "True or False: Your credit score can drop if you use 90% of your limit, even if you pay it off in full on the due date.",
+            "question": {
+                "en": "True or False: Your credit score can drop if you use 90% of your limit, even if you pay it off in full on the due date.",
+                "es": "Verdadero o Falso: Tu puntaje de crédito puede bajar si usas el 90% de tu límite, incluso si lo pagas por completo en la fecha de vencimiento.",
+                "fr": "Vrai ou Faux : votre cote de crédit peut chuter si vous utilisez 90 % de votre limite, même si vous la réglez en totalité à la date d'échéance."
+            },
             "options": [
-                "True",
-                "False"
+                {
+                    "en": "True",
+                    "es": "Verdadero",
+                    "fr": "Vrai"
+                },
+                {
+                    "en": "False",
+                    "es": "Falso",
+                    "fr": "Faux"
+                }
             ],
             "correctAnswerIndex": 0,
-            "explanation": "True! Banks report your balance on the 'statement date.' If that balance is high, it affects your score for that month regardless of when you pay it."
+            "explanation": {
+                "en": "True! Banks report your balance on the 'statement date.' If that balance is high, it affects your score for that month regardless of when you pay it.",
+                "es": "¡Verdadero! Los bancos informan tu saldo en la 'fecha de cierre'. Si ese saldo es alto, afecta tu puntaje para ese mes, independientemente de cuándo lo pagues.",
+                "fr": "C'est vrai ! Les banques déclarent votre solde à la « date du relevé ». Si ce solde est élevé, il affecte votre cote pour ce mois-là, quel que soit le moment où vous le réglez."
+            }
         }
     ]
 }

@@ -1,28 +1,68 @@
 {
     "id": "cell-phone-traps",
-    "title": "Cell Phone Plans",
-    "description": "Avoid the high costs and 'hidden' contracts of Canadian mobile service.",
+    "title": {
+        "en": "Cell Phone Plans",
+        "es": "Planes de Telefonía Móvil",
+        "fr": "Forfaits de téléphonie mobile"
+    },
+    "description": {
+        "en": "Avoid the high costs and 'hidden' contracts of Canadian mobile service.",
+        "es": "Evita los altos costos y los contratos 'ocultos' del servicio móvil canadiense.",
+        "fr": "Évitez les coûts élevés et les contrats « cachés » du service mobile canadien."
+    },
     "xpReward": 50,
     "estimatedMinutes": 4,
     "content": [
         {
             "type": "info",
-            "title": "BYOD vs. Financing",
-            "text": "Bring Your Own Device (BYOD) plans are usually cheaper. If you finance a new phone, you are essentially signing a two-year credit contract. If you cancel early, you must pay the full remaining cost of the phone immediately."
+            "title": {
+                "en": "BYOD vs. Financing",
+                "es": "BYOD vs. Financiamiento",
+                "fr": "BAP vs Financement"
+            },
+            "text": {
+                "en": "Bring Your Own Device (BYOD) plans are usually cheaper. If you finance a new phone, you are essentially signing a two-year credit contract. If you cancel early, you must pay the full remaining cost of the phone immediately.",
+                "es": "Los planes 'Trae Tu Propio Dispositivo' (BYOD) suelen ser más baratos. Si financias un teléfono nuevo, esencialmente estás firmando un contrato de crédito de dos años. Si cancelas antes de tiempo, debes pagar el costo total restante del teléfono de inmediato.",
+                "fr": "Les forfaits « Apportez votre propre appareil » (BAP) sont généralement moins chers. Si vous financez un nouveau téléphone, vous signez essentiellement un contrat de crédit de deux ans. Si vous annulez prématurément, vous devez payer immédiatement le coût total restant du téléphone."
+            }
         }
     ],
     "quiz": [
         {
             "id": "cp1",
-            "question": "Which type of plan is usually easier for a newcomer to get without a credit check?",
+            "question": {
+                "en": "Which type of plan is usually easier for a newcomer to get without a credit check?",
+                "es": "¿Qué tipo de plan suele ser más fácil de obtener para un recién llegado sin una verificación de crédito?",
+                "fr": "Quel type de forfait est généralement le plus facile à obtenir pour un nouvel arrivant sans vérification de crédit ?"
+            },
             "options": [
-                "Post-paid monthly plan",
-                "Pre-paid plan",
-                "2-year subsidized contract",
-                "Corporate family plan"
+                {
+                    "en": "Post-paid monthly plan",
+                    "es": "Plan mensual de postpago",
+                    "fr": "Forfait mensuel postpayé"
+                },
+                {
+                    "en": "Pre-paid plan",
+                    "es": "Plan prepagado",
+                    "fr": "Forfait prépayé"
+                },
+                {
+                    "en": "2-year subsidized contract",
+                    "es": "Contrato subsidiado de 2 años",
+                    "fr": "Contrat subventionné de 2 ans"
+                },
+                {
+                    "en": "Corporate family plan",
+                    "es": "Plan familiar corporativo",
+                    "fr": "Forfait familial d'entreprise"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Pre-paid plans require no credit check because you pay for the service before you use it."
+            "explanation": {
+                "en": "Pre-paid plans require no credit check because you pay for the service before you use it.",
+                "es": "Los planes prepagados no requieren verificación de crédito porque pagas por el servicio antes de usarlo.",
+                "fr": "Les forfaits prépayés ne nécessitent pas de vérification de crédit car vous payez le service avant de l'utiliser."
+            }
         }
     ]
 }

@@ -1,26 +1,58 @@
 {
     "id": "insurance-essentials",
-    "title": "Insurance Essentials",
-    "description": "Why Tenant Insurance is a must-have for renters.",
+    "title": {
+        "en": "Insurance Essentials",
+        "es": "Aspectos Esenciales de los Seguros",
+        "fr": "L'essentiel de l'assurance"
+    },
+    "description": {
+        "en": "Why Tenant Insurance is a must-have for renters.",
+        "es": "Por qué el Seguro de Inquilino es imprescindible para los arrendatarios.",
+        "fr": "Pourquoi l'assurance locataire est un incontournable pour les locataires."
+    },
     "xpReward": 50,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "Liability Protection",
-            "text": "Tenant insurance doesn't just cover your clothes and furniture; it protects you if you accidentally cause damage to the building (like a kitchen fire) or if someone is injured in your home."
+            "title": {
+                "en": "Liability Protection",
+                "es": "Protección de Responsabilidad Civil",
+                "fr": "Protection de la responsabilité civile"
+            },
+            "text": {
+                "en": "Tenant insurance doesn't just cover your clothes and furniture; it protects you if you accidentally cause damage to the building (like a kitchen fire) or if someone is injured in your home.",
+                "es": "El seguro para inquilinos no solo cubre su ropa y muebles; lo protege si accidentalmente causa daños al edificio (como un incendio en la cocina) o si alguien se lesiona en su hogar.",
+                "fr": "L'assurance locataire ne couvre pas seulement vos vêtements et vos meubles ; elle vous protège si vous causez accidentellement des dommages au bâtiment (comme un feu de cuisine) ou si quelqu'un se blesse dans votre logement."
+            }
         }
     ],
     "quiz": [
         {
             "id": "in1",
-            "question": "Does your landlord's insurance cover your personal belongings?",
+            "question": {
+                "en": "Does your landlord's insurance cover your personal belongings?",
+                "es": "¿Cubre el seguro de su arrendador sus pertenencias personales?",
+                "fr": "L'assurance de votre propriétaire couvre-t-elle vos biens personnels ?"
+            },
             "options": [
-                "Yes",
-                "No"
+                {
+                    "en": "Yes",
+                    "es": "Sí",
+                    "fr": "Oui"
+                },
+                {
+                    "en": "No",
+                    "es": "No",
+                    "fr": "Non"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "No. The landlord's insurance only covers the building itself, not your personal items or your liability."
+            "explanation": {
+                "en": "No. The landlord's insurance only covers the building itself, not your personal items or your liability.",
+                "es": "No. El seguro del propietario solo cubre el edificio en sí, no sus artículos personales ni su responsabilidad civil.",
+                "fr": "Non. L'assurance du propriétaire ne couvre que le bâtiment lui-même, pas vos articles personnels ni votre responsabilité."
+            }
         }
     ]
 }

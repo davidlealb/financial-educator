@@ -1,50 +1,130 @@
 {
     "id": "your-first-credit-card",
-    "title": "Your First Credit Card",
-    "description": "How to start your credit history from zero without falling into debt.",
+    "title": {
+        "en": "Your First Credit Card",
+        "es": "Tu Primera Tarjeta de Crédito",
+        "fr": "Votre première carte de crédit"
+    },
+    "description": {
+        "en": "How to start your credit history from zero without falling into debt.",
+        "es": "Cómo empezar tu historial crediticio desde cero sin caer en deudas.",
+        "fr": "Comment commencer votre historique de crédit à partir de zéro sans s'endetter."
+    },
     "xpReward": 51,
     "estimatedMinutes": 6,
     "content": [
         {
             "type": "info",
-            "title": "Secured vs. Unsecured",
-            "text": "If you are new to Canada, banks may not give you a standard card yet. A 'Secured' card requires you to give the bank a deposit (e.g., $500), which becomes your credit limit. This is the safest and fastest way to prove you are reliable and start building your score."
+            "title": {
+                "en": "Secured vs. Unsecured",
+                "es": "Garantizada vs. No Garantizada",
+                "fr": "Sécurisée vs Non sécurisée"
+            },
+            "text": {
+                "en": "If you are new to Canada, banks may not give you a standard card yet. A 'Secured' card requires you to give the bank a deposit (e.g., $500), which becomes your credit limit. This is the safest and fastest way to prove you are reliable and start building your score.",
+                "es": "Si eres nuevo en Canadá, es posible que los bancos aún no te den una tarjeta estándar. Una tarjeta 'Garantizada' requiere que le des al banco un depósito (por ejemplo, $500), que se convierte en tu límite de crédito. Esta es la forma más segura y rápida de demostrar que eres confiable y empezar a construir tu puntaje.",
+                "fr": "Si vous êtes nouveau au Canada, les banques ne vous donneront peut-être pas encore de carte standard. Une carte « sécurisée » exige que vous versiez un dépôt à la banque (par exemple, 500 $), qui devient votre limite de crédit. C'est le moyen le plus sûr et le plus rapide de prouver que vous êtes fiable et de commencer à bâtir votre cote."
+            }
         },
         {
             "type": "info",
-            "title": "The 21-Day Grace Period",
-            "text": "In Canada, credit cards have a 'grace period' of at least 21 days. If you pay your ENTIRE statement balance by the due date, you pay $0 in interest. If you only pay the 'Minimum Payment,' the bank will charge you roughly 20-23% interest on everything you bought."
+            "title": {
+                "en": "The 21-Day Grace Period",
+                "es": "El Periodo de Gracia de 21 Días",
+                "fr": "La période de grâce de 21 jours"
+            },
+            "text": {
+                "en": "In Canada, credit cards have a 'grace period' of at least 21 days. If you pay your ENTIRE statement balance by the due date, you pay $0 in interest. If you only pay the 'Minimum Payment,' the bank will charge you roughly 20-23% interest on everything you bought.",
+                "es": "En Canadá, las tarjetas de crédito tienen un 'periodo de gracia' de al menos 21 días. Si pagas el saldo TOTAL de tu estado de cuenta antes de la fecha de vencimiento, pagas $0 en intereses. Si solo pagas el 'Pago Mínimo', el banco te cobrará aproximadamente un 20-23% de interés sobre todo lo que hayas comprado.",
+                "fr": "Au Canada, les cartes de crédit bénéficient d'une « période de grâce » d'au moins 21 jours. Si vous payez la TOTALITÉ du solde de votre relevé avant la date d'échéance, vous ne payez aucun intérêt (0 $). Si vous ne payez que le « paiement minimum », la banque vous facturera des intérêts d'environ 20 à 23 % sur tout ce que vous avez acheté."
+            }
         },
         {
             "type": "info",
-            "title": "Credit is a Loan",
-            "text": "Remember: A credit card is not extra money; it is a short-term loan. Every time you tap your card, the bank is watching. Paying on time every single month is the #1 factor (35% of your score) in building a great Canadian credit rating."
+            "title": {
+                "en": "Credit is a Loan",
+                "es": "El Crédito es un Préstamo",
+                "fr": "Le crédit est un prêt"
+            },
+            "text": {
+                "en": "Remember: A credit card is not extra money; it is a short-term loan. Every time you tap your card, the bank is watching. Paying on time every single month is the #1 factor (35% of your score) in building a great Canadian credit rating.",
+                "es": "Recuerda: Una tarjeta de crédito no es dinero extra; es un préstamo a corto plazo. Cada vez que pasas tu tarjeta, el banco está mirando. Pagar a tiempo cada mes es el factor número 1 (35% de tu puntaje) para construir una gran calificación crediticia canadiense.",
+                "fr": "N'oubliez pas : une carte de crédit n'est pas de l'argent supplémentaire ; c'est un prêt à court terme. Chaque fois que vous utilisez votre carte, la banque vous surveille. Payer à temps chaque mois est le facteur numéro 1 (35 % de votre cote) pour bâtir une excellente cote de crédit canadienne."
+            }
         }
     ],
     "quiz": [
         {
             "id": "cc1",
-            "question": "What is the main requirement for getting a 'Secured' credit card?",
+            "question": {
+                "en": "What is the main requirement for getting a 'Secured' credit card?",
+                "es": "¿Cuál es el requisito principal para obtener una tarjeta de crédito 'Garantizada'?",
+                "fr": "Quelle est la principale condition pour obtenir une carte de crédit « sécurisée » ?"
+            },
             "options": [
-                "A high-paying job",
-                "A cash deposit that acts as your collateral",
-                "A Canadian passport",
-                "A letter from your previous bank back home"
+                {
+                    "en": "A high-paying job",
+                    "es": "Un trabajo bien pagado",
+                    "fr": "Un emploi bien rémunéré"
+                },
+                {
+                    "en": "A cash deposit that acts as your collateral",
+                    "es": "Un depósito en efectivo que actúa como tu garantía",
+                    "fr": "Un dépôt d'argent qui sert de garantie"
+                },
+                {
+                    "en": "A Canadian passport",
+                    "es": "Un pasaporte canadiense",
+                    "fr": "Un passeport canadien"
+                },
+                {
+                    "en": "A letter from your previous bank back home",
+                    "es": "Una carta de tu banco anterior en tu país",
+                    "fr": "Une lettre de votre ancienne banque dans votre pays d'origine"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "A secured card requires a deposit (usually equal to your limit). This protects the bank while you prove you can manage credit responsibly."
+            "explanation": {
+                "en": "A secured card requires a deposit (usually equal to your limit). This protects the bank while you prove you can manage credit responsibly.",
+                "es": "Una tarjeta garantizada requiere un depósito (usualmente igual a tu límite). Esto protege al banco mientras demuestras que puedes manejar el crédito de manera responsable.",
+                "fr": "Une carte sécurisée nécessite un dépôt (généralement égal à votre limite). Cela protège la banque pendant que vous prouvez que vous pouvez gérer votre crédit de manière responsable."
+            }
         },
         {
             "id": "cc2",
-            "question": "How much interest do you pay if you pay your full balance every month before the due date?",
+            "question": {
+                "en": "How much interest do you pay if you pay your full balance every month before the due date?",
+                "es": "¿Cuánto interés pagas si pagas el saldo total cada mes antes de la fecha de vencimiento?",
+                "fr": "Combien d'intérêts payez-vous si vous réglez votre solde complet chaque mois avant la date d'échéance ?"
+            },
             "options": [
-                "20.99%",
-                "15%",
-                "0%",
-                "5%"
+                {
+                    "en": "20.99%",
+                    "es": "20.99%",
+                    "fr": "20,99 %"
+                },
+                {
+                    "en": "15%",
+                    "es": "15%",
+                    "fr": "15 %"
+                },
+                {
+                    "en": "0%",
+                    "es": "0%",
+                    "fr": "0 %"
+                },
+                {
+                    "en": "5%",
+                    "es": "5%",
+                    "fr": "5 %"
+                }
             ],
             "correctAnswerIndex": 2,
-            "explanation": "As long as you pay the full statement balance during the grace period, you pay zero interest. This is the 'Golden Rule' of Canadian credit cards."
+            "explanation": {
+                "en": "As long as you pay the full statement balance during the grace period, you pay zero interest. This is the 'Golden Rule' of Canadian credit cards.",
+                "es": "Siempre que pagues el saldo total del estado de cuenta durante el periodo de gracia, pagas cero intereses. Esta es la 'Regla de Oro' de las tarjetas de crédito canadienses.",
+                "fr": "Tant que vous réglez le solde complet de votre relevé pendant la période de grâce, vous ne payez aucun intérêt. C'est la « règle d'or » des cartes de crédit canadiennes."
+            }
         }
     ]
 }

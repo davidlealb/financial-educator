@@ -1,28 +1,68 @@
 {
     "id": "tfsa-basics",
-    "title": "TFSA Basics",
-    "description": "The most flexible savings tool in Canada.",
+    "title": {
+        "en": "TFSA Basics",
+        "es": "Conceptos Básicos del CELI",
+        "fr": "Les bases du CELI"
+    },
+    "description": {
+        "en": "The most flexible savings tool in Canada.",
+        "es": "La herramienta de ahorro más flexible en Canadá.",
+        "fr": "L'outil d'épargne le plus flexible au Canada."
+    },
     "xpReward": 60,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "Tax-Free Growth",
-            "text": "In a Tax-Free Savings Account (TFSA), you don't pay any tax on the interest or investment growth you earn. You can withdraw the money at any time for any reason without penalty."
+            "title": {
+                "en": "Tax-Free Growth",
+                "es": "Crecimiento Libre de Impuestos",
+                "fr": "Croissance libre d'impôt"
+            },
+            "text": {
+                "en": "In a Tax-Free Savings Account (TFSA), you don't pay any tax on the interest or investment growth you earn. You can withdraw the money at any time for any reason without penalty.",
+                "es": "En una Cuenta de Ahorro Libre de Impuestos (CELI), no paga ningún impuesto sobre los intereses o el crecimiento de la inversión que gane. Puede retirar el dinero en cualquier momento por cualquier motivo sin penalización.",
+                "fr": "Dans un compte d'épargne libre d'impôt (CELI), vous ne payez aucun impôt sur les intérêts ou la croissance de vos placements. Vous pouvez retirer l'argent à tout moment, pour n'importe quelle raison, sans pénalité."
+            }
         }
     ],
     "quiz": [
         {
             "id": "tfsa1",
-            "question": "What happens to your unused TFSA contribution room at the end of the year?",
+            "question": {
+                "en": "What happens to your unused TFSA contribution room at the end of the year?",
+                "es": "¿Qué sucede con tu cupo de contribución al CELI no utilizado al final del año?",
+                "fr": "Qu'advient-il de vos droits de cotisation inutilisés à un CELI à la fin de l'année ?"
+            },
             "options": [
-                "It disappears",
-                "It carries forward to the next year",
-                "You have to pay a fine",
-                "It is converted to RRSP room"
+                {
+                    "en": "It disappears",
+                    "es": "Desaparece",
+                    "fr": "Ils disparaissent"
+                },
+                {
+                    "en": "It carries forward to the next year",
+                    "es": "Se traslada al año siguiente",
+                    "fr": "Ils sont reportés à l'année suivante"
+                },
+                {
+                    "en": "You have to pay a fine",
+                    "es": "Tienes que pagar una multa",
+                    "fr": "Vous devez payer une amende"
+                },
+                {
+                    "en": "It is converted to RRSP room",
+                    "es": "Se convierte en cupo de REER",
+                    "fr": "Ils sont convertis en droits de cotisation à un REER"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Unused TFSA room carries forward indefinitely, allowing you to catch up in future years."
+            "explanation": {
+                "en": "Unused TFSA room carries forward indefinitely, allowing you to catch up in future years.",
+                "es": "El cupo de CELI no utilizado se traslada indefinidamente, lo que te permite ponerte al día en años futuros.",
+                "fr": "L'espace inutilisé du CELI est reporté indéfiniment, ce qui vous permet de vous rattraper au cours des années futures."
+            }
         }
     ]
 }

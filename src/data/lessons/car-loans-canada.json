@@ -1,28 +1,68 @@
 {
     "id": "car-loans-canada",
-    "title": "Car Loans in Canada",
-    "description": "The difference between dealer financing and bank loans.",
+    "title": {
+        "en": "Car Loans in Canada",
+        "es": "Préstamos para Automóviles en Canadá",
+        "fr": "Prêts auto au Canada"
+    },
+    "description": {
+        "en": "The difference between dealer financing and bank loans.",
+        "es": "La diferencia entre el financiamiento del concesionario y los préstamos bancarios.",
+        "fr": "La différence entre le financement par le concessionnaire et les prêts bancaires."
+    },
     "xpReward": 60,
     "estimatedMinutes": 6,
     "content": [
         {
             "type": "info",
-            "title": "Dealer Promos",
-            "text": "Dealers may offer 0% or low interest on new cars to attract buyers. However, if you have no credit history, they may charge you very high interest (10%+) or require a large down payment."
+            "title": {
+                "en": "Dealer Promos",
+                "es": "Promociones de Concesionarios",
+                "fr": "Promotions des concessionnaires"
+            },
+            "text": {
+                "en": "Dealers may offer 0% or low interest on new cars to attract buyers. However, if you have no credit history, they may charge you very high interest (10%+) or require a large down payment.",
+                "es": "Los concesionarios pueden ofrecer un 0% o intereses bajos en autos nuevos para atraer compradores. Sin embargo, si no tiene historial crediticio, pueden cobrarle intereses muy altos (10%+) o exigir un pago inicial grande.",
+                "fr": "Les concessionnaires peuvent offrir des taux d'intérêt de 0 % ou des taux d'intérêt bas sur les voitures neuves pour attirer les acheteurs. Toutefois, si vous n'avez pas d'antécédents de crédit, ils peuvent vous facturer des intérêts très élevés (10 %+) ou exiger un acompte important."
+            }
         }
     ],
     "quiz": [
         {
             "id": "cl1",
-            "question": "What is an 'Instalment Sale Contract' at a dealership?",
+            "question": {
+                "en": "What is an 'Instalment Sale Contract' at a dealership?",
+                "es": "¿Qué es un 'Contrato de Venta a Plazos' en un concesionario?",
+                "fr": "Qu'est-ce qu'un « contrat de vente à tempérament » chez un concessionnaire ?"
+            },
             "options": [
-                "You own the car immediately",
-                "The lender owns the car until it is paid in full",
-                "It is a type of rental",
-                "It is a free gift"
+                {
+                    "en": "You own the car immediately",
+                    "es": "Eres el dueño del auto inmediatamente",
+                    "fr": "Vous possédez la voiture immédiatement"
+                },
+                {
+                    "en": "The lender owns the car until it is paid in full",
+                    "es": "El prestamista es dueño del auto hasta que se pague por completo",
+                    "fr": "Le prêteur est propriétaire de la voiture jusqu'à ce qu'elle soit entièrement payée"
+                },
+                {
+                    "en": "It is a type of rental",
+                    "es": "Es un tipo de alquiler",
+                    "fr": "C'est un type de location"
+                },
+                {
+                    "en": "It is a free gift",
+                    "es": "Es un regalo gratis",
+                    "fr": "C'est un cadeau gratuit"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "In most dealer financing, the lender technically owns the vehicle until the final payment is made."
+            "explanation": {
+                "en": "In most dealer financing, the lender technically owns the vehicle until the final payment is made.",
+                "es": "En la mayoría de los financiamientos de concesionarios, el prestamista es técnicamente el dueño del vehículo hasta que se realice el último pago.",
+                "fr": "Dans la plupart des cas de financement par le concessionnaire, le prêteur est techniquement propriétaire du véhicule jusqu'à ce que le dernier paiement soit effectué."
+            }
         }
     ]
 }

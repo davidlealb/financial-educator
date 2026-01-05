@@ -1,45 +1,117 @@
 {
     "id": "advanced-credit",
-    "title": "The 30% Rule & Rent Reporting",
-    "description": "Pro-tips to boost your credit score faster.",
+    "title": {
+        "en": "The 30% Rule & Rent Reporting",
+        "es": "La Regla del 30% y el Reporte de Alquiler",
+        "fr": "La règle des 30 % et la déclaration de loyer"
+    },
+    "description": {
+        "en": "Pro-tips to boost your credit score faster.",
+        "es": "Consejos profesionales para aumentar tu puntaje de crédito más rápido.",
+        "fr": "Conseils d'experts pour augmenter plus rapidement votre cote de crédit."
+    },
     "xpReward": 70,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "The 30% Utilization Rule",
-            "text": "If your credit limit is $1,000, try to never owe more than $300 (30%). Using too much of your available credit makes you look 'risky' to banks, even if you pay it all back."
+            "title": {
+                "en": "The 30% Utilization Rule",
+                "es": "La Regla de Utilización del 30%",
+                "fr": "La règle d'utilisation de 30 %"
+            },
+            "text": {
+                "en": "If your credit limit is $1,000, try to never owe more than $300 (30%). Using too much of your available credit makes you look 'risky' to banks, even if you pay it all back.",
+                "es": "Si tu límite de crédito es de $1,000, intenta no deber nunca más de $300 (30%). Usar demasiado de tu crédito disponible te hace parecer 'arriesgado' para los bancos, incluso si lo pagas todo de vuelta.",
+                "fr": "Si votre limite de crédit est de 1 000 $, essayez de ne jamais devoir plus de 300 $ (30 %). L'utilisation d'une trop grande partie de votre crédit disponible vous fait paraître « risqué » aux yeux des banques, même si vous remboursez tout."
+            }
         },
         {
             "type": "info",
-            "title": "Reporting Your Rent",
-            "text": "In Canada, your rent payments aren't automatically sent to credit bureaus. You can use services like Borrowell or SingleKey to report your on-time rent to Equifax, which can help build your score without debt."
+            "title": {
+                "en": "Reporting Your Rent",
+                "es": "Reportando Tu Alquiler",
+                "fr": "Déclarer votre loyer"
+            },
+            "text": {
+                "en": "In Canada, your rent payments aren't automatically sent to credit bureaus. You can use services like Borrowell or SingleKey to report your on-time rent to Equifax, which can help build your score without debt.",
+                "es": "En Canadá, tus pagos de alquiler no se envían automáticamente a las agencias de crédito. Puedes usar servicios como Borrowell o SingleKey para informar tu alquiler pagado a tiempo a Equifax, lo que puede ayudar a construir tu puntaje sin deuda.",
+                "fr": "Au Canada, vos paiements de loyer ne sont pas automatiquement envoyés aux bureaux de crédit. Vous pouvez utiliser des services comme Borrowell ou SingleKey pour déclarer vos loyers payés à temps à Equifax, ce qui peut vous aider à bâtir votre cote sans vous endetter."
+            }
         }
     ],
     "quiz": [
         {
             "id": "a1",
-            "question": "If your credit card limit is $2,000, what is the 'safe' balance to stay under?",
+            "question": {
+                "en": "If your credit card limit is $2,000, what is the 'safe' balance to stay under?",
+                "es": "Si el límite de tu tarjeta de crédito es de $2,000, ¿cuál es el saldo 'seguro' para mantenerse por debajo?",
+                "fr": "Si la limite de votre carte de crédit est de 2 000 $, quel est le solde « sûr » à ne pas dépasser ?"
+            },
             "options": [
-                "$1,000",
-                "$2,000",
-                "$600",
-                "$1,500"
+                {
+                    "en": "$1,000",
+                    "es": "$1,000",
+                    "fr": "1 000 $"
+                },
+                {
+                    "en": "$2,000",
+                    "es": "$2,000",
+                    "fr": "2 000 $"
+                },
+                {
+                    "en": "$600",
+                    "es": "$600",
+                    "fr": "600 $"
+                },
+                {
+                    "en": "$1,500",
+                    "es": "$1,500",
+                    "fr": "1 500 $"
+                }
             ],
             "correctAnswerIndex": 2,
-            "explanation": "$600 is 30% of $2,000. Staying under this threshold helps keep your credit score healthy."
+            "explanation": {
+                "en": "$600 is 30% of $2,000. Staying under this threshold helps keep your credit score healthy.",
+                "es": "$600 es el 30% de $2,000. Mantenerse por debajo de este umbral ayuda a mantener saludable tu puntaje de crédito.",
+                "fr": "600 $ correspondent à 30 % de 2 000 $. En restant sous ce seuil, vous aidez à maintenir votre cote de crédit en bonne santé."
+            }
         },
         {
             "id": "a2",
-            "question": "Does paying your rent automatically help your Canadian credit score?",
+            "question": {
+                "en": "Does paying your rent automatically help your Canadian credit score?",
+                "es": "¿Ayuda el pago de tu alquiler automáticamente a tu puntaje de crédito canadiense?",
+                "fr": "Le paiement de votre loyer aide-t-il automatiquement votre cote de crédit canadienne ?"
+            },
             "options": [
-                "Yes, always",
-                "No, you must use a third-party reporting service",
-                "Only if you pay in cash",
-                "Yes, but only for TransUnion"
+                {
+                    "en": "Yes, always",
+                    "es": "Sí, siempre",
+                    "fr": "Oui, toujours"
+                },
+                {
+                    "en": "No, you must use a third-party reporting service",
+                    "es": "No, debes usar un servicio de informes de terceros",
+                    "fr": "Non, vous devez utiliser un service de déclaration tiers"
+                },
+                {
+                    "en": "Only if you pay in cash",
+                    "es": "Solo si pagas en efectivo",
+                    "fr": "Seulement si vous payez en espèces"
+                },
+                {
+                    "en": "Yes, but only for TransUnion",
+                    "es": "Sí, pero solo para TransUnion",
+                    "fr": "Oui, mais seulement pour TransUnion"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Rent is not automatically reported. You must sign up for a service to have your rent payments count toward your credit history."
+            "explanation": {
+                "en": "Rent is not automatically reported. You must sign up for a service to have your rent payments count toward your credit history.",
+                "es": "El alquiler no se reporta automáticamente. Debes registrarte en un servicio para que tus pagos de alquiler cuenten para tu historial crediticio.",
+                "fr": "Le loyer n'est pas automatiquement déclaré. Vous devez vous inscrire à un service pour que vos paiements de loyer comptent dans votre historique de crédit."
+            }
         }
     ]
 }

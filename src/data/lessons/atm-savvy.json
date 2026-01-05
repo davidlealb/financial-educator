@@ -1,50 +1,117 @@
 {
     "id": "atm-savvy",
-    "title": "ATM Savvy",
-    "description": "How to get your cash without losing $5 to hidden fees.",
+    "title": {
+        "en": "ATM Savvy: Fees & Safety",
+        "es": "Uso Inteligente del Cajero Automático: Tarifas y Seguridad",
+        "fr": "Utilisation judicieuse des GAB : Frais et sécurité"
+    },
+    "description": {
+        "en": "Avoid hidden ATM fees and protect yourself from skimmers and scams.",
+        "es": "Evita tarifas ocultas de cajeros automáticos y protégete de skimmers y estafas.",
+        "fr": "Évitez les frais cachés des GAB et protégez-vous contre les lecteurs de cartes et les escroqueries."
+    },
     "xpReward": 50,
-    "estimatedMinutes": 4,
+    "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "Your Bank's ATM is Free",
-            "text": "The easiest way to get cash is to use an ATM owned by your own bank. For example, if you have a TD account, using a TD machine is free. If you use a different bank's machine, your bank might charge you a 'network fee' ($2-$3) and that bank might charge you a 'convenience fee' ($3+)."
+            "title": {
+                "en": "How ATM Fees Add Up",
+                "es": "Cómo Se Acumulan las Tarifas de Cajeros Automáticos",
+                "fr": "Comment les frais de GAB s'accumulent"
+            },
+            "text": {
+                "en": "Using an out-of-network ATM can cost you $3–$5 per transaction. That's $2 from the ATM operator PLUS up to $3 from your own bank. Over a month, that adds up fast. Stick to your bank's ATMs or use fee-free networks when possible.",
+                "es": "Usar un cajero automático fuera de red puede costarte $3–$5 por transacción. Eso es $2 del operador del cajero MÁS hasta $3 de tu propio banco. Durante un mes, eso se acumula rápidamente. Usa los cajeros de tu banco o redes sin tarifas cuando sea posible.",
+                "fr": "L'utilisation d'un GAB hors réseau peut vous coûter 3 $ à 5 $ par transaction. C'est 2 $ de l'opérateur du GAB PLUS jusqu'à 3 $ de votre propre banque. Sur un mois, cela s'additionne rapidement. Utilisez les GAB de votre banque ou des réseaux sans frais lorsque c'est possible."
+            }
         },
         {
             "type": "info",
-            "title": "The Exchange Network",
-            "text": "Many credit unions and smaller banks belong to 'THE EXCHANGE Network.' If you see the Exchange logo on the back of your card, you can use any other ATM with that same logo across Canada for free—no surcharges or extra fees!"
-        },
-        {
-            "type": "info",
-            "title": "The 'Cash Back' Trick",
-            "text": "If you are at a grocery store or a pharmacy and need cash but can't find your bank's ATM, ask for 'Cash Back' at the checkout. Most stores will add the cash to your total bill and give it to you for free, helping you avoid ATM surcharges entirely."
+            "title": {
+                "en": "Spotting Skimmers",
+                "es": "Detectando Skimmers",
+                "fr": "Repérer les lecteurs de cartes"
+            },
+            "text": {
+                "en": "Skimmers are devices thieves attach to ATMs to steal your card info. Before inserting your card, check for anything loose or unusual on the card slot. Cover the keypad when entering your PIN. If something feels off, use a different ATM and report it.",
+                "es": "Los skimmers son dispositivos que los ladrones colocan en los cajeros automáticos para robar la información de tu tarjeta. Antes de insertar tu tarjeta, verifica si hay algo suelto o inusual en la ranura de la tarjeta. Cubre el teclado al ingresar tu PIN. Si algo se siente mal, usa un cajero diferente y repórtalo.",
+                "fr": "Les lecteurs de cartes sont des dispositifs que les voleurs attachent aux GAB pour voler vos informations de carte. Avant d'insérer votre carte, vérifiez s'il y a quelque chose de lâche ou d'inhabituel sur la fente de carte. Couvrez le clavier lors de la saisie de votre NIP. Si quelque chose semble anormal, utilisez un autre GAB et signalez-le."
+            }
         }
     ],
     "quiz": [
         {
             "id": "atm1",
-            "question": "What is the most expensive way to get cash in Canada?",
+            "question": {
+                "en": "How much can you pay in total fees for ONE out-of-network ATM withdrawal?",
+                "es": "¿Cuánto puedes pagar en tarifas totales por UN retiro de cajero automático fuera de red?",
+                "fr": "Combien pouvez-vous payer en frais totaux pour UN retrait de GAB hors réseau ?"
+            },
             "options": [
-                "Using your own bank's ATM",
-                "Using a 'white label' ATM in a bar or gas station",
-                "Asking for 'Cash Back' at a grocery store",
-                "Going inside the bank branch to see a teller"
+                {
+                    "en": "$1",
+                    "es": "$1",
+                    "fr": "1 $"
+                },
+                {
+                    "en": "$2–$3",
+                    "es": "$2–$3",
+                    "fr": "2 $ à 3 $"
+                },
+                {
+                    "en": "$3–$5",
+                    "es": "$3–$5",
+                    "fr": "3 $ à 5 $"
+                },
+                {
+                    "en": "$10",
+                    "es": "$10",
+                    "fr": "10 $"
+                }
             ],
-            "correctAnswerIndex": 1,
-            "explanation": "Independent 'white label' machines in places like bars or gas stations often charge the highest convenience fees on top of your own bank's network fees."
+            "correctAnswerIndex": 2,
+            "explanation": {
+                "en": "You pay $2 from the ATM owner + up to $3 from your own bank = up to $5 total per transaction.",
+                "es": "Pagas $2 del dueño del cajero + hasta $3 de tu propio banco = hasta $5 total por transacción.",
+                "fr": "Vous payez 2 $ du propriétaire du GAB + jusqu'à 3 $ de votre propre banque = jusqu'à 5 $ au total par transaction."
+            }
         },
         {
             "id": "atm2",
-            "question": "If your card has 'THE EXCHANGE' logo, where can you withdraw money for free?",
+            "question": {
+                "en": "What should you do if an ATM card slot looks loose or tampered with?",
+                "es": "¿Qué debes hacer si la ranura de la tarjeta de un cajero automático parece suelta o manipulada?",
+                "fr": "Que devriez-vous faire si la fente de carte d'un GAB semble lâche ou altérée ?"
+            },
             "options": [
-                "Only at your home branch",
-                "At any ATM that also displays 'THE EXCHANGE' logo",
-                "At any 'Big 5' bank ATM",
-                "Nowhere, there is always a fee"
+                {
+                    "en": "Use it anyway, it's probably fine",
+                    "es": "Úsalo de todos modos, probablemente esté bien",
+                    "fr": "Utilisez-le quand même, c'est probablement bien"
+                },
+                {
+                    "en": "Report it and use a different ATM",
+                    "es": "Repórtalo y usa un cajero diferente",
+                    "fr": "Signalez-le et utilisez un autre GAB"
+                },
+                {
+                    "en": "Try to remove the loose part yourself",
+                    "es": "Intenta quitar la parte suelta tú mismo",
+                    "fr": "Essayez de retirer vous-même la partie lâche"
+                },
+                {
+                    "en": "Ignore it",
+                    "es": "Ignóralo",
+                    "fr": "Ignorez-le"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "The Exchange Network allows members of participating banks and credit unions to use each other's ATMs without paying surcharges."
+            "explanation": {
+                "en": "Always report suspicious ATMs to the bank and use a different machine to protect your card information.",
+                "es": "Siempre reporta cajeros automáticos sospechosos al banco y usa una máquina diferente para proteger la información de tu tarjeta.",
+                "fr": "Signalez toujours les GAB suspects à la banque et utilisez une autre machine pour protéger les informations de votre carte."
+            }
         }
     ]
 }

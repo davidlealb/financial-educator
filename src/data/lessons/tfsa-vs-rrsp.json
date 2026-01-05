@@ -1,45 +1,117 @@
 {
     "id": "tfsa-vs-rrsp",
-    "title": "Smart Saving: TFSA vs. RRSP",
-    "description": "Learn about Canada's two most popular tax-free ways to grow your money.",
+    "title": {
+        "en": "Smart Saving: TFSA vs. RRSP",
+        "es": "Ahorro Inteligente: CELI vs. REER",
+        "fr": "Épargne intelligente : CELI vs REER"
+    },
+    "description": {
+        "en": "Learn about Canada's two most popular tax-free ways to grow your money.",
+        "es": "Aprende sobre las dos formas más populares de Canadá de hacer crecer tu dinero libre de impuestos.",
+        "fr": "Découvrez les deux moyens les plus populaires au Canada de faire fructifier votre argent à l'abri de l'impôt."
+    },
     "xpReward": 60,
     "estimatedMinutes": 6,
     "content": [
         {
             "type": "info",
-            "title": "The TFSA",
-            "text": "The Tax-Free Savings Account (TFSA) lets you save for anything (a car, a house, or a trip). You don't pay any tax on the profit you make inside this account, and you can withdraw money anytime for free."
+            "title": {
+                "en": "The TFSA",
+                "es": "El CELI",
+                "fr": "Le CELI"
+            },
+            "text": {
+                "en": "The Tax-Free Savings Account (TFSA) lets you save for anything (a car, a house, or a trip). You don't pay any tax on the profit you make inside this account, and you can withdraw money anytime for free.",
+                "es": "La Cuenta de Ahorros Libre de Impuestos (CELI) le permite ahorrar para cualquier cosa (un automóvil, una casa o un viaje). No paga ningún impuesto sobre las ganancias que obtiene dentro de esta cuenta, y puede retirar dinero en cualquier momento de forma gratuita.",
+                "fr": "Le compte d'épargne libre d'impôt (CELI) vous permet d'épargner pour n'importe quel projet (une voiture, une maison ou un voyage). Vous ne payez aucun impôt sur les profits réalisés dans ce compte et vous pouvez retirer de l'argent en tout temps sans frais."
+            }
         },
         {
             "type": "info",
-            "title": "The RRSP",
-            "text": "The Registered Retirement Savings Plan (RRSP) is for long-term retirement. Putting money in here can lower your annual income tax bill, but you usually pay tax later when you take the money out in retirement."
+            "title": {
+                "en": "The RRSP",
+                "es": "El REER",
+                "fr": "Le REER"
+            },
+            "text": {
+                "en": "The Registered Retirement Savings Plan (RRSP) is for long-term retirement. Putting money in here can lower your annual income tax bill, but you usually pay tax later when you take the money out in retirement.",
+                "es": "El Plan Registrado de Ahorro para el Retiro (REER) es para la jubilación a largo plazo. Poner dinero aquí puede reducir su factura anual de impuestos sobre la renta, pero generalmente pagará impuestos más tarde cuando retire el dinero en la jubilación.",
+                "fr": "Le régime enregistré d'épargne-retraite (REER) est destiné à la retraite à long terme. Les sommes versées dans ce régime peuvent réduire votre facture annuelle d'impôt sur le revenu, mais vous paierez généralement de l'impôt plus tard, lorsque vous retirerez l'argent à la retraite."
+            }
         }
     ],
     "quiz": [
         {
             "id": "t1",
-            "question": "Which account allows you to withdraw money at any time without paying tax on the gains?",
+            "question": {
+                "en": "Which account allows you to withdraw money at any time without paying tax on the gains?",
+                "es": "¿Qué cuenta le permite retirar dinero en cualquier momento sin pagar impuestos sobre las ganancias?",
+                "fr": "Quel compte permet de retirer de l'argent en tout temps sans payer d'impôt sur les gains ?"
+            },
             "options": [
-                "RRSP",
-                "TFSA",
-                "Regular Savings Account",
-                "Chequing Account"
+                {
+                    "en": "RRSP",
+                    "es": "REER",
+                    "fr": "REER"
+                },
+                {
+                    "en": "TFSA",
+                    "es": "CELI",
+                    "fr": "CELI"
+                },
+                {
+                    "en": "Regular Savings Account",
+                    "es": "Cuenta de Ahorros Regular",
+                    "fr": "Compte d'épargne ordinaire"
+                },
+                {
+                    "en": "Chequing Account",
+                    "es": "Cuenta Corriente",
+                    "fr": "Compte-chèques"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "The TFSA is highly flexible, allowing tax-free withdrawals for any purpose at any time."
+            "explanation": {
+                "en": "The TFSA is highly flexible, allowing tax-free withdrawals for any purpose at any time.",
+                "es": "La CELI es altamente flexible, permitiendo retiros libres de impuestos para cualquier propósito en cualquier momento.",
+                "fr": "Le CELI est très flexible et permet des retraits libres d'impôt pour n'importe quel motif, en tout temps."
+            }
         },
         {
             "id": "t2",
-            "question": "When is the best time to focus on an RRSP?",
+            "question": {
+                "en": "When is the best time to focus on an RRSP?",
+                "es": "¿Cuándo es el mejor momento para concentrarse en un REER?",
+                "fr": "Quel est le meilleur moment pour se concentrer sur un REER ?"
+            },
             "options": [
-                "When you are in a high tax bracket",
-                "When you first arrive with no job",
-                "When you want to buy a TV next month",
-                "Only when you turn 65"
+                {
+                    "en": "When you are in a high tax bracket",
+                    "es": "Cuando te encuentras en un tramo impositivo alto",
+                    "fr": "Lorsque vous vous trouvez dans une tranche d'imposition élevée"
+                },
+                {
+                    "en": "When you first arrive with no job",
+                    "es": "Cuando llegas por primera vez sin trabajo",
+                    "fr": "Lorsque vous arrivez pour la première fois sans emploi"
+                },
+                {
+                    "en": "When you want to buy a TV next month",
+                    "es": "Cuando quieres comprar un televisor el próximo mes",
+                    "fr": "Lorsque vous voulez acheter un téléviseur le mois prochain"
+                },
+                {
+                    "en": "Only when you turn 65",
+                    "es": "Solo cuando cumplas 65 años",
+                    "fr": "Seulement à l'âge de 65 ans"
+                }
             ],
             "correctAnswerIndex": 0,
-            "explanation": "RRSPs provide a tax deduction, so they are most effective when you are earning a higher income and want to pay less tax now."
+            "explanation": {
+                "en": "RRSPs provide a tax deduction, so they are most effective when you are earning a higher income and want to pay less tax now.",
+                "es": "Los REER proporcionan una deducción de impuestos, por lo que son más efectivos cuando ganas ingresos más altos y quieres pagar menos impuestos ahora.",
+                "fr": "Les REER offrent une déduction fiscale. Ils sont donc plus efficaces lorsque vous gagnez un revenu élevé et que vous souhaitez payer moins d'impôts maintenant."
+            }
         }
     ]
 }

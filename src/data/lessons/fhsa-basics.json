@@ -1,28 +1,68 @@
 {
     "id": "fhsa-basics",
-    "title": "The FHSA",
-    "description": "The best way to save for your first home in Canada.",
+    "title": {
+        "en": "The FHSA (First Home Savings Account)",
+        "es": "La FHSA (Cuenta de Ahorros para la Primera Vivienda)",
+        "fr": "Le CELIAPP (Compte d'épargne libre d'impôt pour l'achat d'une première propriété)"
+    },
+    "description": {
+        "en": "The best way to save for your first home in Canada.",
+        "es": "La mejor manera de ahorrar para tu primera vivienda en Canadá.",
+        "fr": "Le meilleur moyen d'épargner pour votre première maison au Canada."
+    },
     "xpReward": 70,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "The Best of Both Worlds",
-            "text": "The First Home Savings Account (FHSA) gives you a tax deduction when you contribute (like an RRSP) and tax-free withdrawals when you buy a home (like a TFSA)."
+            "title": {
+                "en": "The Best of Both Worlds",
+                "es": "Lo Mejor de Ambos Mundos",
+                "fr": "Le meilleur des deux mondes"
+            },
+            "text": {
+                "en": "The First Home Savings Account (FHSA) gives you a tax deduction when you contribute (like an RRSP) and tax-free withdrawals when you buy a home (like a TFSA).",
+                "es": "La Cuenta de Ahorros para la Primera Vivienda (FHSA) te brinda una deducción de impuestos cuando contribuyes (como un REER) y retiros libres de impuestos cuando compras una casa (como un CELI).",
+                "fr": "Le compte d'épargne libre d'impôt pour l'achat d'une première propriété (CELIAPP) vous donne droit à une déduction fiscale lorsque vous cotisez (comme un REER) et à des retraits libres d'impôt lorsque vous achetez une maison (comme un CELI)."
+            }
         }
     ],
     "quiz": [
         {
             "id": "fh1",
-            "question": "What is the lifetime contribution limit for an FHSA?",
+            "question": {
+                "en": "What is the lifetime contribution limit for an FHSA?",
+                "es": "¿Cuál es el límite de contribución de por vida para una FHSA?",
+                "fr": "Quel est le plafond de cotisation à vie d'un CELIAPP ?"
+            },
             "options": [
-                "$10,000",
-                "$40,000",
-                "$100,000",
-                "Unlimited"
+                {
+                    "en": "$10,000",
+                    "es": "$10,000",
+                    "fr": "10 000 $"
+                },
+                {
+                    "en": "$40,000",
+                    "es": "$40,000",
+                    "fr": "40 000 $"
+                },
+                {
+                    "en": "$100,000",
+                    "es": "$100,000",
+                    "fr": "100 000 $"
+                },
+                {
+                    "en": "Unlimited",
+                    "es": "Ilimitado",
+                    "fr": "Illimité"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "The FHSA allows you to contribute up to $8,000 per year, with a lifetime limit of $40,000."
+            "explanation": {
+                "en": "The FHSA allows you to contribute up to $8,000 per year, with a lifetime limit of $40,000.",
+                "es": "La FHSA te permite contribuir hasta $8,000 por año, con un límite de por vida de $40,000.",
+                "fr": "Le CELIAPP vous permet de cotiser jusqu'à 8 000 $ par année, jusqu'à concurrence d'un plafond à vie de 40 000 $."
+            }
         }
     ]
 }

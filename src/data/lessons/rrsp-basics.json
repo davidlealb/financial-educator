@@ -1,28 +1,68 @@
 {
     "id": "rrsp-basics",
-    "title": "RRSP Basics",
-    "description": "Save for retirement and pay less tax today.",
+    "title": {
+        "en": "RRSP Basics",
+        "es": "Conceptos Básicos del REER",
+        "fr": "Les bases du REER"
+    },
+    "description": {
+        "en": "Save for retirement and pay less tax today.",
+        "es": "Ahorra para el retiro y paga menos impuestos hoy.",
+        "fr": "Épargnez pour la retraite et payez moins d'impôts aujourd'hui."
+    },
     "xpReward": 60,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "The Tax Break",
-            "text": "Money put into a Registered Retirement Savings Plan (RRSP) is deducted from your taxable income. This often results in a tax refund, but you will pay tax when you withdraw the money in retirement."
+            "title": {
+                "en": "The Tax Break",
+                "es": "La Ventaja Fiscal",
+                "fr": "L'avantage fiscal"
+            },
+            "text": {
+                "en": "Money put into a Registered Retirement Savings Plan (RRSP) is deducted from your taxable income. This often results in a tax refund, but you will pay tax when you withdraw the money in retirement.",
+                "es": "El dinero depositado en un Plan Registrado de Ahorro para el Retiro (REER) se deduce de tus ingresos imponibles. Esto a menudo resulta en un reembolso de impuestos, pero pagarás impuestos cuando retires el dinero en la jubilación.",
+                "fr": "L'argent versé dans un régime enregistré d'épargne-retraite (REER) est déduit de votre revenu imposable. Cela donne souvent lieu à un remboursement d'impôt, mais vous paierez de l'impôt lorsque vous retirerez l'argent à la retraite."
+            }
         }
     ],
     "quiz": [
         {
             "id": "rr1",
-            "question": "What is the main benefit of contributing to an RRSP?",
+            "question": {
+                "en": "What is the main benefit of contributing to an RRSP?",
+                "es": "¿Cuál es el beneficio principal de contribuir a un REER?",
+                "fr": "Quel est le principal avantage de cotiser à un REER ?"
+            },
             "options": [
-                "It increases your credit score",
-                "It reduces the income tax you pay this year",
-                "It gives you a free credit card",
-                "It is only for buying a car"
+                {
+                    "en": "It increases your credit score",
+                    "es": "Aumenta tu puntaje de crédito",
+                    "fr": "Cela augmente votre cote de crédit"
+                },
+                {
+                    "en": "It reduces the income tax you pay this year",
+                    "es": "Reduce el impuesto sobre la renta que pagas este año",
+                    "fr": "Cela réduit l'impôt sur le revenu que vous payez cette année"
+                },
+                {
+                    "en": "It gives you a free credit card",
+                    "es": "Te da una tarjeta de crédito gratuita",
+                    "fr": "Cela vous donne une carte de crédit gratuite"
+                },
+                {
+                    "en": "It is only for buying a car",
+                    "es": "Es solo para comprar un automóvil",
+                    "fr": "C'est seulement pour l'achat d'une voiture"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "RRSP contributions reduce your taxable income, which can lower your overall tax bill."
+            "explanation": {
+                "en": "RRSP contributions reduce your taxable income, which can lower your overall tax bill.",
+                "es": "Las contribuciones al REER reducen tus ingresos imponibles, lo que puede disminuir tu factura fiscal general.",
+                "fr": "Les cotisations à un REER réduisent votre revenu imposable, ce qui peut faire baisser votre facture fiscale totale."
+            }
         }
     ]
 }

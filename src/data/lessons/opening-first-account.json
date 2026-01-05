@@ -1,48 +1,120 @@
 {
     "id": "opening-first-account",
-    "title": "Opening Your First Account",
-    "description": "Choose between Canada's Big 5 banks and credit unions based on your needs.",
+    "title": {
+        "en": "Opening Your First Account",
+        "es": "Abriendo Tu Primera Cuenta",
+        "fr": "Ouvrir votre premier compte"
+    },
+    "description": {
+        "en": "Choose between Canada's Big 5 banks and credit unions based on your needs.",
+        "es": "Elige entre los 5 grandes bancos de Canadá y las cooperativas de crédito según tus necesidades.",
+        "fr": "Choisissez entre les 5 grandes banques du Canada et les coopératives de crédit selon vos besoins."
+    },
     "xpReward": 50,
     "estimatedMinutes": 5,
     "content": [
         {
             "type": "info",
-            "title": "Big 5 Banks vs. Credit Unions",
-            "text": "The 'Big 5' (RBC, TD, Scotiabank, BMO, CIBC) are for-profit and offer massive national ATM networks. Credit unions are not-for-profit and member-owned, often providing lower fees and more personalized, community-focused service."
+            "title": {
+                "en": "Big 5 Banks vs. Credit Unions",
+                "es": "Los 5 Grandes Bancos vs. Cooperativas de Crédito",
+                "fr": "Les 5 grandes banques vs. Coopératives de crédit"
+            },
+            "text": {
+                "en": "The 'Big 5' (RBC, TD, Scotiabank, BMO, CIBC) are for-profit and offer massive national ATM networks. Credit unions are not-for-profit and member-owned, often providing lower fees and more personalized, community-focused service.",
+                "es": "Los '5 Grandes' (RBC, TD, Scotiabank, BMO, CIBC) son instituciones con fines de lucro y ofrecen redes masivas de cajeros automáticos a nivel nacional. Las cooperativas de crédito son sin fines de lucro y propiedad de sus miembros, a menudo ofreciendo tarifas más bajas y un servicio más personalizado y comunitario.",
+                "fr": "Les '5 grandes' (RBC, TD, Scotiabank, BMO, CIBC) sont à but lucratif et offrent d'immenses réseaux de guichets automatiques nationaux. Les coopératives de crédit sont à but non lucratif et appartiennent à leurs membres, offrant souvent des frais moins élevés et un service plus personnalisé axé sur la communauté."
+            }
         },
         {
             "type": "info",
-            "title": "Convenience vs. Cost",
-            "text": "Big banks provide advanced mobile apps and comprehensive products, but often require a high minimum balance (e.g., $4,000) to waive fees. Credit unions generally offer higher interest rates on savings and lower fees, but have fewer physical branches."
+            "title": {
+                "en": "Convenience vs. Cost",
+                "es": "Conveniencia vs. Costo",
+                "fr": "Commodité vs. Coût"
+            },
+            "text": {
+                "en": "Big banks provide advanced mobile apps and comprehensive products, but often require a high minimum balance (e.g., $4,000) to waive fees. Credit unions generally offer higher interest rates on savings and lower fees, but have fewer physical branches.",
+                "es": "Los grandes bancos ofrecen aplicaciones móviles avanzadas y productos completos, pero a menudo requieren un saldo mínimo alto (por ejemplo, $4,000) para exonerar tarifas. Las cooperativas de crédito generalmente ofrecen tasas de interés más altas en ahorros y tarifas más bajas, pero tienen menos sucursales físicas.",
+                "fr": "Les grandes banques offrent des applications mobiles avancées et des produits complets, mais exigent souvent un solde minimum élevé (par exemple, 4 000 $) pour renoncer aux frais. Les coopératives de crédit offrent généralement des taux d'intérêt plus élevés sur l'épargne et des frais moins élevés, mais ont moins de succursales physiques."
+            }
         },
         {
             "type": "info",
-            "title": "Safety and Networks",
-            "text": "Your money is safe in both! Banks are insured federally by the CDIC up to $100k, while credit unions have comparable provincial insurance. Credit union members can often use 'THE EXCHANGE Network' to access thousands of surcharge-free ATMs across Canada."
+            "title": {
+                "en": "Safety and Networks",
+                "es": "Seguridad y Redes",
+                "fr": "Sécurité et réseaux"
+            },
+            "text": {
+                "en": "Your money is safe in both! Banks are insured federally by the CDIC up to $100k, while credit unions have comparable provincial insurance. Credit union members can often use 'THE EXCHANGE Network' to access thousands of surcharge-free ATMs across Canada.",
+                "es": "¡Tu dinero está seguro en ambos! Los bancos están asegurados federalmente por la CDIC hasta $100k, mientras que las cooperativas de crédito tienen seguros provinciales comparables. Los miembros de cooperativas de crédito a menudo pueden usar 'THE EXCHANGE Network' para acceder a miles de cajeros automáticos sin cargos adicionales en todo Canadá.",
+                "fr": "Votre argent est en sécurité dans les deux ! Les banques sont assurées au niveau fédéral par la SADC jusqu'à 100 000 $, tandis que les coopératives de crédit ont une assurance provinciale comparable. Les membres des coopératives de crédit peuvent souvent utiliser 'THE EXCHANGE Network' pour accéder à des milliers de guichets automatiques sans frais supplémentaires à travers le Canada."
+            }
         }
     ],
     "quiz": [
         {
             "id": "oa1",
-            "question": "Which institution is most likely to waive monthly fees based on a high minimum balance requirement?",
+            "question": {
+                "en": "Which institution is most likely to waive monthly fees based on a high minimum balance requirement?",
+                "es": "¿Qué institución es más probable que exonere las tarifas mensuales basándose en un requisito de saldo mínimo alto?",
+                "fr": "Quelle institution est la plus susceptible de renoncer aux frais mensuels en fonction d'une exigence de solde minimum élevé ?"
+            },
             "options": [
-                "A local Credit Union",
-                "One of the Big 5 Banks",
-                "THE EXCHANGE Network",
-                "A payday lender"
+                {
+                    "en": "A local Credit Union",
+                    "es": "Una cooperativa de crédito local",
+                    "fr": "Une coopérative de crédit locale"
+                },
+                {
+                    "en": "One of the Big 5 Banks",
+                    "es": "Uno de los 5 Grandes Bancos",
+                    "fr": "Une des 5 grandes banques"
+                },
+                {
+                    "en": "THE EXCHANGE Network",
+                    "es": "THE EXCHANGE Network",
+                    "fr": "THE EXCHANGE Network"
+                },
+                {
+                    "en": "A payday lender",
+                    "es": "Un prestamista de día de pago",
+                    "fr": "Un prêteur sur salaire"
+                }
             ],
             "correctAnswerIndex": 1,
-            "explanation": "Big 5 banks typically have monthly fees that can only be waived if you maintain a specific minimum balance, such as $4,000 to $6,000."
+            "explanation": {
+                "en": "Big 5 banks typically have monthly fees that can only be waived if you maintain a specific minimum balance, such as $4,000 to $6,000.",
+                "es": "Los 5 Grandes bancos típicamente tienen tarifas mensuales que solo se pueden exonerar si mantienes un saldo mínimo específico, como $4,000 a $6,000.",
+                "fr": "Les 5 grandes banques ont généralement des frais mensuels qui ne peuvent être évités que si vous maintenez un solde minimum spécifique, comme 4 000 $ à 6 000 $."
+            }
         },
         {
             "id": "oa2",
-            "question": "True or False: Credit unions are owned by their members rather than outside shareholders.",
+            "question": {
+                "en": "True or False: Credit unions are owned by their members rather than outside shareholders.",
+                "es": "Verdadero o Falso: Las cooperativas de crédito son propiedad de sus miembros en lugar de accionistas externos.",
+                "fr": "Vrai ou Faux : Les coopératives de crédit appartiennent à leurs membres plutôt qu'à des actionnaires externes."
+            },
             "options": [
-                "True",
-                "False"
+                {
+                    "en": "True",
+                    "es": "Verdadero",
+                    "fr": "Vrai"
+                },
+                {
+                    "en": "False",
+                    "es": "Falso",
+                    "fr": "Faux"
+                }
             ],
             "correctAnswerIndex": 0,
-            "explanation": "True! Credit unions are not-for-profit organizations owned by members, which allows them to return profits in the form of lower fees and better interest rates."
+            "explanation": {
+                "en": "True! Credit unions are not-for-profit organizations owned by members, which allows them to return profits in the form of lower fees and better interest rates.",
+                "es": "¡Verdadero! Las cooperativas de crédito son organizaciones sin fines de lucro propiedad de sus miembros, lo que les permite devolver las ganancias en forma de tarifas más bajas y mejores tasas de interés.",
+                "fr": "Vrai ! Les coopératives de crédit sont des organisations à but non lucratif appartenant à leurs membres, ce qui leur permet de redistribuer les bénéfices sous forme de frais moins élevés et de meilleurs taux d'intérêt."
+            }
         }
     ]
 }
