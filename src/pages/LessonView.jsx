@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useParams, useNavigate, Navigate } from 'react-router-dom';
-import { ChevronRight, Check, X, ArrowLeft, Loader2 } from 'lucide-react';
+import { Check, X, ArrowLeft, Loader2 } from 'lucide-react';
 import { useProgress } from '../context/ProgressContext';
 import { useLessons } from '../hooks/useLessons';
 
@@ -167,10 +167,9 @@ export default function LessonView() {
                 {currentSlide.type === 'content' ? (
                     <button
                         onClick={handleNext}
-                        className="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-xl shadow-lg shadow-primary/30 transition-all flex items-center justify-center space-y-2 flex-col"
+                        className="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-xl shadow-lg shadow-primary/30 transition-all text-center"
                     >
-                        <span>{t('common.continue')}</span>
-                        <ChevronRight size={20} />
+                        {t('common.continue')}
                     </button>
                 ) : (
                     !isAnswerChecked ? (
@@ -184,13 +183,12 @@ export default function LessonView() {
                     ) : (
                         <button
                             onClick={handleNext}
-                            className={`w-full font-bold py-3 px-6 rounded-xl shadow-lg transition-all flex items-center justify-center space-x-2 ${selectedOption === currentSlide.data.correctAnswerIndex
+                            className={`w-full font-bold py-3 px-6 rounded-xl shadow-lg transition-all text-center ${selectedOption === currentSlide.data.correctAnswerIndex
                                 ? 'bg-secondary hover:bg-secondary-dark text-white shadow-secondary/30'
                                 : 'bg-primary hover:bg-primary-dark text-white shadow-primary/30' // Continue anyway
                                 }`}
                         >
-                            <span>{isLastSlide ? t('common.finish_lesson') : t('common.continue')}</span>
-                            <ChevronRight size={20} />
+                            {isLastSlide ? t('common.finish_lesson') : t('common.continue')}
                         </button>
                     )
                 )}
