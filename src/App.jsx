@@ -4,6 +4,7 @@ import LearningPath from './pages/LearningPath';
 import Search from './pages/Search';
 import Calculators from './pages/Calculators';
 import Settings from './pages/Settings';
+import HelpAdvice from './pages/HelpAdvice';
 import LessonView from './pages/LessonView';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<LearningPath />} />
           <Route path="search" element={<Search />} />
           <Route path="calculators" element={<Calculators />} />
+          <Route path="help" element={<HelpAdvice />} />
           <Route path="settings" element={<Settings />} />
         </Route>
         <Route path="/lesson/:lessonId" element={<LessonView />} />

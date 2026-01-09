@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { BookOpen, Search, Calculator, Settings } from 'lucide-react';
+import { BookOpen, Search, Calculator, Settings, LifeBuoy } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
 const NavItem = ({ to, icon, label }) => {
@@ -33,6 +33,7 @@ export default function BottomNav() {
                 <NavItem to="/" icon={BookOpen} label={t('common.learn')} />
                 <NavItem to="/search" icon={Search} label={t('common.search')} />
                 <NavItem to="/calculators" icon={Calculator} label={t('common.calculators')} />
+                <NavItem to="/help" icon={LifeBuoy} label={t('common.help')} />
                 <NavItem to="/settings" icon={Settings} label={t('common.settings')} />
             </div>
         </nav>

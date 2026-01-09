@@ -46,7 +46,14 @@ i18n
                         level_2_title: "Building Your Foundation",
                         level_3_title: "Government Benefits & Tax",
                         level_4_title: "Protection & Long-Term Growth",
-                        level_5_title: "Estate Planning & Segregated Funds"
+                        level_5_title: "Estate Planning & Segregated Funds",
+                        help: "Help",
+                        help_advice: "Help & Advice",
+                        talk_to_advisor: "Talk to an Advisor",
+                        email: "Email",
+                        call: "Call",
+                        try_another_advisor: "Try Another Advisor",
+                        loading_advisors: "Finding an advisor for you..."
                     }
                 }
             },
@@ -84,7 +91,14 @@ i18n
                         level_2_title: "Construyendo tu Base",
                         level_3_title: "Beneficios del Gobierno e Impuestos",
                         level_4_title: "Protección y Crecimiento a Largo Plazo",
-                        level_5_title: "Planificación Patrimonial y Fondos Segregados"
+                        level_5_title: "Planificación Patrimonial y Fondos Segregados",
+                        help: "Ayuda",
+                        help_advice: "Ayuda y Asesoría",
+                        talk_to_advisor: "Habla con un Asesor",
+                        email: "Correo",
+                        call: "Llamar",
+                        try_another_advisor: "Probar con otro Asesor",
+                        loading_advisors: "Buscando un asesor para ti..."
                     }
                 }
             },
@@ -122,7 +136,14 @@ i18n
                         level_2_title: "Bâtir votre Fondation",
                         level_3_title: "Avantages Gouvernementaux et Impôts",
                         level_4_title: "Protection et Croissance à Long Terme",
-                        level_5_title: "Planification Successorale et Fonds Segregués"
+                        level_5_title: "Planification Successorale et Fonds Segregués",
+                        help: "Aide",
+                        help_advice: "Aide et Conseils",
+                        talk_to_advisor: "Parler à un conseiller",
+                        email: "E-mail",
+                        call: "Appeler",
+                        try_another_advisor: "Essayer un autre conseiller",
+                        loading_advisors: "Recherche d'un conseiller pour vous..."
                     }
                 }
             }
