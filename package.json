@@ -1,7 +1,7 @@
 {
   "name": "financial-educator",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/vite": "^4.1.18",
+    "@vercel/analytics": "^1.6.1",
     "firebase": "^12.7.0",
     "framer-motion": "^12.23.26",
     "fuse.js": "^7.1.0",

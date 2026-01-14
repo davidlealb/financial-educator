@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import BottomNav from './BottomNav';
 import Header from './Header';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Layout() {
     return (
@@ -10,6 +11,7 @@ export default function Layout() {
                 <Outlet />
             </main>
             <BottomNav />
+            <Analytics />
         </div>
     );
 }
