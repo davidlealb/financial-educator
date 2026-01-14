@@ -53,7 +53,21 @@ i18n
                         email: "Email",
                         call: "Call",
                         try_another_advisor: "Try Another Advisor",
-                        loading_advisors: "Finding an advisor for you..."
+                        loading_advisors: "Finding an advisor for you...",
+                        manage_preferences: "Manage your preferences.",
+                        data_management: "Data Management",
+                        reset_progress: "Reset Progress",
+                        current_xp: "Current XP: {{xp}}",
+                        reset_data: "Reset Data",
+                        note_on_persistence: "Note on Persistence",
+                        persistence_desc: "Your progress is stored in this browser's Local Storage. If you clear your browser data or use a different device, your progress will be lost.",
+                        share_app: "Share the App",
+                        share_desc: "Help others start their financial journey in Canada.",
+                        share_button: "Share",
+                        share_title: "Financial Educator",
+                        share_text: "Check out this app to learn about finances in Canada! 🇨🇦",
+                        reset_confirm: "Are you sure you want to reset all your progress? This cannot be undone.",
+                        reset_success: "Progress reset."
                     }
                 }
             },
@@ -98,7 +112,21 @@ i18n
                         email: "Correo",
                         call: "Llamar",
                         try_another_advisor: "Probar con otro Asesor",
-                        loading_advisors: "Buscando un asesor para ti..."
+                        loading_advisors: "Buscando un asesor para ti...",
+                        manage_preferences: "Administra sus preferencias.",
+                        data_management: "Gestión de Datos",
+                        reset_progress: "Reiniciar Progreso",
+                        current_xp: "XP Actual: {{xp}}",
+                        reset_data: "Reiniciar Datos",
+                        note_on_persistence: "Nota sobre Persistencia",
+                        persistence_desc: "Tu progreso se almacena en el almacenamiento local de este navegador. Si borras los datos del navegador o usas un dispositivo diferente, perderas tu progreso.",
+                        share_app: "Compartir la Aplicación",
+                        share_desc: "Ayuda a otros a comenzar su viaje financiero en Canadá.",
+                        share_button: "Compartir",
+                        share_title: "Educador Financiero",
+                        share_text: "¡Mira esta aplicación para aprender sobre finanzas en Canadá! 🇨🇦",
+                        reset_confirm: "¿Estás seguro de que quieres reiniciar todo tu progreso? Esto no se puede deshacer.",
+                        reset_success: "Progreso reiniciado."
                     }
                 }
             },
@@ -143,7 +171,21 @@ i18n
                         email: "E-mail",
                         call: "Appeler",
                         try_another_advisor: "Essayer un autre conseiller",
-                        loading_advisors: "Recherche d'un conseiller pour vous..."
+                        loading_advisors: "Recherche d'un conseiller pour vous...",
+                        manage_preferences: "Gérez vos préférences.",
+                        data_management: "Gestion des Données",
+                        reset_progress: "Réinitialiser la progression",
+                        current_xp: "XP Actuel: {{xp}}",
+                        reset_data: "Réinitialiser les données",
+                        note_on_persistence: "Note sur la persistance",
+                        persistence_desc: "Votre progression est stockée dans le stockage local de ce navigateur. Si vous effacez vos données de navigation ou utilisez un autre appareil, votre progression sera perdue.",
+                        share_app: "Partager l'application",
+                        share_desc: "Aidez les autres à commencer leur parcours financier au Canada.",
+                        share_button: "Partager",
+                        share_title: "Éducateur Financier",
+                        share_text: "Découvrez cette application pour en savoir plus sur les finances au Canada ! 🇨🇦",
+                        reset_confirm: "Êtes-vous sûr de vouloir réinitialiser toute votre progression ? Cela ne peut pas être annulé.",
+                        reset_success: "Progression réinitialisée."
                     }
                 }
             }
