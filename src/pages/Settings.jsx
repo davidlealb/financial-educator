@@ -96,7 +96,7 @@ export default function Settings() {
             </div>
 
             <div className="text-center text-text-muted text-sm pt-8">
-                <p>Financial Educator v1.0.0</p>
+                <p>Financial Educator v{APP_VERSION}</p>
             </div>
         </div>
     );
