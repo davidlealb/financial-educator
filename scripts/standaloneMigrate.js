@@ -53,7 +53,8 @@ const migrate = async () => {
         'insurance-essentials': 4,
         'car-loans-canada': 4,
         'investing-beginners': 4,
-        'segregated-funds': 5
+        'segregated-funds': 5,
+        'mortgage-basics-canada': 5
     };
 
     // Helper to ensure multilingual object

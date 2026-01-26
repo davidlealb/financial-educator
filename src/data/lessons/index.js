@@ -18,7 +18,7 @@ import insuranceEssentials from './insurance-essentials.json';
 import carLoansCanada from './car-loans-canada.json';
 import investingBeginners from './investing-beginners.json';
 import segregatedFunds from './segregated-funds.json';
-
+import mortgageBasics from './mortgage-basics.json';
 const lessons = [
     bankingBasics,
     buildingCredit,
@@ -39,7 +39,8 @@ const lessons = [
     insuranceEssentials,
     carLoansCanada,
     investingBeginners,
-    segregatedFunds
+    segregatedFunds,
+    mortgageBasics
 ];
 
 export default lessons;

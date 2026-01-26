@@ -47,7 +47,7 @@ i18n
                         level_3_title: "Government Benefits & Tax",
                         level_4_title: "Protection & Long-Term Growth",
                         level_5_title: "Estate Planning & Segregated Funds",
-                        help: "Help",
+                        help: "Get Advice",
                         help_advice: "Help & Advice",
                         talk_to_advisor: "Talk to an Advisor",
                         email: "Email",

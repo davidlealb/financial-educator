@@ -1,0 +1,228 @@
+{
+    "id": "mortgage-basics-canada",
+    "title": {
+        "en": "Mortgage Basics in Canada",
+        "es": "Conceptos Básicos de Hipotecas en Canadá",
+        "fr": "Les bases de l'hypothèque au Canada"
+    },
+    "description": {
+        "en": "Master the fundamentals of Canadian mortgages, from down payments to amortization.",
+        "es": "Domina los fundamentos de las hipotecas canadienses, desde el pago inicial hasta la amortización.",
+        "fr": "Maîtrisez les fondements des hypothèques canadiennes, de la mise de fonds à l'amortissement."
+    },
+    "xpReward": 100,
+    "estimatedMinutes": 8,
+    "content": [
+        {
+            "type": "info",
+            "title": {
+                "en": "Minimum Down Payment Rules",
+                "es": "Reglas del Pago Inicial Mínimo",
+                "fr": "Règles relatives à la mise de fonds minimale"
+            },
+            "text": {
+                "en": "In Canada, your minimum down payment depends on the home's purchase price. For homes $500,000 or less, the minimum is 5%. For homes between $500,000 and $1.5 million, you need 5% on the first $500,000 and 10% on the remaining balance. If the price is $1.5 million or more, a flat 20% down payment is required. Any down payment below 20% requires mortgage default insurance (CMHC).",
+                "es": "En Canadá, su pago inicial mínimo depende del precio de compra de la vivienda. Para viviendas de $500,000 o menos, el mínimo es el 5%. Para viviendas entre $500,000 y $1.5 millones, necesita el 5% sobre los primeros $500,000 y el 10% sobre el saldo restante. Si el precio es de $1.5 millones o más, se requiere un pago inicial fijo del 20%. Cualquier pago inicial inferior al 20% requiere un seguro de incumplimiento hipotecario (CMHC).",
+                "fr": "Au Canada, votre mise de fonds minimale dépend du prix d'achat de la maison. Pour les maisons de 500 000 $ ou moins, le minimum est de 5 %. Pour les maisons entre 500 000 $ et 1,5 million $, vous avez besoin de 5 % sur les premiers 500 000 $ et de 10 % sur le solde restant. Si le prix est de 1,5 million $ ou plus, une mise de fonds fixe de 20 % est requise. Toute mise de fonds inférieure à 20 % nécessite une assurance prêt hypothécaire (SCHL)."
+            }
+        },
+        {
+            "type": "info",
+            "title": {
+                "en": "Term vs. Amortization",
+                "es": "Plazo vs. Amortización",
+                "fr": "Terme vs Amortissement"
+            },
+            "text": {
+                "en": "The amortization period is the total time (e.g., 25 or 30 years) to pay off the mortgage in full. A longer amortization means lower monthly payments but more total interest paid. The mortgage term is your specific contract length (typically 6 months to 10 years), after which you must renew or renegotiate your interest rate and conditions.",
+                "es": "El período de amortización es el tiempo total (por ejemplo, 25 o 30 años) para liquidar la hipoteca por completo. Una amortización más larga significa pagos mensuales más bajos pero más intereses totales pagados. El plazo hipotecario es la duración específica de su contrato (normalmente de 6 meses a 10 años), después del cual debe renovar o renegociar su tasa de interés y condiciones.",
+                "fr": "La période d'amortissement est la durée totale (ex. : 25 ou 30 ans) pour rembourser l'hypothèque en totalité. Un amortissement plus long signifie des versements mensuels plus bas, mais plus d'intérêts totaux payés. Le terme hypothécaire est la durée spécifique de votre contrat (généralement de 6 mois à 10 ans), après quoi vous devez renouveler ou renégocier votre taux d'intérêt et vos conditions."
+            }
+        },
+        {
+            "type": "info",
+            "title": {
+                "en": "Fixed vs. Variable Rates",
+                "es": "Tasas Fijas vs. Variables",
+                "fr": "Taux fixes vs variables"
+            },
+            "text": {
+                "en": "A fixed-rate mortgage locks in your interest rate for the entire term, providing predictable payments. A variable-rate mortgage fluctuates with the lender's prime rate. While variable rates can potentially save you money if rates drop, your payment amount or the portion going toward the principal may change as market rates shift.",
+                "es": "Una hipoteca de tasa fija congela su tasa de interés durante todo el plazo, proporcionando pagos predecibles. Una hipoteca de tasa variable fluctúa con la tasa preferencial del prestamista. Si bien las tasas variables pueden ahorrarle dinero si las tasas bajan, el monto de su pago o la parte destinada al capital pueden cambiar a medida que cambian las tasas del mercado.",
+                "fr": "Une hypothèque à taux fixe bloque votre taux d'intérêt pour toute la durée du terme, offrant des versements prévisibles. Une hypothèque à taux variable fluctue selon le taux préférentiel du prêteur. Bien que les taux variables puissent potentiellement vous faire économiser de l'argent si les taux baissent, le montant de votre versement ou la partie affectée au capital peut changer selon l'évolution des taux du marché."
+            }
+        }
+    ],
+    "quiz": [
+        {
+            "id": "m1",
+            "question": {
+                "en": "What is the minimum down payment for a $400,000 home?",
+                "es": "¿Cuál es el pago inicial mínimo para una casa de $400,000?",
+                "fr": "Quelle est la mise de fonds minimale pour une maison de 400 000 $ ?"
+            },
+            "options": [
+                {
+                    "en": "$5,000",
+                    "es": "$5,000",
+                    "fr": "5 000 $"
+                },
+                {
+                    "en": "$20,000",
+                    "es": "$20,000",
+                    "fr": "20 000 $"
+                },
+                {
+                    "en": "$40,000",
+                    "es": "$40,000",
+                    "fr": "40 000 $"
+                },
+                {
+                    "en": "$80,000",
+                    "es": "$80,000",
+                    "fr": "80 000 $"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "For homes $500,000 or less, the minimum down payment is 5% ($400,000 x 0.05 = $20,000).",
+                "es": "Para viviendas de $500,000 o menos, el pago inicial mínimo es del 5% ($400,000 x 0.05 = $20,000).",
+                "fr": "Pour les maisons de 500 000 $ ou moins, la mise de fonds minimale est de 5 % (400 000 $ x 0,05 = 20 000 $)."
+            }
+        },
+        {
+            "id": "m2",
+            "question": {
+                "en": "True or False: Mortgage default insurance (CMHC) protects the homeowner if they can't make payments.",
+                "es": "Verdadero o Falso: El seguro de incumplimiento hipotecario (CMHC) protege al propietario si no puede realizar los pagos.",
+                "fr": "Vrai ou Faux : L'assurance prêt hypothécaire (SCHL) protège le propriétaire s'il ne peut plus effectuer ses paiements."
+            },
+            "options": [
+                {
+                    "en": "True",
+                    "es": "Verdadero",
+                    "fr": "Vrai"
+                },
+                {
+                    "en": "False",
+                    "es": "Falso",
+                    "fr": "Faux"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "False. Mortgage default insurance protects the lender, not the homeowner, in case of default.",
+                "es": "Falso. El seguro de incumplimiento hipotecario protege al prestamista, no al propietario, en caso de incumplimiento.",
+                "fr": "Faux. L'assurance prêt hypothécaire protège le prêteur, et non le propriétaire, en cas de défaut de paiement."
+            }
+        },
+        {
+            "id": "m3",
+            "question": {
+                "en": "What happens at the end of a mortgage term?",
+                "es": "¿Qué sucede al final de un plazo hipotecario?",
+                "fr": "Que se passe-t-il à la fin d'un terme hypothécaire ?"
+            },
+            "options": [
+                {
+                    "en": "The mortgage is automatically paid off",
+                    "es": "La hipoteca se liquida automáticamente",
+                    "fr": "L'hypothèque est automatiquement remboursée"
+                },
+                {
+                    "en": "You must move to a new house",
+                    "es": "Debes mudarte a una nueva casa",
+                    "fr": "Vous devez déménager dans une nouvelle maison"
+                },
+                {
+                    "en": "You renew or renegotiate the contract",
+                    "es": "Renuevas o renegocias el contrato",
+                    "fr": "Vous renouvelez ou renégociez le contrat"
+                },
+                {
+                    "en": "The interest rate stays the same forever",
+                    "es": "La tasa de interés sigue siendo la misma para siempre",
+                    "fr": "Le taux d'intérêt reste le même pour toujours"
+                }
+            ],
+            "correctAnswerIndex": 2,
+            "explanation": {
+                "en": "At the end of a term, you must renew your contract with a lender at current rates or pay the balance in full.",
+                "es": "Al final de un plazo, debe renovar su contrato con un prestamista a las tasas actuales o pagar el saldo en su totalidad.",
+                "fr": "À la fin d'un terme, vous devez renouveler votre contrat avec un prêteur aux taux actuels ou rembourser le solde en totalité."
+            }
+        },
+        {
+            "id": "m4",
+            "question": {
+                "en": "Which amortization period is typically the maximum for an insured mortgage in Canada?",
+                "es": "¿Qué período de amortización es típicamente el máximo para una hipoteca asegurada en Canadá?",
+                "fr": "Quelle période d'amortissement est généralement le maximum pour une hypothèque assurée au Canada ?"
+            },
+            "options": [
+                {
+                    "en": "10 years",
+                    "es": "10 años",
+                    "fr": "10 ans"
+                },
+                {
+                    "en": "25 years",
+                    "es": "25 años",
+                    "fr": "25 ans"
+                },
+                {
+                    "en": "50 years",
+                    "es": "50 años",
+                    "fr": "50 ans"
+                },
+                {
+                    "en": "Unlimited",
+                    "es": "Ilimitado",
+                    "fr": "Illimité"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "The typical maximum amortization for an insured mortgage is 25 years, though some first-time buyers may qualify for 30 years.",
+                "es": "La amortización máxima típica para una hipoteca asegurada es de 25 años, aunque algunos compradores primerizos pueden calificar para 30 años.",
+                "fr": "L'amortissement maximal typique d'une hypothèque assurée est de 25 ans, bien que certains acheteurs d'une première maison puissent être admissibles à 30 ans."
+            }
+        },
+        {
+            "id": "m5",
+            "question": {
+                "en": "Which type of mortgage has an interest rate that stays the same for the length of the contract?",
+                "es": "¿Qué tipo de hipoteca tiene una tasa de interés que permanece igual durante la duración del contrato?",
+                "fr": "Quel type d'hypothèque a un taux d'intérêt qui reste le même pendant la durée du contrat ?"
+            },
+            "options": [
+                {
+                    "en": "Variable-rate",
+                    "es": "Tasa variable",
+                    "fr": "Taux variable"
+                },
+                {
+                    "en": "Fixed-rate",
+                    "es": "Tasa fija",
+                    "fr": "Taux fixe"
+                },
+                {
+                    "en": "Open-rate",
+                    "es": "Tasa abierta",
+                    "fr": "Taux ouvert"
+                },
+                {
+                    "en": "Adjustable-rate",
+                    "es": "Tasa ajustable",
+                    "fr": "Taux ajustable"
+                }
+            ],
+            "correctAnswerIndex": 1,
+            "explanation": {
+                "en": "A fixed-rate mortgage ensures your interest rate and payments remain constant throughout the mortgage term.",
+                "es": "Una hipoteca de tasa fija garantiza que su tasa de interés y sus pagos permanezcan constantes durante todo el plazo de la hipoteca.",
+                "fr": "Une hypothèque à taux fixe garantit que votre taux d'intérêt et vos versements restent constants tout au long du terme hypothécaire."
+            }
+        }
+    ]
+}
